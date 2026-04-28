@@ -2117,6 +2117,7 @@ root(ROOTS.Holidays, applyevent(EVENTS.CHILDRENS_WEEK, n(CHILDRENS_WEEK_HEADER, 
 			["coord"] = { 55.8, 26.6, DORNOGAL },
 			["groups"] = {
 				i(140309, {	-- Prismatic Bauble (TOY!) (More accessible than Mad Merchant)
+					["timeline"] = { ADDED_10_1_0, REMOVED_10_1_5 },	-- During June 2023
 					["cost"] = 2500000000,	-- 250,000g
 				}),
 			},
