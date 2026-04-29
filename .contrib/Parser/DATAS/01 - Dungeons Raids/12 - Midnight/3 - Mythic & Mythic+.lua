@@ -165,10 +165,10 @@ root(ROOTS.Instances, expansion(EXPANSION.MID, {
 		n(197711, {	-- Lindormi <Mythic Keystones>
 			["coord"] = { 42.1, 58.8, MAP.MIDNIGHT.SILVERMOON_CITY },
 			["groups"] = {
-				filter(MOUNTS, bubbleDownSelf({
+				filter(MOUNTS, bubbleDownFiltered({
 					["cost"] = { { "i", 275436, 1 } },	-- Timelost Saddle
 					["timeline"] = { ADDED_12_0_5 },
-				}, {
+				},FILTERFUNC_itemID,{
 					-- 'Keystone Master', and 'Keystone Legend' Mounts from previous seasons
 					i(174836),	-- Awakened Mindborer (MOUNT!) [BFA KSM S4]
 					i(182717),	-- Sintouched Deathwalker (MOUNT!) [SL KSM S1]
