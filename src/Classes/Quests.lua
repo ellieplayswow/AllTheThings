@@ -1492,7 +1492,7 @@ end
 local QuestWithReputationCostCollectibles = setmetatable({}, {
 	__index = function(t, quest)
 		local costCollectibles
-		if NotInGame(quest) or quest.saved then
+		if NotInGame(quest) then
 			-- app.PrintDebug("ignore costcollectibles for unavailable quest", quest.questID)
 			costCollectibles = false
 		else
