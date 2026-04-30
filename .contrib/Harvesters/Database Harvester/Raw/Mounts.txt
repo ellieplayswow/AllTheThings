@@ -2531,3 +2531,10 @@
 1287359@@@Void-Corruped Lynx
 12.0.5.66529
 1287359@@@Void-Corrupted Lynx
+12.0.5.67165
+1296731@@@Cerulean Deathwalker
+1296734@@@Amethyst Mechsuit
+1296756@@@Blue-Chip Shreddertank
+1296758@@@Profit-Green Shreddertank
+1296759@@@High-Yield Shreddertank
+1296760@@@Speculative Shreddertank
