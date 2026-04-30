@@ -3,8 +3,8 @@
 --------------------------------------------------------------------------------
 --            Copyright 2017-2025 Dylan Fortune (Crieve-Sargeras)             --
 --------------------------------------------------------------------------------
-local rawget, pairs, rawset, type, tinsert, tremove, setmetatable, print,math_sqrt,math_floor,getmetatable
-	= rawget, pairs, rawset, type, tinsert, tremove, setmetatable, print,math.sqrt,math.floor,getmetatable
+local rawget, next, pairs, rawset, type, tinsert, tremove, setmetatable, print,math_sqrt,math_floor,getmetatable
+	= rawget, next, pairs, rawset, type, tinsert, tremove, setmetatable, print,math.sqrt,math.floor,getmetatable
 -- This is a hidden frame that intercepts all of the event notifications that we have registered for.
 local appName, app = ...;
 if not app.ReagentsDB then
@@ -65,7 +65,8 @@ app.ResolveQuestData = function(t)
 			local g = t.g;
 			if g then
 				local qdg = questData.g
-				for i=1,#qdg do
+				local qdgCount = #qdg
+				for i=1,qdgCount do
 					tinsert(g, 1, qdg[i]);
 				end
 				questData.g = g;
@@ -119,7 +120,8 @@ local function AssignChildren(parent)
 	if g then
 		-- Iterate through the groups
 		local group;
-		for i=1,#g,1 do
+		local gCount = #g
+		for i=1,gCount,1 do
 			-- Set the group's parent
 			group = g[i];
 			group.parent = parent;
@@ -132,7 +134,8 @@ local function AssignFieldValue(group, field, value)
 		group[field] = value;
 		local g = group.g
 		if g then
-			for i=1,#g do
+			local gCount = #g
+			for i=1,gCount do
 				AssignFieldValue(g[i], field, value)
 			end
 		end
@@ -140,14 +143,15 @@ local function AssignFieldValue(group, field, value)
 end
 local function CloneArray(arr, clone)
 	local clone = clone or {}
-	for i=1,#arr do
+	local arrCount = #arr
+	for i=1,arrCount do
 		clone[#clone + 1] = arr[i]
 	end
 	return clone
 end
 local function CloneDictionary(data, clone)
 	if clone and getmetatable(clone) then
-		for key,value in pairs(data) do
+		for key,value in next,data do
 			if rawget(clone, key) == nil then
 				clone[key] = value
 			end
@@ -155,7 +159,7 @@ local function CloneDictionary(data, clone)
 		return clone
 	else
 		clone = clone or {}
-		for key,value in pairs(data) do
+		for key,value in next,data do
 			if clone[key] == nil then
 				clone[key] = value
 			end
@@ -182,7 +186,8 @@ local function GetBestMapForGroup(group, currentMapID)
 		if group.coords and group.coords[currentMapID] then return currentMapID; end
 		local maps = group.maps;
 		if maps then
-			for i=1,#maps do
+			local mapCount = #maps
+			for i=1,mapCount do
 				mapID = maps[i];
 				if mapID == currentMapID then
 					return mapID;
@@ -274,7 +279,8 @@ app.GetIconFromProviders = function(group)
 	if not providers or #providers == 0 then return end
 
 	local icon, v
-	for i=1,#providers do
+	local providerCount = #providers
+	for i=1,providerCount do
 		v = providers[i]
 		if v[2] > 0 then
 			if v[1] == "o" then
@@ -292,7 +298,8 @@ app.GetNameFromProviders = function(group)
 	if not providers or #providers == 0 then return end
 
 	local pt, id, name, v
-	for i=1,#providers do
+	local providerCount = #providers
+	for i=1,providerCount do
 		v = providers[i]
 		id = v[2]
 		if id > 0 then
@@ -889,7 +896,8 @@ local function ExportDataRecursively(data, styleFuncs, strings, depth)
 			end
 		end
 		local depthShift = styleFuncs.depthShift and styleFuncs.depthShift(data) or 1
-		for i=1,#g do
+		local gCount = #g
+		for i=1,gCount do
 			ExportDataRecursively(g[i], styleFuncs, strings, depth + depthShift)
 		end
 		if styleFuncs.afterSub then
