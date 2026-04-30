@@ -232,48 +232,6 @@ root(ROOTS.Zones, m(KUL_TIRAS, bubbleDown({ ["timeline"] = { ADDED_8_0_1 } }, {
 			}),
 			ach(13087, {	-- Sausage Sampler
 				["description"] = "Can be completed as Horde by purchasing items on the AH.",
-				["groups"] = {
-					-- TODO: use provider instead for crits
-					i(163110, {	-- Fried Boar Sausage
-						["coord"] = { 26.7, 72.5, DRUSTVAR },
-						["criteriaID"] = 41649,
-						["crs"] = {
-							136655,	-- Alisha Darkwater
-						},
-					}),
-					i(155812, {	-- Goldshire Farms Smoked Sausage
-						["coord"] = { 55.6, 34.8, DRUSTVAR },
-						["criteriaID"] = 41648,
-						["crs"] = {
-							128467,	-- Elijah Eggleton <Sausages>
-						},
-					}),
-					i(163781, {	-- Heartsbane Hexenwurst
-						["description"] = "Recipe for cooks is dropped by Raal the Gluttonous in Waycrest Manor or buy the sausage off the AH.",
-						["criteriaID"] = 41650,
-					}),
-					i(155811, {	-- Roland's Famous Frankfurter
-						["coord"] = { 55.6, 34.8, DRUSTVAR },
-						["criteriaID"] = 41651,
-						["crs"] = {
-							128467,	-- Elijah Eggleton <Sausages>
-						},
-					}),
-					i(155813, {	-- Rosco Fryer's Mostly-Meat Brat
-						["coord"] = { 55.6, 34.8, DRUSTVAR },
-						["criteriaID"] = 41652,
-						["crs"] = {
-							128467,	-- Elijah Eggleton <Sausages>
-						},
-					}),
-					i(155814, {	-- Timmy Gene Sunrise Pork
-						["coord"] = { 55.6, 34.8, DRUSTVAR },
-						["criteriaID"] = 41653,
-						["crs"] = {
-							128467,	-- Elijah Eggleton <Sausages>
-						},
-					}),
-				},
 			}),
 			pvp(ach(12579)),	-- Tour of Duty: Drustvar
 			ach(12995, {	-- Treasures of Drustvar
