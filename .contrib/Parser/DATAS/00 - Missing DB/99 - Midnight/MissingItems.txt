@@ -23711,20 +23711,5 @@ i(273873),	-- Void-Touched Sunfury Poleaxe
 i(274427),	-- Sha Loot Box
 12.0.5.67088
 i(273307),	-- Vial of Intrepid Lemonade
-12.0.5.67114
-i(264692),	-- Lush Garden Window
-i(265555),	-- Spring Blossom Stepping Stone
-i(265556),	-- Spring Blossom Privacy Screen
-i(265557),	-- Spring Blossom Stepping Stone Duo
-i(265558),	-- Spring Blossom Stepping Stone Trio
-i(265559),	-- Spring Blossom Stepping Stone Collection
-i(266068),	-- Spring Blossom Tea Set
-i(266069),	-- Spring Blossom Table
-i(266162),	-- Lush Garden Hedge
-i(266164),	-- Lush Garden Fungal Picnic
-i(266165),	-- Spring Blossom Lantern
-i(266166),	-- Spring Blossom Tranquility Garden
-i(267203),	-- Lush Garden Stable
-i(268550),	-- Lush Garden Rug
 12.0.5.67165
 i(274578),	-- Offering of Unalloyed Abundance

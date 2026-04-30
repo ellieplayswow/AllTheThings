@@ -593,15 +593,6 @@ root(ROOTS.Unsorted, {
 			i(20850),	-- Arcane-Forged Axe
 			i(20851),	-- Arcane-Forged Mace
 			i(20852),	-- Arcane-Forged Dirk
-			i(237193),	-- Vestments of the Gilneas Fox
-			i(237198),	-- Boots of the Gilneas Fox
-			i(237203),	-- Gloves of the Gilneas Fox
-			i(237208),	-- Cowl of the Gilneas Fox
-			i(237212),	-- Pants of the Gilneas Fox
-			i(237216),	-- Mantle of the Gilneas Fox
-			i(237220),	-- Belt of the Gilneas Fox
-			i(237225),	-- Ensemble: Attire of the Gilneas Fox
-			i(237229),	-- Cloak of the Gilneas Fox
 			i(238628),	-- Lightbloom-Afflicted Hide
 			i(242296),	-- Bloodthistle-Wrapped Cutlets
 			i(245298),	-- Wild Violet Bellflowers
@@ -682,7 +673,6 @@ root(ROOTS.Unsorted, {
 			i(259473),	-- Charred Amani Trinket
 			i(259474),	-- Lost Amani Toy
 			i(259475),	-- Misplaced Loa Statue
-			i(260389),	-- Ren'dorei Aspirant's Bow
 			i(260486),	-- Large Razorwind Farmer's Hay Pile
 			i(260487),	-- Razorwind Farmer's Hay Pile
 			i(260488),	-- Small Razorwind Farmer's Hay Pile
@@ -698,7 +688,6 @@ root(ROOTS.Unsorted, {
 			i(262757),	-- "Greater Metamorph" Enhancement
 			i(262962),	-- Carved Wooden Chair
 			i(263032),	-- Razorwind Fishing Net
-			i(263291),	-- Spring Blossom Tree Pond
 			i(263350),	-- Harbinger Fan Fiction
 			i(263581),	-- Razorwind Roofer's Shingle
 			i(263582),	-- Razorwind Roofer's Shingle Pile
@@ -711,10 +700,6 @@ root(ROOTS.Unsorted, {
 			i(265924),	-- High-Mounted Razorwind Bowl Chandelier
 			i(265925),	-- Razorwind Bowl Chandelier
 			i(265926),	-- Low-Hanging Razorwind Bowl Chandelier
-			i(266070),	-- Lush Garden Fungal Table
-			i(266087),	-- Ren'dorei Aspirant's Quiver
-			i(266163),	-- Lush Garden Fungal Planter
-			i(266167),	-- Spring Blossom Pond
 			i(266233),	-- Short Hanging Tavern Lantern
 			i(266249),	-- Hanging Tavern Lantern
 			i(266250),	-- Long Hanging Tavern Lantern
@@ -742,15 +727,6 @@ root(ROOTS.Unsorted, {
 			i(268122),	-- Dispelled Coins
 			i(268360),	-- Gilnean Iron Charger
 			i(268362),	-- Gilnean Copper Charger
-			i(268363),	-- Pyrewood Rebel's Rouncey
-			i(268364),	-- Gilneas Loyalist's Rouncey
-			i(268424),	-- Gilneas Loyalist Bowler
-			i(268425),	-- Gilneas Loyalist Coat
-			i(268426),	-- Gilneas Loyalist Belt
-			i(268427),	-- Gilneas Loyalist Pants
-			i(268428),	-- Gilneas Loyalist Boots
-			i(268429),	-- Gilneas Loyalist Bracer
-			i(268431),	-- Ensemble: Gilneas Loyalist Streetwear
 			i(268432),	-- Emberstone Loyalist Bowler
 			i(268433),	-- Emberstone Loyalist Coat
 			i(268434),	-- Emberstone Loyalist Belt
@@ -786,21 +762,13 @@ root(ROOTS.Unsorted, {
 			i(268469),	-- Nebulous Voidcache: Seat of the Triumvirate
 			i(268470),	-- Nebulous Voidcache: Skyreach
 			i(268471),	-- Nebulous Voidcache: Windrunner Spire
-			i(268472),	-- Blossomback Arboon
 			i(268473),	-- Nebulous Voidcache: Maisara Caverns
-			i(268474),	-- Amberback Arboon
 			i(268491),	-- Ambermill Rebel Bonecracker
-			i(268492),	-- Pyrewood Rebel Bonecracker
 			i(268493),	-- Emberstone Loyalist Bonecracker
-			i(268494),	-- Gilneas Loyalist Bonecracker
 			i(268495),	-- Ambermill Rebel Knuckleblades
-			i(268496),	-- Pyrewood Rebel Knuckleblades
 			i(268497),	-- Emberstone Loyalist Knuckleblades
-			i(268498),	-- Gilneas Loyalist Knuckleblades
 			i(268511),	-- Ambermill Rebel Boltshot
-			i(268512),	-- Pyrewood Rebel Boltshot
 			i(268513),	-- Emberstone Loyalist Boltshot
-			i(268514),	-- Gilneas Loyalist Boltshot
 			i(268552),	-- Ascendant Voidcore
 			i(268592),	-- Blue Sunwalker Breastplate
 			i(268593),	-- Blue Sunwalker Cloak
@@ -846,7 +814,6 @@ root(ROOTS.Unsorted, {
 			i(268744),	-- Ambermill Rebel Leggings
 			i(268745),	-- Pyrewood Rebel Leggings
 			i(268746),	-- Emberstone Loyalist Leggings
-			i(268747),	-- Gilneas Loyalist Leggings
 			i(268781),	-- Dawnchaser's Painted Hauberk
 			i(268782),	-- Dawnchaser's Painted Wrap
 			i(268783),	-- Dawnchaser's Painted Gauntlets
@@ -860,10 +827,6 @@ root(ROOTS.Unsorted, {
 			i(268791),	-- Dawnchaser's Painted Mask
 			i(268792),	-- Dawnchaser's Painted Tunic
 			i(268793),	-- Ensemble: Dawnchaser's Painted Battle Garb
-			i(268806),	-- Scarred Tabard of Gilneas
-			i(268830),	-- Stylish Flowered Brown Cap
-			i(268831),	-- Stylish Black Cap
-			i(268832),	-- Stylish Brown Top Hat
 			i(268875),	-- [PH] Giant Eagle Sunwalker Mount White
 			i(268876),	-- Flame-Painted Sun Roc
 			i(268877),	-- Dusk-Painted Sun Roc
@@ -913,7 +876,6 @@ root(ROOTS.Unsorted, {
 			i(270286),	-- Crown of Camo Springflowers
 			i(270287),	-- Crown of Brick Springflowers
 			i(270288),	-- Crown of Lively Springflowers
-			i(270289),	-- Crown of Faded Springflowers
 			i(270290),	-- Crown of Carrot Springflowers
 			i(270291),	-- Crown of Rosy Springflowers
 			i(270292),	-- Crown of Plum Springflowers
@@ -1585,7 +1547,6 @@ root(ROOTS.Unsorted, {
 				i(262824),	-- Deep Dunecloth Skirt
 				i(262825),	-- Camo Dunecloth Skirt
 				i(262826),	-- Brick Dunecloth Skirt
-				i(262828),	-- Faded Dunecloth Skirt
 				i(262829),	-- Carrot Dunecloth Skirt
 				i(262830),	-- Rosy Dunecloth Skirt
 				i(262831),	-- Plum Dunecloth Skirt
@@ -1600,7 +1561,6 @@ root(ROOTS.Unsorted, {
 				i(262842),	-- Deep Dunecloth Belt
 				i(262843),	-- Camo Dunecloth Belt
 				i(262844),	-- Brick Dunecloth Belt
-				i(262846),	-- Faded Dunecloth Belt
 				i(262847),	-- Carrot Dunecloth Belt
 				i(262848),	-- Rosy Dunecloth Belt
 				i(262849),	-- Plum Dunecloth Belt
@@ -1615,7 +1575,6 @@ root(ROOTS.Unsorted, {
 				i(262860),	-- Deep Dunecloth Vest
 				i(262861),	-- Camo Dunecloth Vest
 				i(262862),	-- Brick Dunecloth Vest
-				i(262864),	-- Faded Dunecloth Vest
 				i(262865),	-- Rosy Dunecloth Vest
 				i(262866),	-- Carrot Dunecloth Vest
 				i(262867),	-- Plum Dunecloth Vest
@@ -1639,7 +1598,6 @@ root(ROOTS.Unsorted, {
 				i(266083),	-- Basic Frost Quiver
 				i(266085),	-- Basic Ice Quiver
 				i(266086),	-- Basic Light Quiver
-				i(266087),	-- Basic Light Blue Quiver
 				i(266088),	-- Basic Light Brown Quiver
 				i(266089),	-- Basic Pale Quiver
 				i(266090),	-- Basic Purple Quiver
@@ -1709,7 +1667,6 @@ root(ROOTS.Unsorted, {
 				i(250868),	-- Crimson Crystal Column
 				i(250869),	-- Crimson Crystal Core
 				i(250870),	-- Crimson Crystal Fragment
-				i(263291),	-- Spring Blossom Pond
 				i(264500),	-- Devouring Host Ritual Engine (DECOR!)
 				-- Promo?
 				i(255643),	-- Silvermoon Barrel
@@ -1830,7 +1787,6 @@ root(ROOTS.Unsorted, {
 				i(257764),	-- Sorcerer's Deep Cowl
 				i(257765),	-- Sorcerer's Camo Cowl
 				i(257767),	-- Sorcerer's Lively Cowl
-				i(257769),	-- Sorcerer's Faded Cowl
 				i(257770),	-- Sorcerer's Carrot Cowl
 				i(257772),	-- Sorcerer's Plum Cowl
 				i(257773),	-- Sorcerer's Crimson Cowl
@@ -1844,7 +1800,6 @@ root(ROOTS.Unsorted, {
 				i(257784),	-- Sorcerer's Deep Cape
 				i(257785),	-- Sorcerer's Camo Cape
 				i(257787),	-- Sorcerer's Lively Cape
-				i(257788),	-- Sorcerer's Faded Cape
 				i(257789),	-- Sorcerer's Carrot Cape
 				i(257791),	-- Sorcerer's Plum Cape
 				i(257792),	-- Sorcerer's Crimson Cape
@@ -1857,7 +1812,6 @@ root(ROOTS.Unsorted, {
 				i(257975),	-- Ensemble: Sorcerer's Cloudy Garb \\ Ensemble: Sorcerer's Cloudy Raiment
 				i(257976),	-- Ensemble: Sorcerer's Deep Garb \\ Ensemble: Sorcerer's Deep Raiment
 				i(257978),	-- Ensemble: Sorcerer's Camo Garb \\ Ensemble: Sorcerer's Camo Raiment
-				i(257989),	-- Ensemble: Sorcerer's Faded Garb \\ Ensemble: Sorcerer's Faded Raiment
 				i(257994),	-- Ensemble: Sorcerer's Carrot Garb \\ Ensemble: Sorcerer's Carrot Raiment
 				i(258003),	-- Ensemble: Sorcerer's Plum Garb \\ Ensemble: Sorcerer's Plum Raiment
 				i(258017),	-- Ensemble: Sorcerer's Crimson Garb \\ Ensemble: Sorcerer's Crimson Raiment
@@ -1921,7 +1875,6 @@ root(ROOTS.Unsorted, {
 				i(260385),	-- Frost Wooden Shortbow
 				i(260387),	-- Icey Wooden Shortbow
 				i(260388),	-- Light Wooden Shortbow
-				i(260389),	-- Light Blue Wooden Shortbow
 				i(260390),	-- Light Brown Wooden Shortbow
 				i(260391),	-- Pale Wooden Shortbow
 				i(260393),	-- Purple Wooden Shortbow
