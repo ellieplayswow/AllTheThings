@@ -32,10 +32,6 @@ ach(61442),	-- Lorewalking: The Loa
 ach(61463),	-- Master of the Turbulent Timeways V
 ach(62413),	-- The Curse of Ula'tek
 ach(62606),	-- The Sunstrider Omnium
-ach(62607),	-- Ritualized Arcana
-ach(62608),	-- Leyline Assaults
-ach(62609),	-- Magical Primeessence
-ach(62610),	-- Off-World Magic
 ach(62842),	-- A Celestial Pain
 ach(62857),	-- [DNT] Moth Hunt - 10 Moths Acquired
 ach(62858),	-- [DNT] Moth Hunt - 20 Moths Acquired
@@ -48,47 +44,15 @@ ach(62864),	-- [DNT] Moth Hunt - 80 Moths Acquired
 ach(62865),	-- [DNT] Moth Hunt - 90 Moths Acquired
 ach(62866),	-- [DNT] Moth Hunt - 100 Moths Acquired
 ach(62867),	-- [DNT] Moth Hunt - 110 Moths Acquired
-ach(62873),	-- A Trip Around the Stars
-ach(62874),	-- A Trip Through the Stars
 ach(62875),	-- [DNT] Storm mitigation 1 - Val - Hidden
 ach(62876),	-- [DNT] Storm mitigation 1 - Naigtal - Hidden
 ach(62877),	-- [DNT] Storm mitigation 2 - Val - Hidden
 ach(62878),	-- [DNT] Storm mitigation 2 - Naigtal - Hidden
 ach(62879),	-- [DNT] Moth Hunt - 1 Moths Acquired
-ach(62880),	-- Showdown Success: Val
-ach(62881),	-- Showdown Slugger: Val
-ach(62882),	-- Showdown Success: Naigtal
-ach(62883),	-- Showdown Slugger: Naigtal
-ach(62887),	-- Heroic: Worlds Ahead
-ach(62896),	-- Power Creep
-ach(62898),	-- Cradle of Power
-ach(62899),	-- Absolute Power
-ach(62900),	-- Power Beyond Measure
-ach(62901),	-- Heroic: Power Creep
-ach(62903),	-- Climate Strange: Val
-ach(62904),	-- Climate Strange: Naigtal
-ach(62905),	-- Pain of Command
-ach(62909),	-- Heroic: Pain of Command
-ach(62917),	-- Heroic Climate Strange: Val
-ach(62919),	-- Heroic Climate Strange: Naigtal
-ach(62940),	-- Ritual Sites 612: Practical Ritual Work
-ach(62941),	-- Pinnacle Ritual Work
 ach(62942),	-- [DNT] Pinnacle Ritual Work - Broken Throne
 ach(62943),	-- [DNT] Pinnacle Ritual Work - Daggerspine Point
-ach(62944),	-- [DNT] Showdown Unlock: Bouncy Mushrooms
-ach(62945),	-- [DNT] Showdown Unlock: Grapple Skiffs
-ach(62949),	-- [DNT] Showdown Unlock: Naigtal Spores
 ach(63164),	-- Big Prey Hunter (Season 1)
-ach(63182),	-- Advanced Ritual Site Studies
 ach(63233),	-- Rotmire (Raid Finder Sporefall)
 ach(63234),	-- Rotmire (Normal Sporefall)
 ach(63235),	-- Rotmire (Heroic Sporefall)
 ach(63236),	-- Rotmire (Mythic Sporefall)
-ach(63237),	-- Rotmire
-ach(63240),	-- Heroic: Rotmire
-ach(63241),	-- Mythic: Rotmire
-ach(63242),	-- Rotmire Guild Run
-ach(63246),	-- Heroic: Rotmire Guild Run
-ach(63247),	-- Mythic: Rotmire Guild Run
-ach(63264),	-- Heroic Showdowns
-ach(63323),	-- Heroic Tendencies

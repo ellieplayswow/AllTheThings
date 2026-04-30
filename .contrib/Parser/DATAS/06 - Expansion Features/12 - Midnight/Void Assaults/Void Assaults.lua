@@ -105,6 +105,36 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				ach(62507),	-- Void Smasher: Eversong
 				ach(62510),	-- Void Smasher: Zul'Aman
 			}),
+			n(ACHIEVEMENTS, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_7 } }, {
+				ach(62873),	-- A Trip Around the Stars
+				ach(62874),	-- A Trip Through the Stars
+				ach(62899),	-- Absolute Power
+				ach(62904),	-- Climate Strange: Naigtal
+				ach(62903),	-- Climate Strange: Val
+				ach(62898),	-- Cradle of Power
+				ach(62919),	-- Heroic Climate Strange: Naigtal
+				ach(62917),	-- Heroic Climate Strange: Val
+				ach(63264),	-- Heroic Showdowns
+				ach(63323),	-- Heroic Tendencies
+				ach(62909),	-- Heroic: Pain of Command
+				ach(62901),	-- Heroic: Power Creep
+				ach(62887),	-- Heroic: Worlds Ahead
+				ach(62608),	-- Leyline Assaults
+				ach(62609),	-- Magical Primeessence
+				ach(62610),	-- Off-World Magic
+				ach(62905),	-- Pain of Command
+				ach(62900),	-- Power Beyond Measure
+				ach(62896),	-- Power Creep
+				ach(62607),	-- Ritualized Arcana
+				ach(62883),	-- Showdown Slugger: Naigtal
+				ach(62881),	-- Showdown Slugger: Val
+				ach(62882),	-- Showdown Success: Naigtal
+				ach(62880),	-- Showdown Success: Val
+				ach(62944),	-- [DNT] Showdown Unlock: Bouncy Mushrooms
+				ach(62945),	-- [DNT] Showdown Unlock: Grapple Skiffs
+				ach(62949),	-- [DNT] Showdown Unlock: Naigtal Spores
+				ach(62606),	-- The Sunstrider Omnium
+			})),
 			n(DROPS, {
 				i(268809),	-- Enchanted Naga Scroll (QS!)
 				i(266448),	-- Hal'hadar Battery Core (QS!)
@@ -215,6 +245,84 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						["provider"] = { "i", 268807 },	-- Torn Twilight Missive (QS!)
 					}),
 				}),
+				header(HEADERS.Achievement, 62606, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_7 } }, {	-- The Sunstrider Omnium
+					q(96223, {	-- The Magister's Call
+						["qg"] = 265903,	-- Magister's Missive
+						["coord"] = { 50.9, 73.6, MAP.MIDNIGHT.SILVERMOON_CITY },
+					}),
+					q(96224, {	-- The Magister's Conundrum
+						["sourceQuest"] = 96223,	-- The Magister's Call
+						["qg"] = 264063,	-- Magister Umbric
+						["coord"] = { 38.9, 48.6, MAP.MIDNIGHT.SILVERMOON_CITY },
+					}),
+					q(96227, {	-- Lycaneum Chaos
+						["sourceQuest"] = 96224,	-- The Magister's Conundrum
+						["qg"] = 264066,	-- Grand Magister Rommath
+						["coord"] = { 63.6, 14.0, 2649 },	-- The Lycaneum, Magister's Terrace
+					}),
+					q(96226, {	-- Omnium Anomalies
+						["sourceQuest"] = 96224,	-- The Magister's Conundrum
+						["qg"] = 264065,	-- Magister Umbric
+						["coord"] = { 61.7, 13.4, 2649 },	-- The Lycaneum, Magister's Terrace
+					}),
+					q(96228, {	-- The Shadowed Spire
+						["sourceQuests"] = {
+							96227,	-- Lycaneum Chaos
+							96226,	-- Omnium Anomalies
+						},
+						["qg"] = 264065,	-- Magister Umbric
+						["coord"] = { 61.7, 13.4, 2649 },	-- The Lycaneum, Magister's Terrace
+					}),
+					q(96230, {	-- Unravelling the Wards
+						["sourceQuests"] = {
+							96227,	-- Lycaneum Chaos
+							96226,	-- Omnium Anomalies
+						},
+						["qg"] = 264066,	-- Grand Magister Rommath
+						["coord"] = { 63.6, 14.0, 2649 },	-- The Lycaneum, Magister's Terrace
+					}),
+					q(96231, {	-- Unravelling the Wards
+						["sourceQuest"] = 96230,	-- Unravelling the Wards
+						["qg"] = 264945,	-- Grand Magister Rommath
+						["coord"] = { 58.9, 57.3, MAP.MIDNIGHT.ISLE_OF_QUELDANAS },
+						["groups"] = { i(274261) },	-- Grand Magister's Key-Cipher (QI!)
+					}),
+					q(96229, {	-- The Void Reveals
+						["sourceQuest"] = 96228,	-- The Shadowed Spire
+						["qg"] = 264067,	-- Magister Umbric
+						["coord"] = { 62.6, 63.1, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["groups"] = { i(274036) },	-- Void Magicule (QI!)
+					}),
+					q(96232, {	-- Return to the Omnium
+						["sourceQuests"] = {
+							96229,	-- The Void Reveals
+							96231,	-- Unravelling the Wards
+						},
+						["qg"] = 264787,	-- Magister Umbric
+						["coord"] = { 62.5, 62.6, MAP.MIDNIGHT.EVERSONG_WOODS },
+					}),
+					q(96238, {	-- Return to the Omnium
+						["sourceQuests"] = {
+							96229,	-- The Void Reveals
+							96231,	-- Unravelling the Wards
+						},
+						["qg"] = 264945,	-- Grand Magister Rommath
+						["coord"] = { 58.9, 57.3, MAP.MIDNIGHT.ISLE_OF_QUELDANAS },
+					}),
+					q(96233, {	-- The Omnium Reawakens
+						["sourceQuests"] = {
+							96227,	-- Lycaneum Chaos
+							96226,	-- Omnium Anomalies
+						},
+						["qg"] = 264066,	-- Grand Magister Rommath
+						["coord"] = { 63.6, 13.8, 2649 },	-- The Lycaneum, Magister's Terrace
+					}),
+					q(96410, {	-- Seeking Knowledge: The Omnium Folio (Not part of the Achievement)
+						["sourceQuest"] = 96233,	-- The Omnium Reawakens
+						["qg"] = 264069,	-- Magister Umbric
+						["coord"] = { 60.3, 10.4, 2649 },	-- The Lycaneum, Magister's Terrace
+					}),
+				})),
 			}),
 			n(REWARDS, {
 				filter(BATTLE_PETS, {
@@ -966,6 +1074,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 					DAGGERSPINE_POINT,
 				},
 			}, {
+				ach(63182, { ["timeline"] = { ADDED_12_0_7 } }),	-- Advanced Ritual Site Studies
 				ach(62547),	-- Challenge: Embers
 				ach(62544),	-- Challenge: Magical Alarm Bells
 				ach(62545),	-- Challenge: Malevolent Boons
@@ -986,6 +1095,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				ach(62548),	-- Expert Challenge: Tendrils
 				ach(62559),	-- Malevolence Shrugged
 				ach(62558),	-- Patrol Ambusher
+				ach(62941, { ["timeline"] = { ADDED_12_0_7 } }),	-- Pinnacle Ritual Work
 				ach(62556),	-- Quick Reflexes
 				ach(62561),	-- Reinforcement Obliteration
 				ach(62622),	-- Ritual Renown
@@ -1007,6 +1117,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				ach(62452),	-- Ritual Sites 320: Ritual Items and Their Uses in Quel'thelas
 				ach(62453),	-- Ritual Sites 415: Applied Ritual Strategies
 				ach(62454),	-- Ritual Sites 505: A Seminar in Void Ritual Nuance
+				ach(62940, { ["timeline"] = { ADDED_12_0_7 } }),	-- Ritual Sites 612: Practical Ritual Work
 			})),
 			n(EVENT_COMPLETION, {
 				i(269817),	-- Ritual Site Challenge Report: Tendrils (QS!)
@@ -1114,6 +1225,16 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 				q(96152),	-- Dark Obelisk @ 50.4, 42.8, DAGGERSPINE_POINT
 				q(96153),	-- Dark Obelisk @ 44.8, 47.4, DAGGERSPINE_POINT
 				q(96154),	-- Dark Obelisk @ 42.5, 57.0, DAGGERSPINE_POINT
+			}),
+		},
+	}),
+}))
+root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
+	n(VOID_ASSAULTS, {
+		["timeline"] = { ADDED_12_0_7 },
+		["groups"] = {
+			n(QUESTS, {
+				q(96100),	-- Triggered when accepting "Seeking Knowledge: The Omnium Folio' (96410)
 			}),
 		},
 	}),

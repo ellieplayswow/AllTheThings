@@ -271,7 +271,6 @@ root(ROOTS.Unsorted, {
 			i(273870),	-- Duskwatch Outlaw's Britches
 			i(273871),	-- Duskwatch Outlaw's Treads
 			i(273872),	-- Duskwatch Outlaw's Undercoat
-			i(274036),	-- Void Magicule
 			i(274050),	-- Bandit's Midnight Highboot
 			i(274051),	-- Bandit's Azure Highboot
 			i(274052),	-- Bandit's Sepia Highboot
@@ -302,7 +301,6 @@ root(ROOTS.Unsorted, {
 			i(274086),	-- Lively Extravaganza Sparkwheel
 			i(274087),	-- Suntouched Extravaganza Sparkwheel
 			i(274088),	-- Rosy Extravaganza Sparkwheel
-			i(274261),	-- Grand Magister's Key-Cipher
 			i(274403),	-- Badlands Lawbringer's Brand
 			i(274404),	-- Righteous Lawbringer's Brand
 			i(274405),	-- Duskwatch Outlaw's Brand
