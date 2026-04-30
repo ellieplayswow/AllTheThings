@@ -5032,6 +5032,29 @@ exploration(16873),	-- Razorwind Camp
 exploration(16874),	-- Founders Point Camp
 12.0.1.64914
 exploration(16875),	-- Den of the Undreamt
+12.0.1.66838
+exploration(16310),	-- Isle of Quel'Danas
+exploration(16311),	-- Silvermoon City
+exploration(16312),	-- Eversong Woods
+exploration(16313),	-- Court of Blood
+exploration(16314),	-- Court of the Sun
+exploration(16315),	-- Falconwing Square
+exploration(16316),	-- Dawning Lane
+exploration(16317),	-- The Royal Exchange
+exploration(16318),	-- The Shining Span
+exploration(16319),	-- Murder Row
+exploration(16320),	-- Walk of Elders
+exploration(16321),	-- Silvermoon Harbor
+exploration(16322),	-- Sunwing Rookery
+exploration(16323),	-- Gardens of Remembrance
+exploration(16324),	-- The Bazaar
+exploration(16325),	-- Duskglow Gloriette
+exploration(16326),	-- Augurs' Terrace
+exploration(16327),	-- Lithiel's Landing
+exploration(16329),	-- North Sanctum
+exploration(16330),	-- Path of Dawn
+exploration(16331),	-- Sunstrider Isle
+exploration(16332),	-- The Great Sea
 12.0.5.66330
 exploration(16686),	-- Silvermoon City
 exploration(16747),	-- Speaker's Rest

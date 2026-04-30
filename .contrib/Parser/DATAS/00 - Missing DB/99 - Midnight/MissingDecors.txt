@@ -298,7 +298,6 @@ decor(2295),	-- [DNT] [AUTOGEN] 11WE_WildElves_Crafting_Mortar01.m2
 decor(2296),	-- [DNT] [AUTOGEN] 11WE_WildElves_Crafting_PigmentGourd01.m2
 decor(2297),	-- [DNT] [AUTOGEN] 11WE_WildElves_Crafting_PigmentGourd02.m2
 decor(2298),	-- [DNT] [AUTOGEN] 11WE_WildElves_Decor_Bowl01.m2
-decor(2299),	-- [DNT] [AUTOGEN] 12BE_BloodElf_Ritual_Crystal01_Floating.m2
 decor(2300),	-- [DNT] [AUTOGEN] 12BE_BloodElf_Ritual_Crystal02_Floating.m2
 decor(2455),	-- [DNT] [AUTOGEN] 11WE_WildElves_Storage_Basket01.m2
 decor(2456),	-- [DNT] [AUTOGEN] 11WE_WildElves_Storage_HangingBasket01.m2
@@ -358,7 +357,6 @@ decor(8124),	-- [DNT] [AUTOGEN] 12BE_BloodElf_Structure_Statue01_Mirrored.m2
 decor(8844),	-- Test Decor
 decor(8873),	-- [DNT] [AUTOGEN] 12BE_BloodElf_Food_LargePlatter02.m2
 decor(8876),	-- [DNT] [AUTOGEN] 12BE_BloodElf_Food_Meat01.m2
-decor(8877),	-- [DNT] [AUTOGEN] 12BE_BloodElf_Food_Pie01.m2
 decor(8878),	-- [DNT] Elegant Silvermoon Dessert Tray - DO NOT USE - duplicate \\ [DNT] [AUTOGEN] 12BE_BloodElf_Food_Cake01.m2
 decor(8879),	-- [DNT] [AUTOGEN] 12BE_BloodElf_Food_Cheese01.m2
 decor(8890),	-- [DNT] [AUTOGEN] 12FN_Fungarian_Decor_Banner02.m2
@@ -555,10 +553,8 @@ decor(16097),	-- Void Elf Bedroll \\ [DNT] [AUTOGEN] 12VE_VoidElf_Furniture_BedR
 decor(16316),	-- [DNT] [AUTOGEN] 12TR_Amani_Navigation_SignPost01.m2
 decor(16317),	-- [DNT] [AUTOGEN] 12DU_MaisaraHills_Ritual_EncounterAltar01.M2
 12.0.0.64228
-decor(16691),	-- Farstriders' Pride Statue \\ [DNT] [AUTOGEN] 12BE_BloodElf_Structure_Statue06.M2
 decor(16808),	-- [DNT] [AUTOGEN] 12TR_Amani_Structure_Hex_Awning01.m2
 decor(16963),	-- [DNT] [AUTOGEN] 12BE_BloodElf_Decor_DraperySet05.m2
-decor(17294),	-- Farstriders' Glory Statue \\ [DNT] [AUTOGEN] 12BE_BloodElf_Structure_Statue07.M2
 decor(17476),	-- [DNT] [AUTOGEN] 12BE_BloodElf_Crafting_Tongs01.m2
 decor(17517),	-- [DNT] [AUTOGEN] 12FN_Fungarian_Navigation_Fence02.m2
 12.0.0.64339
@@ -593,11 +589,9 @@ decor(20163),	-- [DNT] [AUTOGEN] 12SN_Snakeoid_Decor_Tendril08.m2
 decor(15286),	-- [DNT] [AUTOGEN] 12PH_Folk_Mirror_Wall01.m2
 decor(15287),	-- [DNT] [AUTOGEN] 12PH_Folk_WallLamp01.m2
 decor(15288),	-- [DNT] [AUTOGEN] 12PH_Folk_Table_Bar_Small01.m2
-decor(15289),	-- [DNT] [AUTOGEN] 12PH_Folk_Gazebo02.M2
 decor(15290),	-- [DNT] [AUTOGEN] 12PH_Folk_Rug03.M2
 decor(15291),	-- [DNT] [AUTOGEN] 12PH_Folk_Sconce01.M2
 decor(15292),	-- [DNT] [AUTOGEN] 12PH_Folk_Window_Interior01.M2
-decor(15293),	-- [DNT] [AUTOGEN] 12PH_Folk_Trellis02.M2
 decor(15600),	-- [DNT] [AUTOGEN] 12PH_Folk_Sofa_Medium01.m2
 decor(15601),	-- [DNT] [AUTOGEN] 12PH_Folk_TableLight02.M2
 decor(16039),	-- Lush Garden Window
@@ -607,14 +601,10 @@ decor(16100),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_MoneyTree01.M2
 decor(16101),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_Lantern01.M2
 decor(16102),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_StoneLion01.M2
 decor(16755),	-- [DNT] [AUTOGEN] 12PH_Folk_WaterWell01.M2
-decor(17749),	-- Lush Garden Fungal Table
 decor(17750),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_HatChair01.M2
 decor(17751),	-- [DNT] [AUTOGEN] 12PH_Opulent_Barrel02.M2
 decor(17752),	-- [DNT] [AUTOGEN] 12PH_Opulent_Barrel02_Open.M2
 decor(17753),	-- [DNT] [AUTOGEN] 12PH_Opulent_Bench_Long01.M2
-decor(17793),	-- Lush Garden Fungal Planter
-decor(17797),	-- Spring Blossom Pond
-decor(17887),	-- [DNT] [AUTOGEN] 12PH_Opulent_Crate02_Open.M2
 decor(17888),	-- [DNT] [AUTOGEN] 12PH_Opulent_Rug03.M2
 decor(18795),	-- [DNT] [AUTOGEN] 12PH_Folk_Candelabra01.m2
 decor(18796),	-- [DNT] [AUTOGEN] 12PH_Folk_Candelabra02.m2
@@ -634,7 +624,6 @@ decor(19691),	-- [DNT] [AUTOGEN] 12PH_Shop_Skyborne_Curtain01.M2
 decor(19760),	-- [DNT] [AUTOGEN] 12PH_Opulent_Sofa_Medium01.M2
 decor(19761),	-- [DNT] [AUTOGEN] 12PH_Opulent_Trellis02.M2
 decor(19762),	-- [DNT] [AUTOGEN] 12PH_Opulent_WallRack02.M2
-decor(19763),	-- Sin'dorei Tiffin-Style Lamp
 decor(20164),	-- [DNT] [AUTOGEN] 12PH_Opulent_Table_Bar_Small01.M2
 decor(20165),	-- [DNT] [AUTOGEN] 12PH_Opulent_Sconce01.M2
 decor(20166),	-- [DNT] [AUTOGEN] 12PH_Shop_Skyborne_Pillow01.M2
@@ -832,8 +821,6 @@ decor(20923),	-- [DNT] [AUTOGEN] 12DUR_Durotar_Oasis_Plant_IvyBush_C02.m2
 decor(20924),	-- [DNT] [AUTOGEN] 12DUR_Durotar_Oasis_Plant_IvyBush_D01.m2
 decor(21060),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_Basket02.M2
 decor(21061),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_Basket01.M2
-decor(21079),	-- Sin'dorei Covered Cookpot
-decor(21080),	-- Sin'dorei Open Cookpot
 decor(21081),	-- [DNT] [AUTOGEN] ULDUM_CROPS_SUGARCANE01.M2
 decor(21082),	-- [DNT] [AUTOGEN] ULDUM_CROPS_SUGARCANE06.M2
 decor(21083),	-- [DNT] [AUTOGEN] ULDUM_CROPS_SUGARCANEROW03.M2
@@ -854,13 +841,9 @@ decor(21097),	-- [DNT] [AUTOGEN] 12DUR_Oasis_Plant_AccentFern_B02.m2
 decor(21098),	-- [DNT] [AUTOGEN] 12DUR_Durotar_Oasis_Tree_Banana_A01.m2
 decor(21099),	-- [DNT] [AUTOGEN] 12DUR_Durotar_Oasis_Tree_Banana_A02.m2
 decor(21100),	-- [DNT] [AUTOGEN] 12DUR_Durotar_Oasis_Tree_Banana_A03.m2
-decor(21101),	-- Sin'dorei Cookpot Lid
-decor(21106),	-- Sin'dorei Display Case
-decor(21598),	-- Dark Obelisk
 decor(21599),	-- [DNT] [AUTOGEN] 12PH_Opulent_Window_Interior02.M2
 decor(21600),	-- [DNT] [AUTOGEN] 12PH_Opulent_Chandelier02.M2
 decor(21601),	-- [DNT] [AUTOGEN] 12PH_BloodElf_Decor_Chair_Porchswing01.M2
-decor(21602),	-- Sin'dorei Garden Swing
 decor(21873),	-- [DNT] [AUTOGEN] 7TR_Tauren_Pot01.m2
 decor(21874),	-- [DNT] [AUTOGEN] 7TR_Tauren_Pot02.m2
 decor(21875),	-- [DNT] [AUTOGEN] 8HU_KULTIRAS_HONEYPOT01.m2
@@ -896,14 +879,17 @@ decor(21945),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_Gourd01.M2
 decor(21946),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_StoneLion02.M2
 decor(21947),	-- [DNT] [AUTOGEN] 12PH_Shop_VenthyrDecor_Organ01.M2
 decor(21948),	-- [DNT] [AUTOGEN] 12PH_Shop_VenthyrDecor_Throne01.M2
-decor(22006),	-- Small Lumber Pile
-decor(22007),	-- Empty Wooden Toolbox
-decor(22008),	-- Suramar Arcfruit Bowl
-decor(22009),	-- Small Decorative Dornogal Opal
-decor(22010),	-- Decorative Dornogal Opal
-decor(22011),	-- Large Decorative Dornogal Opal
-decor(22143),	-- Void Elf Scribe's Desk
-decor(22181),	-- Void Elf Floating Desk
-decor(22182),	-- Runic Parchment
-decor(22183),	-- Void Flame Candle
-decor(22388),	-- Void Inkwell
+12.0.5.67114
+decor(16974),	-- Spring Blossom Stepping Stone
+decor(16975),	-- Spring Blossom Privacy Screen
+decor(16976),	-- Spring Blossom Stepping Stone Duo
+decor(16977),	-- Spring Blossom Stepping Stone Trio
+decor(16978),	-- Spring Blossom Stepping Stone Collection
+decor(17747),	-- Spring Blossom Tea Set
+decor(17748),	-- Spring Blossom Table
+decor(17792),	-- Lush Garden Hedge
+decor(17794),	-- Lush Garden Fungal Picnic
+decor(17795),	-- Spring Blossom Lantern
+decor(17796),	-- Spring Blossom Tranquility Garden
+decor(18794),	-- Lush Garden Stable
+decor(19848),	-- Lush Garden Rug
