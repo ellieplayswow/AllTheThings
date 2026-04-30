@@ -274,19 +274,24 @@ app.IsComplete = function(o)
 end
 
 local GetItemIcon = app.WOWAPI.GetItemIcon;
+local GetSpellIcon = app.WOWAPI.GetSpellIcon
 app.GetIconFromProviders = function(group)
 	local providers = group.providers
 	if not providers or #providers == 0 then return end
 
-	local icon, v
+	local icon, v, t, id
 	local providerCount = #providers
 	for i=1,providerCount do
 		v = providers[i]
-		if v[2] > 0 then
-			if v[1] == "o" then
-				icon = app.ObjectIcons[v[2]];
-			elseif v[1] == "i" then
-				icon = GetItemIcon(v[2]);
+		t = v[1]
+		id = v[2]
+		if id > 0 then
+			if t == "o" then
+				icon = app.ObjectIcons[id];
+			elseif t == "i" then
+				icon = GetItemIcon(id);
+			elseif t == "s" then
+				icon = GetSpellIcon(id);
 			end
 			if icon then return icon; end
 		end
