@@ -41882,7 +41882,24 @@ q(96238,{coords={
 q(96233,{coords={
 [2649]={{63.6,13.8}}},qgs={264066},sourceQuests={96226,96227}}),
 q(96410,{coords={
-[2649]={{60.3,10.4}}},qgs={264069},sourceQuests={96233}})}})}),
+[2649]={{60.3,10.4}}},qgs={264069},sourceQuests={96233}})}}),
+ah(96713,{awp=120007,type="q",g={
+q(96048,{description="Can be accepted from the Adventure Journal.",isBreadcrumb=1,nextQuests={96049,96703}}),
+q(96049,{coords={
+[2393]={{47.6,51}}},qgs={263479},sourceQuests={96048}}),
+q(96703,{coords={
+[2393]={{47.6,51}}},qgs={263479},sourceQuests={96048}}),
+q(96708,{coords={
+[2393]={{47.6,51}}},qgs={263479},sourceQuests={96049,96703}}),
+q(96051,{coords={
+[2405]={{51.6,71.1}}},qgs={263480},sourceQuests={96708}}),
+q(96053,{coords={
+[2599]={{59.3,19.5}}},qgs={263482},sourceQuests={96051}}),
+q(96473,{coords={
+[2599]={{41.7,84.6}}},qgs={263987},sourceQuests={96053}}),
+q(96713,{coords={
+[2599]={{59.3,19.5}}},isWeekly=1,qgs={263482},sourceQuests={96051},g={
+i(275690)}})}})}),
 h(-47,{
 flt(101,{
 p(5040,{description="This pet can drop only during Void Assault in Eversong Woods.",itemID=270990,npcID=262788,spellID=1288381}),
@@ -42418,6 +42435,37 @@ mnt(1287357,{itemID=270041})}})}),
 h(-63,{
 i(271644),
 i(272128,{crs={257827,257828,257829},description="Has a chance to drop from any Naga-type creature within the Ritual Site.",spellID=1290269})})}}),
+m(2599,{awp=120007,coords={
+[2405]={{51.4,71.3}}},crs={264308},icon=4226156,maps={2617,2618,2621},g={
+h(-46,{
+n(261965,{coords={
+[2599]={{55.2,65.6}}}}),
+n(264864,{coords={
+[2599]={{29,73.8}}},g={
+i(274820)}})}),
+h(-47,{
+i(276089),
+i(276091),
+i(276095)}),
+h(-56,{
+o(655270,{description="Spawns randomly throughout the zone."})}),
+h(-62,{
+q(96295,{coords={
+[2618]={{40.2,77.5}}},isWorldQuest=1}),
+q(95393,{coords={
+[2599]={{61.6,78.8}}},isWorldQuest=1}),
+q(95404,{coords={
+[2599]={{56,49.6}}},isWorldQuest=1}),
+q(95401,{coords={
+[2599]={{35.8,74.3}}},isWorldQuest=1}),
+q(95399,{coords={
+[2618]={{79.4,70.6}}},isWorldQuest=1}),
+q(95400,{coords={
+[2599]={{46.8,47.5}}},isWorldQuest=1}),
+q(96617,{coords={
+[2599]={{47.8,80.4}}},isWorldQuest=1}),
+q(95395,{coords={
+[2599]={{32.3,50.1}}},isWorldQuest=1})})}}),
 h(-12,{
 ach(63182,{awp=120007,maps={2585,2594}}),
 ach(62547,{maps={2585,2594}}),

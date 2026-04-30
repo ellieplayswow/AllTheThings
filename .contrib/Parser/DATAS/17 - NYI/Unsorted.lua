@@ -356,7 +356,6 @@ root(ROOTS.Unsorted, {
 			i(274798),	-- Remote Detonator
 			i(274818),	-- Drape of Intense Darkness
 			i(274819),	-- Fungle Fold Frock
-			i(274820),	-- Cloak of the Voracious Gorger
 			i(274821),	-- Drape of the Hal'hadar Assassin
 			i(274822),	-- Band of the Beast Reaper
 			i(274823),	-- Spongy Gill Loop
@@ -559,19 +558,15 @@ root(ROOTS.Unsorted, {
 			i(275686),	-- Decrypted Intel Sphere
 			i(275687),	-- Soul Lattice Holoprint
 			i(275689),	-- Sunken Crypt Holoprint
-			i(275690),	-- Riftstalker's Cache
 			i(275691),	-- Riftstalker's Overflowing Cache
 			i(275699),	-- Veraan's Soul Lattice Report
 			i(275818),	-- Pinky
 			i(275910),	-- Beacon of Hope
 			i(275999),	-- Flowering Mantle
-			i(276089),	-- Field Accolades
 			i(276090),	-- Field Accolades
-			i(276091),	-- Lost Armaments
 			i(276092),	-- Lost Armaments
 			i(276093),	-- Nexus-Captain Leth'ir
 			i(276094),	-- Nexus-Captain Leth'ir
-			i(276095),	-- Imperator Pertinax
 			i(276096),	-- Imperator Pertinax
 			i(276097),	-- Lost Armaments
 			i(276098),	-- Raided Items

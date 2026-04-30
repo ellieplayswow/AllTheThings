@@ -323,6 +323,52 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						["coord"] = { 60.3, 10.4, 2649 },	-- The Lycaneum, Magister's Terrace
 					}),
 				})),
+				header(HEADERS.Quest, 96713, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_7 } }, {	-- Showdown on Val
+					q(96048, {	-- The Time to Strike
+						["description"] = "Can be accepted from the Adventure Journal.",
+						["isBreadcrumb"] = true,	-- ?? You can't accept followup quests without it?
+					}),
+					q(96049, {	-- Stalkers of the Stars
+						["sourceQuest"] = 96048,	-- The Time to Strike
+						["qg"] = 263479,	-- Riftblade Maella
+						["coord"] = { 47.6, 51.0, MAP.MIDNIGHT.SILVERMOON_CITY },
+					}),
+					q(96703, {	-- Veterans of the Great Dark
+						["sourceQuest"] = 96048,	-- The Time to Strike
+						["qg"] = 263479,	-- Riftblade Maella
+						["coord"] = { 47.6, 51.0, MAP.MIDNIGHT.SILVERMOON_CITY },
+					}),
+					q(96708, {	-- To the Voidstorm and Beyond!
+						["sourceQuests"] = {
+							96049,	-- Stalkers of the Stars
+							96703,	-- Veterans of the Great Dark
+						},
+						["qg"] = 263479,	-- Riftblade Maella
+						["coord"] = { 47.6, 51.0, MAP.MIDNIGHT.SILVERMOON_CITY },
+					}),
+					q(96051, {	-- Through the Cold Rift
+						["sourceQuest"] = 96708,	-- To the Voidstorm and Beyond!
+						["qg"] = 263480,	-- Riftblade Maella
+						["coord"] = { 51.6, 71.1, MAP.MIDNIGHT.VOIDSTORM },
+					}),
+					q(96053, {	-- Surveying the Frozen Wastes
+						["sourceQuest"] = 96051,	-- Through the Cold Rift
+						["qg"] = 263482,	-- Riftblade Maella
+						["coord"] = { 59.3, 19.5, VAL },
+					}),
+					q(96473, {	-- Imperator Pertinax
+						["sourceQuest"] = 96053,	-- Surveying the Frozen Wastes
+						["qg"] = 263987,	-- Belath Dawnblade
+						["coord"] = { 41.7, 84.6, VAL },
+					}),
+					q(96713, {	-- Showdown on Val
+						["sourceQuest"] = 96051,	-- Through the Cold Rift
+						["qg"] = 263482,	-- Riftblade Maella
+						["coord"] = { 59.3, 19.5, VAL },
+						["groups"] = { i(275690) },	-- Riftstalker's Cache
+						["isWeekly"] = true,	-- Speculation
+					}),
+				})),
 			}),
 			n(REWARDS, {
 				filter(BATTLE_PETS, {
@@ -1066,6 +1112,95 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							},
 						}),
 					}),
+				},
+			}),
+			m(VAL, {
+				["icon"] = 4226156,
+				["timeline"] = { ADDED_12_0_7 },
+				["cr"] = 264308,	-- Greater Void Portal
+				["coord"] = { 51.4, 71.3, MAP.MIDNIGHT.VOIDSTORM },
+				["maps"] = {
+					2621,	-- The Forgotten Depths
+					2617,	-- Void Acropolis (Upper)
+					2618,	-- Void Acropolis (Lower)
+				},
+				["groups"] = {
+					n(RARES, {
+						n(261965, {	-- Void Infused Sleet-Rune
+							["coord"] = { 55.2, 65.6, VAL },
+							--["questID"] = XXXXX,
+						}),
+						n(264864, {	-- Xirah
+							["coord"] = { 29.0, 73.8, VAL },
+							--["questID"] = XXXXX,
+							["groups"] = {
+								i(274820),	-- Cloak of the Voracious Gorger
+							},
+						}),
+					}),
+					n(REWARDS, {
+						i(276089),	-- Field Accolades (Normal)
+						i(276091),	-- Lost Armaments (Normal)
+						i(276095),	-- Imperator Pertinax (Normal)
+					}),
+					n(TREASURES, {
+						o(655270, {	-- Dominaar Storage Vessel
+							["description"] = "Spawns randomly throughout the zone.",
+						}),
+					}),
+					--[[n(VENDORS, {
+						n(267315, {	-- Fieldsmith Ventem <Field Gear and Repairs>
+							["coord"] = { 60.2, 16.1, VAL },
+							["groups"] = {	-- All items are (COSMETIC!)
+								n(WEAPONS, sharedData({
+									["cost"] = {
+										{ "c", FIELD_ACCOLADE,  60 },
+										{ "c", VOIDLIGHT_MARL, 500 },
+									},
+								}, {
+									
+								}),
+								filter(CLOAKS, {
+								}),
+								filter(CLOTH, {
+								}),
+								filter(LEATHER, {
+								}),
+								filter(MAIL, {
+								}),
+								filter(PLATE, {
+								}),
+							},
+						}),
+					}),]]--
+					n(WORLD_QUESTS, bubbleDownFiltered({
+						["isWorldQuest"] = true,
+					},FILTERFUNC_questID,{
+						q(96295, {	-- A Pertinent Punishment
+							["coord"] = { 40.2, 77.5, 2618 },	-- Void Acropolis (Lower)
+						}),
+						q(95393, {	-- Caver Saviour
+							["coord"] = { 61.6, 78.8, VAL },
+						}),
+						q(95404, {	-- Freeze Range Eggs
+							["coord"] = { 56.0, 49.6, VAL },
+						}),
+						q(95401, {	-- Junction Dysfunction
+							["coord"] = { 35.8, 74.3, VAL },
+						}),
+						q(95399, {	-- Shadowy Strategies
+							["coord"] = { 79.4, 70.6, 2618 },	-- Void Acropolis (Lower)
+						}),
+						q(95400, {	-- Solid Cold
+							["coord"] = { 46.8, 47.5, VAL },
+						}),
+						q(96617, {	-- Storm Mitigation (Bonus Objective)
+							["coord"] = { 47.8, 80.4, VAL },
+						}),
+						q(95395, {	-- Until it is Done
+							["coord"] = { 32.3, 50.1, VAL },
+						}),
+					})),
 				},
 			}),
 			n(ACHIEVEMENTS, sharedData({	-- Achievements do not reward Mounts and Pets. They unlock the ability for you to buy them from the vendor.
