@@ -104,7 +104,6 @@ root(ROOTS.Unsorted, {
 			i(262757),	-- "Greater Metamorph" Enhancement
 			i(262962),	-- Carved Wooden Chair
 			i(263032),	-- Razorwind Fishing Net
-			i(263291),	-- Spring Blossom Tree Pond
 			i(263350),	-- Harbinger Fan Fiction
 			i(263581),	-- Razorwind Roofer's Shingle
 			i(263582),	-- Razorwind Roofer's Shingle Pile
@@ -117,9 +116,6 @@ root(ROOTS.Unsorted, {
 			i(265924),	-- High-Mounted Razorwind Bowl Chandelier
 			i(265925),	-- Razorwind Bowl Chandelier
 			i(265926),	-- Low-Hanging Razorwind Bowl Chandelier
-			i(266070),	-- Lush Garden Fungal Table
-			i(266163),	-- Lush Garden Fungal Planter
-			i(266167),	-- Spring Blossom Pond
 			i(266233),	-- Short Hanging Tavern Lantern
 			i(266249),	-- Hanging Tavern Lantern
 			i(266250),	-- Long Hanging Tavern Lantern
@@ -1087,7 +1083,6 @@ root(ROOTS.Unsorted, {
 				i(250868),	-- Crimson Crystal Column
 				i(250869),	-- Crimson Crystal Core
 				i(250870),	-- Crimson Crystal Fragment
-				i(263291),	-- Spring Blossom Pond
 				i(264500),	-- Devouring Host Ritual Engine (DECOR!)
 				-- Promo?
 				i(255643),	-- Silvermoon Barrel
