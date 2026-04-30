@@ -135,28 +135,7 @@ root(ROOTS.Character, n(ALLIED_RACES, bubbleDownSelf({ ["timeline"] = { ADDED_7_
 	}),
 	header(HEADERS.Race, EARTHEN_ALLIANCE, bubbleDownSelf({ ["timeline"] = { ADDED_11_0_2 }}, {
 		n(ACHIEVEMENTS, {
-			-- TODO: Why isn't this achievement being automated? Is it because all quests already belong to other criteria of other achievements?
 			ach(40307, {	-- Allied Races: Earthen
-				crit(66993, {	-- The War Within campaign
-					["_quests"] = {
-						83503,	-- Return to Dornogal
-					},
-				}),
-				crit(68162, {	-- Mourning Rise
-					["_quests"] = {
-						82895,	-- Mourning Rise
-					},
-				}),
-				crit(67728, {	-- Broken Tools
-					["_quests"] = {
-						78564,	-- Broken Tools
-					},
-				}),
-				crit(67055, {	-- Merrix and Steelvein
-					["_quests"] = {
-						79530,	-- Merrix and Steelvein
-					},
-				}),
 				i(223572),	-- Slatestone Ramolith (MOUNT!)
 			}),
 		}),

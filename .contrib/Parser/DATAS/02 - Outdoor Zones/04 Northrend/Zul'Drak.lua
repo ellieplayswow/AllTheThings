@@ -278,7 +278,6 @@ root(ROOTS.Zones, {
 						["coord"] = { 40.2, 66.6, ZULDRAK },
 						["maxReputation"] = { FACTION_ARGENT_CRUSADE, EXALTED },	-- Argent Crusade, Exalted.
 						-- #if NOT ANYCLASSIC
-						-- TODO: Investigate if this is necessary, we have maxReputation already for this since it's a repeatable quest.
 						["lockCriteria"] = { 1, "factionID", 1106.8 },	-- Argent Crusade, Exalted
 						-- #endif
 						["isDaily"] = true,

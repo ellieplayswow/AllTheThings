@@ -2681,9 +2681,6 @@ root(ROOTS.Zones, m(KHAZ_ALGAR, {
 				["provider"] = { "i", 238665 },	-- Crystallized Anima (QS!)
 				["isWeekly"] = true,
 			}),
-			-- Unsorted
-			-- q(86492),	-- TODO: Alex - ach(42736),	-- Ixthar's Legacy
-			-- q(90954),	-- TODO: Alex - ach(42742) Power of the Reshii / Regalia of the Reshii upgrade, should probably be automated in future?
 		}),
 	}),
 }));
