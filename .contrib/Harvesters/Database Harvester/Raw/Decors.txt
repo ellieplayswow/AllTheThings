@@ -3083,6 +3083,9 @@
 15547@@@Paw Pal Dog House Durotar Roof
 15548@@@Paw Pal Dog House Eversong Roof
 15549@@@Paw Pal Dog House Shadowglen Roof
+12.0.1.66666
+2299@@@Grand Aethercharged Crystal
+8877@@@Sumptuous Berry Pie
 12.0.5.66330
 9630@@@Open Sturdy Wooden Crate
 12169@@@Reinforced Wooden Barrel

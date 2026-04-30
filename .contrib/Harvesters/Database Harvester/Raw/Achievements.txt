@@ -17882,6 +17882,8 @@
 62659@@@[DNT] Midnight Mining Knowledge Fix
 62660@@@[DNT] Midnight Skinning Knowledge Fix
 62688@@@[DNT] Midnight Engineering Knowledge Fix
+12.0.1.66666
+62839@@@[DNT] Haranir Reputation Fix
 12.0.5.66330
 40899@@@Allied Races: Earthen (Hidden Character Achievement)
 61792@@@T-A-G that spells "Gotcha!"
