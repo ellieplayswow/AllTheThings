@@ -5798,6 +5798,7 @@ o(405388,{description="The Familiar Journal itself can be found in the Viewing R
 toy(208096,{b=1})}}),
 i(12736,{awp=100205,b=1,description="Can be found inside the chemistry lab in Scholomance, in Ras Frostwhisper's room.",providers={{"o",175965}}})}}),
 h(-63,{awp=100105,g={
+i(20520,{spellID=27869}),
 r(20035,{crs={10469},itemID=16255,requireSkill=333,skillID=2494}),
 r(20032,{crs={10499},itemID=16254,requireSkill=333,skillID=2494}),
 r(19102,{awp=11101,crs={11582},description="This pattern no longer drops. The recipe can now be trained at any leatherworking trainer.",itemID=15776,requireSkill=165,rwp=40003,skillID=2532,u=2}),
