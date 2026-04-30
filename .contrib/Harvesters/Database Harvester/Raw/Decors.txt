@@ -3446,3 +3446,26 @@
 17796@@@Spring Blossom Tranquility Garden
 18794@@@Lush Garden Stable
 19848@@@Lush Garden Rug
+12.0.7.67227
+1283@@@Left-Bound Silvermoon Drapes
+1284@@@Right-Bound Silvermoon Drapes
+1451@@@Tied-Left Leather Curtains
+2606@@@Luminous Rotshroom
+5129@@@Large Amani Tiki Mask
+16098@@@Auspicious Curio Display
+16099@@@Auspicious Inkmaster's Desk
+16100@@@Auspicious Tree of Fortune
+16101@@@Auspicious Golden Carp Lantern
+16102@@@Auspicious Imperial Lion
+16314@@@Deactivated Consortium Translocation Portal
+17750@@@Auspicious Wooden Chair
+18897@@@Banner of Five Dawns
+19011@@@[DNT] [AUTOGEN] 12PH_Leg_7SR_SteppingStone_B01.M2 - duplicate do not use
+20679@@@Bartender Bob's "No Weapons Allowed" Rack
+21060@@@Auspicious Picnic Basket
+21061@@@Auspicious Meal Case
+21857@@@Tome of Kings
+21945@@@Auspicious Verdant Basin
+21946@@@Auspicious Stone Lion
+21950@@@[DNT] [AUTOGEN] 12PH_Folk_Rug04.M2
+25307@@@Sunstrider Omnium
