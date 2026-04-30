@@ -35735,3 +35735,552 @@ s(307937)/i(272334),	--
 s(308376)/i(272959),	--
 12.0.5.66529
 s(308639)/i(273873),	-- Void-Touched Sunfury Poleaxe
+12.0.7.67227
+s(267032)/i(235606),	--
+s(284950)/i(236851),	--
+s(285194)/i(237327),	--
+s(285195)/i(237337),	--
+s(285196)/i(237337),	--
+s(285197)/i(237337),	--
+s(285198)/i(237337),	--
+s(285199)/i(237337),	--
+s(285200)/i(237337),	--
+s(285201)/i(237337),	--
+s(285202)/i(237337),	--
+s(285203)/i(237338),	--
+s(285204)/i(237338),	--
+s(285205)/i(237338),	--
+s(285206)/i(237338),	--
+s(285207)/i(237339),	--
+s(285208)/i(237339),	--
+s(285209)/i(237339),	--
+s(285210)/i(237339),	--
+s(285211)/i(237339),	--
+s(285212)/i(237339),	--
+s(285213)/i(237339),	--
+s(285214)/i(237339),	--
+s(285215)/i(237340),	--
+s(285216)/i(237340),	--
+s(285217)/i(237340),	--
+s(285218)/i(237340),	--
+s(285219)/i(237341),	--
+s(285220)/i(237341),	--
+s(285221)/i(237341),	--
+s(285222)/i(237341),	--
+s(287333)/i(238049),	--
+s(302294)/i(260906),	-- Earthwarden's Battle Pauldrons
+s(302297)/i(260909),	-- Earthwarden's Battle Helm
+s(302299)/i(260917),	-- Infinite Broodkeeper's Greatstaff
+s(302300)/i(260919),	-- Scavenger's Banner
+s(302301)/i(260920),	-- Emergency Landing Kit
+s(302302)/i(260921),	-- Khan's Ceremonial Crossbow
+s(302303)/i(260923),	-- Infinite Timeslicer
+s(302309)/i(262359),	-- Djardin Sparring Spear
+s(302310)/i(262360),	-- Storyteller's Verses
+s(302311)/i(262361),	-- Rothide Crusher
+s(302312)/i(262362),	-- Expeditioner's Spellblade
+s(302313)/i(262363),	-- Expeditioner's Mallet
+s(302314)/i(262364),	-- Drakkanid Stabber
+s(302315)/i(262365),	-- Maruuk Hunting Bow
+s(302316)/i(262366),	-- Headmaster's Emberstaff
+s(302317)/i(262367),	-- Slumbering Guardian's Bulwark
+s(302318)/i(262368),	-- Centaur Battleglaive
+s(302328)/i(262378),	-- Chronomental Grips
+s(302329)/i(262379),	-- Chronomental Halfgloves
+s(302330)/i(262380),	-- Chronomental Gauntlets
+s(302331)/i(262381),	-- Chronomental Gloves
+s(302332)/i(262382),	-- Teerai Watcher Breeches
+s(302333)/i(262383),	-- Ohn'ir Initiate Leggings
+s(302334)/i(262384),	-- Shikaar Scout Breeches
+s(302335)/i(262385),	-- Nokhud Reaver Legplates
+s(302364)/i(262439),	-- Shadowflame Mantle
+s(302365)/i(262440),	-- Shadowflame Wings
+s(302366)/i(262441),	-- Shadowflame Talons
+s(302367)/i(262444),	-- Shadowflame Binding
+s(302368)/i(262445),	-- Shadowflame Dressings
+s(302369)/i(262446),	-- Winter's Dreaming Epaulets
+s(302370)/i(262447),	-- Winter's Dreaming Tabard
+s(302371)/i(262448),	-- Winter's Dreaming Cloak
+s(302372)/i(262478),	-- Pristine Draconic Scholar's Cape
+s(302373)/i(262479),	-- Pristine Draconic Scholar's Spaulders
+s(302374)/i(262480),	-- Pristine Draconic Scholar's Tabard
+s(302376)/i(262482),	-- Razorscale Royal Pauldrons
+s(302377)/i(262485),	-- Razorscale Azure Pauldrons
+s(302378)/i(262486),	-- Razorscale Bronze Pauldrons
+s(302379)/i(262488),	-- Razorscale Green Pauldrons
+s(302380)/i(262489),	-- Razorscale Onyx Pauldrons
+s(302381)/i(262490),	-- Razorscale Silver Pauldrons
+s(302382)/i(262491),	-- Razorscale Dusk Pauldrons
+s(302383)/i(262492),	-- Razorscale Verdant Pauldrons
+s(302384)/i(262493),	-- Razorscale Mauve Pauldrons
+s(302385)/i(262494),	-- Razorscale Red Pauldrons
+s(302440)/i(262568),	-- Royal Dragonstone Shoulderguards
+s(302441)/i(262569),	-- Purple Dragonstone Shoulderguards
+s(302442)/i(262570),	-- Gleaming Dragonstone Shoulderguards
+s(302443)/i(262571),	-- Wild Dragonstone Shoulderguards
+s(302444)/i(262572),	-- Bronze Dragonstone Shoulderguards
+s(302445)/i(262573),	-- Silver Dragonstone Shoulderguards
+s(302446)/i(262574),	-- Dusk Dragonstone Shoulderguards
+s(302447)/i(262575),	-- Verdant Dragonstone Shoulderguards
+s(302448)/i(262576),	-- Mauve Dragonstone Shoulderguards
+s(302449)/i(262577),	-- Crimson Dragonstone Shoulderguards
+s(302474)/i(262720),	-- Lost Plunder Key
+s(302475)/i(262721),	-- Lost Plunder Key
+s(302476)/i(262722),	-- Lost Plunder Key
+s(302477)/i(262723),	-- Lost Plunder Key
+s(302478)/i(262725),	-- Found Plunder Key
+s(302479)/i(262726),	-- Found Plunder Key
+s(302480)/i(262727),	-- Found Plunder Key
+s(302481)/i(262728),	-- Found Plunder Key
+s(302648)/i(263262),	-- Shadowflame Vest
+s(302649)/i(263263),	-- Shadowflame Kilt
+s(304323)/i(268048),	--
+s(304521)/i(268280),	-- Sporelord's Shroom Cap
+s(304522)/i(268282),	-- Luxurious Loamstriders
+s(304523)/i(268282),	-- Luxurious Loamstriders
+s(304524)/i(268282),	-- Luxurious Loamstriders
+s(304525)/i(268282),	-- Luxurious Loamstriders
+s(304526)/i(268283),	-- Festerbloom Crown
+s(304527)/i(268283),	-- Festerbloom Crown
+s(304528)/i(268283),	-- Festerbloom Crown
+s(304529)/i(268283),	-- Festerbloom Crown
+s(304530)/i(268284),	-- Mycomancer's Rot Robes
+s(304531)/i(268284),	-- Mycomancer's Rot Robes
+s(304532)/i(268284),	-- Mycomancer's Rot Robes
+s(304533)/i(268284),	-- Mycomancer's Rot Robes
+s(304534)/i(268285),	-- Putrid Tender's Battleplate
+s(304535)/i(268285),	-- Putrid Tender's Battleplate
+s(304536)/i(268285),	-- Putrid Tender's Battleplate
+s(304537)/i(268285),	-- Putrid Tender's Battleplate
+s(304538)/i(268286),	-- Sash of the Putrid Giant
+s(304539)/i(268286),	-- Sash of the Putrid Giant
+s(304540)/i(268286),	-- Sash of the Putrid Giant
+s(304541)/i(268286),	-- Sash of the Putrid Giant
+s(304542)/i(268287),	-- Grudgefiend Stompers
+s(304543)/i(268287),	-- Grudgefiend Stompers
+s(304544)/i(268287),	-- Grudgefiend Stompers
+s(304545)/i(268287),	-- Grudgefiend Stompers
+s(304546)/i(268288),	-- Fungarian Folly Faulds
+s(304547)/i(268288),	-- Fungarian Folly Faulds
+s(304548)/i(268288),	-- Fungarian Folly Faulds
+s(304549)/i(268288),	-- Fungarian Folly Faulds
+s(304550)/i(268289),	-- Girdle of Devouring Rot
+s(304551)/i(268289),	-- Girdle of Devouring Rot
+s(304552)/i(268289),	-- Girdle of Devouring Rot
+s(304553)/i(268289),	-- Girdle of Devouring Rot
+s(304740)/i(268283),	-- Festerbloom Crown
+s(304741)/i(268283),	-- Festerbloom Crown
+s(304742)/i(268283),	-- Festerbloom Crown
+s(304743)/i(268283),	-- Festerbloom Crown
+s(304744)/i(268284),	-- Mycomancer's Rot Robes
+s(304745)/i(268284),	-- Mycomancer's Rot Robes
+s(304746)/i(268284),	-- Mycomancer's Rot Robes
+s(304747)/i(268284),	-- Mycomancer's Rot Robes
+s(304748)/i(268282),	-- Luxurious Loamstriders
+s(304749)/i(268282),	-- Luxurious Loamstriders
+s(304750)/i(268282),	-- Luxurious Loamstriders
+s(304751)/i(268282),	-- Luxurious Loamstriders
+s(304752)/i(268286),	-- Sash of the Putrid Giant
+s(304753)/i(268286),	-- Sash of the Putrid Giant
+s(304754)/i(268286),	-- Sash of the Putrid Giant
+s(304755)/i(268286),	-- Sash of the Putrid Giant
+s(304756)/i(268287),	-- Grudgefiend Stompers
+s(304757)/i(268287),	-- Grudgefiend Stompers
+s(304758)/i(268287),	-- Grudgefiend Stompers
+s(304759)/i(268287),	-- Grudgefiend Stompers
+s(304760)/i(268288),	-- Fungarian Folly Faulds
+s(304761)/i(268288),	-- Fungarian Folly Faulds
+s(304762)/i(268288),	-- Fungarian Folly Faulds
+s(304763)/i(268288),	-- Fungarian Folly Faulds
+s(304764)/i(268285),	-- Putrid Tender's Battleplate
+s(304765)/i(268285),	-- Putrid Tender's Battleplate
+s(304766)/i(268285),	-- Putrid Tender's Battleplate
+s(304767)/i(268285),	-- Putrid Tender's Battleplate
+s(304768)/i(268289),	-- Girdle of Devouring Rot
+s(304769)/i(268289),	-- Girdle of Devouring Rot
+s(304770)/i(268289),	-- Girdle of Devouring Rot
+s(304771)/i(268289),	-- Girdle of Devouring Rot
+s(304800)/i(269751),	-- Artisan Sai
+s(304801)/i(269752),	-- Nunchuck of the Artisan
+s(304802)/i(269753),	-- Artisan Katana
+s(304803)/i(269754),	-- Offhand Artisan Nunchuck
+s(304804)/i(269755),	-- Large Artisan Katana
+s(305016)/i(270242),	--
+s(305017)/i(270243),	--
+s(306359)/i(271054),	-- Sunlit Petalweave Crown
+s(306360)/i(271055),	-- Sunlit Petalweave Mantle
+s(306361)/i(271056),	-- Sunlit Petalweave Halter
+s(306362)/i(271057),	-- Sunlit Petalweave Belt
+s(306363)/i(271058),	-- Sunlit Petalweave Skirt
+s(306364)/i(271059),	-- Sunlit Petalweave Boots
+s(306365)/i(271060),	-- Sunlit Petalweave Gloves
+s(306366)/i(271061),	-- Sunlit Petalweave Cloak
+s(306367)/i(271063),	-- Scarlet Petalweave Crown
+s(306368)/i(271064),	-- Scarlet Petalweave Mantle
+s(306369)/i(271065),	-- Scarlet Petalweave Halter
+s(306370)/i(271066),	-- Scarlet Petalweave Belt
+s(306371)/i(271067),	-- Scarlet Petalweave Skirt
+s(306372)/i(271068),	-- Scarlet Petalweave Boots
+s(306373)/i(271069),	-- Scarlet Petalweave Gloves
+s(306374)/i(271070),	-- Scarlet Petalweave Cloak
+s(306375)/i(271072),	-- Blush Petalweave Crown
+s(306376)/i(271073),	-- Blush Petalweave Mantle
+s(306377)/i(271074),	-- Blush Petalweave Halter
+s(306378)/i(271075),	-- Blush Petalweave Belt
+s(306379)/i(271076),	-- Blush Petalweave Skirt
+s(306380)/i(271077),	-- Blush Petalweave Boots
+s(306381)/i(271078),	-- Blush Petalweave Gloves
+s(306382)/i(271079),	-- Blush Petalweave Cloak
+s(306383)/i(271081),	-- Azure Petalweave Crown
+s(306384)/i(271082),	-- Azure Petalweave Mantle
+s(306385)/i(271083),	-- Azure Petalweave Halter
+s(306386)/i(271084),	-- Azure Petalweave Belt
+s(306387)/i(271085),	-- Azure Petalweave Skirt
+s(306388)/i(271086),	-- Azure Petalweave Boots
+s(306389)/i(271087),	-- Azure Petalweave Gloves
+s(306390)/i(271088),	-- Azure Petalweave Cloak
+s(306616)/i(271437),	-- Righteous Lawbringer's Headgear
+s(306621)/i(271439),	-- Righteous Lawbringer's Tunic
+s(306630)/i(271442),	-- Righteous Lawbringer's Buckle
+s(306631)/i(271443),	-- Righteous Lawbringer's Trousers
+s(306640)/i(271446),	-- Righteous Lawbringer's Boots
+s(306641)/i(271447),	-- Righteous Lawbringer's Epaulets
+s(306642)/i(271448),	-- Righteous Lawbringer's Cloak
+s(306643)/i(271449),	-- Righteous Lawbringer's Gloves
+s(307580)/i(271568),	-- Bloodwatch Outlaw's Headgear
+s(307581)/i(271569),	-- Bloodwatch Outlaw's Tunic
+s(307582)/i(271570),	-- Bloodwatch Outlaw's Buckle
+s(307583)/i(271571),	-- Bloodwatch Outlaw's Trousers
+s(307584)/i(271572),	-- Bloodwatch Outlaw's Boots
+s(307585)/i(271573),	-- Bloodwatch Outlaw's Epaulets
+s(307586)/i(271574),	-- Bloodwatch Outlaw's Cloak
+s(307587)/i(271575),	-- Bloodwatch Outlaw's Gloves
+s(307588)/i(271577),	-- Duskwatch Outlaw's Headgear
+s(307589)/i(271578),	-- Duskwatch Outlaw's Tunic
+s(307590)/i(271579),	-- Duskwatch Outlaw's Buckle
+s(307591)/i(271580),	-- Duskwatch Outlaw's Trousers
+s(307592)/i(271581),	-- Duskwatch Outlaw's Boots
+s(307593)/i(271582),	-- Duskwatch Outlaw's Epaulets
+s(307594)/i(271583),	-- Duskwatch Outlaw's Cloak
+s(307595)/i(271584),	-- Duskwatch Outlaw's Gloves
+s(307596)/i(271586),	-- Badlands Lawbringer's Headgear
+s(307597)/i(271587),	-- Badlands Lawbringer's Tunic
+s(307598)/i(271588),	-- Badlands Lawbringer's Buckle
+s(307599)/i(271589),	-- Badlands Lawbringer's Trousers
+s(307600)/i(271590),	-- Badlands Lawbringer's Boots
+s(307601)/i(271591),	-- Badlands Lawbringer's Epaulets
+s(307602)/i(271592),	-- Badlands Lawbringer's Cloak
+s(307603)/i(271593),	-- Badlands Lawbringer's Gloves
+s(307604)/i(271595),	-- Midnight Outlaw's Headgear
+s(307605)/i(271596),	-- Midnight Outlaw's Tunic
+s(307606)/i(271597),	-- Midnight Outlaw's Buckle
+s(307607)/i(271598),	-- Midnight Outlaw's Trousers
+s(307608)/i(271599),	-- Midnight Badland Brigands Boots
+s(307609)/i(271600),	-- Midnight Outlaw's Epaulets
+s(307610)/i(271601),	-- Midnight Outlaw's Cloak
+s(307611)/i(271602),	-- Midnight Outlaw's Gloves
+s(307632)/i(271682),	-- Midnight Outlaw's Hat
+s(307633)/i(271683),	-- Midnight Outlaw's Bandana
+s(307634)/i(271684),	-- Badlands Lawbringer's Hat
+s(307635)/i(271685),	-- Badlands Lawbringer's Bandana
+s(307636)/i(271686),	-- Righteous Lawbringer's Hat
+s(307637)/i(271687),	-- Righteous Lawbringer's Bandana
+s(307638)/i(271688),	-- Bloodwatch Outlaw's Hat
+s(307639)/i(271689),	-- Bloodwatch Outlaw's Bandana
+s(307640)/i(271690),	-- Duskwatch Outlaw's Hat
+s(307641)/i(271691),	-- Duskwatch Outlaw's Bandana
+s(308427)/i(273126),	-- Classic Azure Eyepatch
+s(308428)/i(273132),	-- Stylish Violet Top Hat
+s(308429)/i(273133),	-- Stylish Crimson Top Hat
+s(308430)/i(273134),	-- Stylish Snowy Top Hat
+s(308432)/i(273151),	-- Slinger's Shot Pouch
+s(308578)/i(273768),	-- Slinger's Fur-Lined Quiver
+s(308624)/i(273858),	-- Badlands Lawbringer's Treads
+s(308625)/i(273859),	-- Badlands Lawbringer's Britches
+s(308626)/i(273860),	-- Badlands Lawbringer's Undercoat
+s(308627)/i(273861),	-- Bloodwatch Outlaw's Britches
+s(308628)/i(273862),	-- Bloodwatch Outlaw's Treads
+s(308629)/i(273863),	-- Bloodwatch Outlaw's Undercoat
+s(308630)/i(273864),	-- Righteous Lawbringer's Britches
+s(308631)/i(273865),	-- Righteous Lawbringer's Treads
+s(308632)/i(273866),	-- Righteous Lawbringer's Tunic
+s(308633)/i(273867),	-- Midnight Outlaw's Britches
+s(308634)/i(273868),	-- Midnight Badland Brigands Treads
+s(308635)/i(273869),	-- Midnight Outlaw's Undercoat
+s(308636)/i(273870),	-- Duskwatch Outlaw's Britches
+s(308637)/i(273871),	-- Duskwatch Outlaw's Treads
+s(308638)/i(273872),	-- Duskwatch Outlaw's Undercoat
+s(308650)/i(274050),	-- Bandit's Midnight Highboot
+s(308651)/i(274051),	-- Bandit's Azure Highboot
+s(308652)/i(274052),	-- Bandit's Sepia Highboot
+s(308653)/i(274053),	-- Bandit's Grassy Highboot
+s(308654)/i(274054),	-- Bandit's Cloudy Highboot
+s(308655)/i(274055),	-- Bandit's Deep Highboot
+s(308656)/i(274056),	-- Bandit's Camo Highboot
+s(308657)/i(274057),	-- Bandit's Brick Highboot
+s(308658)/i(274058),	-- Bandit's Lively Highboot
+s(308659)/i(274059),	-- Bandit's Faded Highboot
+s(308660)/i(274060),	-- Bandit's Carrot Highboot
+s(308661)/i(274061),	-- Bandit's Rosy Highboot
+s(308662)/i(274062),	-- Bandit's Plum Highboot
+s(308663)/i(274063),	-- Bandit's Crimson Highboot
+s(308664)/i(274064),	-- Bandit's Violet Highboot
+s(308665)/i(274065),	-- Bandit's Aquatic Highboot
+s(308666)/i(274066),	-- Bandit's Snowy Highboot
+s(308667)/i(274067),	-- Bandit's Sunny Highboot
+s(308668)/i(274072),	-- Azure Extravaganza Rocketstaff
+s(308669)/i(274073),	-- Lively Extravaganza Rocketstaff
+s(308670)/i(274074),	-- Suntouched Extravaganza Rocketstaff
+s(308671)/i(274075),	-- Rosy Extravaganza Rocketstaff
+s(308672)/i(274079),	-- Azure Extravaganza Rocketmace
+s(308673)/i(274080),	-- Lively Extravaganza Rocketmace
+s(308674)/i(274081),	-- Suntouched Extravaganza Rocketmace
+s(308675)/i(274082),	-- Rosy Extravaganza Rocketmace
+s(308677)/i(274085),	-- Azure Extravaganza Sparkwheel
+s(308678)/i(274086),	-- Lively Extravaganza Sparkwheel
+s(308679)/i(274087),	-- Suntouched Extravaganza Sparkwheel
+s(308680)/i(274088),	-- Rosy Extravaganza Sparkwheel
+s(308778)/i(274269),	--
+s(308781)/i(274285),	--
+s(308862)/i(274397),	--
+s(308863)/i(274403),	-- Badlands Lawbringer's Brand
+s(308864)/i(274404),	-- Righteous Lawbringer's Brand
+s(308865)/i(274405),	-- Duskwatch Outlaw's Brand
+s(308866)/i(274406),	-- Bloodwatch Outlaw's Brand
+s(308878)/i(274433),	-- Badlands Lawbringer's Knife
+s(308879)/i(274434),	-- Righteous Lawbringer's Knife
+s(308880)/i(274435),	-- Duskwatch Outlaw's Knife
+s(308881)/i(274436),	-- Bloodwatch Outlaw's Knife
+s(308893)/i(274482),	--
+s(308902)/i(274542),	-- Bloodwatch Outlaw's Hand Cannon
+s(308922)/i(274619),	-- Gunslinger's Midnight Lid
+s(308923)/i(274621),	-- Gunslinger's Azure Lid
+s(308924)/i(274622),	-- Gunslinger's Sepia Lid
+s(308925)/i(274623),	-- Gunslinger's Grassy Lid
+s(308926)/i(274624),	-- Gunslinger's Cloudy Lid
+s(308927)/i(274625),	-- Gunslinger's Deep Lid
+s(308928)/i(274626),	-- Gunslinger's Camo Lid
+s(308929)/i(274627),	-- Gunslinger's Brick Lid
+s(308930)/i(274628),	-- Gunslinger's Lively Lid
+s(308931)/i(274629),	-- Gunslinger's Faded Lid
+s(308932)/i(274630),	-- Gunslinger's Carrot Lid
+s(308933)/i(274631),	-- Gunslinger's Rosy Lid
+s(308934)/i(274632),	-- Gunslinger's Plum Lid
+s(308935)/i(274633),	-- Gunslinger's Crimson Lid
+s(308936)/i(274634),	-- Gunslinger's Violet Lid
+s(308937)/i(274635),	-- Gunslinger's Aquatic Lid
+s(308938)/i(274636),	-- Gunslinger's Snowy Lid
+s(308939)/i(274637),	-- Gunslinger's Sunny Lid
+s(308956)/i(274715),	-- Duskwatch Outlaw's Hand Cannon
+s(308957)/i(274716),	-- Righteous Lawbringer's Hand Cannon
+s(308958)/i(274717),	-- Badlands Lawbringer's Hand Cannon
+s(308963)/i(274722),	--
+s(308964)/i(274723),	--
+s(309002)/i(274818),	-- Drape of Intense Darkness
+s(309003)/i(274819),	-- Fungle Fold Frock
+s(309004)/i(274820),	-- Cloak of the Voracious Gorger
+s(309005)/i(274821),	-- Drape of the Hal'hadar Assassin
+s(309006)/i(274828),	-- Domanaar Subjugator's Vestments
+s(309007)/i(274829),	-- Creature Corruptor Slippers
+s(309008)/i(274830),	-- Ice-Glazed Gloves
+s(309009)/i(274831),	-- Portal Shaper's Circlet
+s(309010)/i(274832),	-- Fel-Tainted Trousers
+s(309011)/i(274833),	-- Icy Spidersilk Mantle
+s(309012)/i(274834),	-- Cord of Domineering Resolve
+s(309013)/i(274835),	-- Bands of Pincher Sinew
+s(309014)/i(274836),	-- Sleet-Resistant Jerkin
+s(309015)/i(274837),	-- Corrupted Hide Boots
+s(309016)/i(274838),	-- Gloves of the Descending Destroyer
+s(309017)/i(274839),	-- Cold-World Cover
+s(309018)/i(274840),	-- Pants of the Lost Legion
+s(309019)/i(274841),	-- Frigid Cavedweller's Shoulderpads
+s(309020)/i(274842),	-- Gatekeeper's Leather Waistguard
+s(309021)/i(274843),	-- Pincher-Proof Wristguards
+s(309022)/i(274844),	-- Sleetlink Hauberk
+s(309023)/i(274845),	-- Greaves of Corrupted Scale
+s(309024)/i(274846),	-- Glacier Basin Gauntlets
+s(309025)/i(274847),	-- Atomus' Headcover
+s(309026)/i(274848),	-- Leggaurds of Fel-Corruption
+s(309027)/i(274849),	-- Frostscale Spider's Monnion
+s(309028)/i(274850),	-- Mercilus' Chain Waistguard
+s(309029)/i(274851),	-- Glittering Frostscale Wraps
+s(309030)/i(274852),	-- Sleetstone Chestplate
+s(309031)/i(274853),	-- Creature Crushers
+s(309032)/i(274854),	-- Shadowguard Plate Gauntlets
+s(309033)/i(274855),	-- Portal-Keeper's Helm
+s(309034)/i(274856),	-- Felguard's Frozen Greaves
+s(309035)/i(274857),	-- Chitonous Broodmother's Spaulders
+s(309036)/i(274858),	-- Domanaar Battle Belt
+s(309037)/i(274859),	-- Klaxid Plate Vambraces
+s(309038)/i(274860),	-- Ancient Spore-Coated Axe
+s(309039)/i(274861),	-- Frosty Broodmother's Fang
+s(309040)/i(274862),	-- Corrupted Draenei Priest's Kris
+s(309041)/i(274863),	-- Cudgel of the Twisted Reaper
+s(309042)/i(274864),	-- Sporebloom Gavel
+s(309043)/i(274865),	-- Destroyer's Drop Hammer
+s(309044)/i(274866),	-- Voidwarped Edge
+s(309045)/i(274867),	-- Inscribed Domanaar's Sword
+s(309046)/i(274868),	-- Portal Master's Shortblade
+s(309047)/i(274869),	-- Void-Iced Warglaives
+s(309048)/i(274870),	-- Assassin's Void-String Bow
+s(309049)/i(274871),	-- Giant Worm Piercer
+s(309050)/i(274872),	-- Darkness's Horrific Barb
+s(309051)/i(274873),	-- Funeral Attendant's Spire
+s(309052)/i(274874),	-- Flickering Wing Seperator
+s(309053)/i(274875),	-- Rift Walker's Lantern
+s(309054)/i(274876),	-- Reinforced Fungalhide Bulwark
+s(309055)/i(274877),	-- Phaseblade Headsplitter
+s(309056)/i(274878),	-- Hal'hadar Shadowripper's Blade
+s(309057)/i(274879),	-- Mana-Amplified Crusher
+s(309058)/i(274880),	-- Hal'hadar Adjutant's Gavel
+s(309059)/i(274881),	-- Phase Igniter
+s(309060)/i(274882),	-- Hal'hadar Pulse Rifle
+s(309061)/i(274883),	-- Hal'hadar Warpguard's Poleaxe
+s(309062)/i(274884),	-- Arcanografter's Beacon
+s(309063)/i(274885),	-- Phase-Edged Falchion
+s(309064)/i(274886),	-- Eradicator's Censer
+s(309065)/i(274887),	-- Mana-Overloaded Bulwark
+s(309066)/i(274888),	-- Hal'hadar Legion Glaives
+s(309067)/i(274889),	-- Hal'hadar Darkblade's Edge
+s(309117)/i(275034),	--
+s(309118)/i(275035),	--
+s(309134)/i(275136),	-- Leaf-Woven Blouse
+s(309135)/i(275137),	-- Flickering Soft-Steppers
+s(309136)/i(275138),	-- Spore-Handler's Handwraps
+s(309137)/i(275139),	-- Crown of Fungal Spores
+s(309138)/i(275140),	-- Leggings of Tainted Stuffing
+s(309139)/i(275141),	-- Spore-Speckled Shoulderpads
+s(309140)/i(275142),	-- Voidwarped Sash
+s(309141)/i(275143),	-- Draeni Ceremonial Cuffs
+s(309142)/i(275144),	-- Leafy-Hide Coat
+s(309143)/i(275145),	-- Swalewing Skin Footpads
+s(309144)/i(275146),	-- Spore-Membrane Gloves
+s(309145)/i(275147),	-- Bioluminescent Swamp Mask
+s(309146)/i(275148),	-- Reaver's Padded Trousers
+s(309147)/i(275149),	-- Fungal Draped Epaulets
+s(309148)/i(275150),	-- Sporebat Leather Belt
+s(309149)/i(275151),	-- Bands of Draenic Mourning
+s(309150)/i(275152),	-- Burrower's Linked Hauberk
+s(309151)/i(275153),	-- Flickering Scale Sabatons
+s(309152)/i(275154),	-- Swamp Trekker's Grips
+s(309153)/i(275155),	-- Interminable Fungal Helmet
+s(309154)/i(275156),	-- Gear-Linked Leggings
+s(309155)/i(275157),	-- Swampwalker's Spaulders
+s(309156)/i(275158),	-- Voidwarped Scale Girdle
+s(309157)/i(275159),	-- Construct Manipulator Bracers
+s(309158)/i(275160),	-- Slaipaan's Carapace
+s(309159)/i(275161),	-- Swamp-Resistant Stompers
+s(309160)/i(275162),	-- Spore-Shined Gloves
+s(309161)/i(275163),	-- Uarn's Reinforced Headplate
+s(309162)/i(275164),	-- Indomitable Mechanized Legplates
+s(309163)/i(275165),	-- Petrified Mushroom Shoulderplates
+s(309164)/i(275166),	-- Voidwarped Greatbelt
+s(309165)/i(275167),	-- Intact Construct Plates
+s(309166)/i(275168),	-- Response Team's Cape
+s(309167)/i(275169),	-- Response Team's Cloak
+s(309168)/i(275170),	-- Response Team's Shawl
+s(309169)/i(275171),	-- Response Team's Drape
+s(309170)/i(275172),	-- Response Team's Vestments
+s(309171)/i(275173),	-- Response Team's Slippers
+s(309172)/i(275174),	-- Response Team's Gloves
+s(309173)/i(275175),	-- Response Team's Crown
+s(309174)/i(275176),	-- Response Team's Tights
+s(309175)/i(275177),	-- Response Team's Spires
+s(309176)/i(275178),	-- Response Team's Cord
+s(309177)/i(275179),	-- Response Team's Cuffs
+s(309178)/i(275180),	-- Response Team's Jerkin
+s(309179)/i(275181),	-- Response Team's Boots
+s(309180)/i(275182),	-- Response Team's Handguards
+s(309181)/i(275183),	-- Response Team's Mask
+s(309182)/i(275184),	-- Response Team's Trousers
+s(309183)/i(275185),	-- Response Team's Shoulderpads
+s(309184)/i(275186),	-- Response Team's Belt
+s(309185)/i(275187),	-- Response Team's Bindings
+s(309186)/i(275188),	-- Response Team's Hauberk
+s(309187)/i(275189),	-- Response Team's Sabatons
+s(309188)/i(275190),	-- Response Team's Grips
+s(309189)/i(275191),	-- Response Team's Helmet
+s(309190)/i(275192),	-- Response Team's Legguards
+s(309191)/i(275193),	-- Response Team's Shoulderguards
+s(309192)/i(275194),	-- Response Team's Clasp
+s(309193)/i(275195),	-- Response Team's Bands
+s(309194)/i(275196),	-- Response Team's Chestplate
+s(309195)/i(275197),	-- Response Team's Greatboots
+s(309196)/i(275198),	-- Response Team's Gauntlets
+s(309197)/i(275199),	-- Response Team's Helm
+s(309198)/i(275200),	-- Response Team's Legplates
+s(309199)/i(275201),	-- Response Team's Pauldrons
+s(309200)/i(275202),	-- Response Team's Girdle
+s(309201)/i(275203),	-- Response Team's Vambraces
+s(309202)/i(275204),	-- Response Team's Hatchet
+s(309203)/i(275205),	-- Response Team's Kukri
+s(309204)/i(275206),	-- Response Team's Hammer
+s(309205)/i(275207),	-- Response Team's Longsword
+s(309206)/i(275208),	-- Response Team's Warglaive
+s(309207)/i(275209),	-- Response Team's Longbow
+s(309208)/i(275210),	-- Response Team's Spear
+s(309209)/i(275211),	-- Response Team's Spire
+s(309210)/i(275212),	-- Response Team's Falchion
+s(309211)/i(275213),	-- Response Team's Lantern
+s(309212)/i(275214),	-- Response Team's Tower Shield
+s(309213)/i(275216),	-- Phaseblade's Edges
+s(309214)/i(275217),	-- Nexus-Captain's Phaseblade
+s(309215)/i(275218),	-- Mertei's Command Baton
+s(309216)/i(275219),	-- Pertinax's Beast Prod
+s(309217)/i(275220),	-- Imperator's Voidedged Cutlass
+s(309218)/i(275221),	-- Beast Collector's Cudgel
+s(309219)/i(275222),	-- Base Commander's Decapitator
+s(309220)/i(275223),	-- Phasebolt Thrower
+s(309221)/i(275224),	-- Mertei's Adjutant Leggings
+s(309222)/i(275224),	-- Mertei's Adjutant Leggings
+s(309223)/i(275224),	-- Mertei's Adjutant Leggings
+s(309224)/i(275224),	-- Mertei's Adjutant Leggings
+s(309225)/i(275224),	-- Mertei's Adjutant Leggings
+s(309226)/i(275224),	-- Mertei's Adjutant Leggings
+s(309227)/i(275224),	-- Mertei's Adjutant Leggings
+s(309228)/i(275224),	-- Mertei's Adjutant Leggings
+s(309229)/i(275225),	-- Toxic Voidscythe Spaulders
+s(309230)/i(275225),	-- Toxic Voidscythe Spaulders
+s(309231)/i(275225),	-- Toxic Voidscythe Spaulders
+s(309232)/i(275225),	-- Toxic Voidscythe Spaulders
+s(309233)/i(275225),	-- Toxic Voidscythe Spaulders
+s(309234)/i(275225),	-- Toxic Voidscythe Spaulders
+s(309235)/i(275225),	-- Toxic Voidscythe Spaulders
+s(309236)/i(275225),	-- Toxic Voidscythe Spaulders
+s(309237)/i(275226),	-- Shredclaw Handler's Grips
+s(309238)/i(275226),	-- Shredclaw Handler's Grips
+s(309239)/i(275226),	-- Shredclaw Handler's Grips
+s(309240)/i(275226),	-- Shredclaw Handler's Grips
+s(309241)/i(275226),	-- Shredclaw Handler's Grips
+s(309242)/i(275226),	-- Shredclaw Handler's Grips
+s(309243)/i(275226),	-- Shredclaw Handler's Grips
+s(309244)/i(275226),	-- Shredclaw Handler's Grips
+s(309245)/i(275227),	-- Leth'ir's Dress Sabatons
+s(309246)/i(275227),	-- Leth'ir's Dress Sabatons
+s(309247)/i(275227),	-- Leth'ir's Dress Sabatons
+s(309248)/i(275227),	-- Leth'ir's Dress Sabatons
+s(309249)/i(275227),	-- Leth'ir's Dress Sabatons
+s(309250)/i(275227),	-- Leth'ir's Dress Sabatons
+s(309251)/i(275227),	-- Leth'ir's Dress Sabatons
+s(309252)/i(275227),	-- Leth'ir's Dress Sabatons
+s(309311)/i(275457),	-- Sun Festival's Totemic Edge
+s(309312)/i(275458),	-- Sun Festival's Totemic Greataxe
+s(309313)/i(275459),	-- Sun Festival's Torchblade
+s(309314)/i(275460),	-- Sun Festival's Flamebrand
+s(309315)/i(275462),	-- Sun Festival's Painted Beacon
+s(309316)/i(275463),	-- Sun Festival's Painted Totem
+s(309317)/i(275465),	-- Sun Festival's Painted Tunic
+s(309318)/i(275466),	-- Sun Festival's Painted Mask
+s(309319)/i(275467),	-- Sun Festival's Painted Wings
+s(309320)/i(275468),	-- Sun Festival's Painted Mantle
+s(309321)/i(275469),	-- Sun Festival's Painted Girdle
+s(309322)/i(275470),	-- Sun Festival's Painted Sash
+s(309323)/i(275471),	-- Sun Festival's Painted Leggings
+s(309324)/i(275472),	-- Sun Festival's Painted Greaves
+s(309325)/i(275473),	-- Sun Festival's Painted Striders
+s(309326)/i(275474),	-- Sun Festival's Painted Gauntlets
+s(309327)/i(275475),	-- Sun Festival's Painted Wrap
+s(309328)/i(275476),	-- Sun Festival's Painted Hauberk
+s(309457)/i(275661),	--
+s(309497)/i(275826),	--
+s(309522)/i(275999),	-- Flowering Mantle

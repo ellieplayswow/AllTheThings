@@ -33,8 +33,8 @@ decor(1176),	-- Circular Silvermoon Table
 decor(1190),	-- Sin'dorei Display Case
 decor(1264),	-- Rust-Plated Storage Crate
 decor(1279),	-- [DNT] Spring-Powered Pointer - DO NOT USE - new asset coming
-decor(1283),	-- Open Silvermoon Drapes
-decor(1284),	-- Small Silvermoon Drapes
+decor(1283),	-- Left-Bound Silvermoon Drapes \\ Open Silvermoon Drapes
+decor(1284),	-- Right-Bound Silvermoon Drapes \\ Small Silvermoon Drapes
 decor(1288),	-- [DNT] Tauren Hanging Brazier - DO NOT USE - new asset
 decor(1319),	-- Durotar Signal Brazier
 decor(1320),	-- Durotar Hanging Brazier
@@ -323,7 +323,6 @@ decor(2601),	-- [DNT] [AUTOGEN] 12FN_Fungarian_Decor_Bowl02.m2
 decor(2602),	-- [DNT] [AUTOGEN] 12FN_Fungarian_Defense_Spear01.m2
 decor(2603),	-- [DNT] [AUTOGEN] 12FN_Fungarian_Defense_Shield01.m2
 decor(2604),	-- [DNT] [AUTOGEN] 12FN_Fungarian_Defense_BlowGun01.m2
-decor(2606),	-- [DNT] [AUTOGEN] 12FN_Fungarian_Lighting_Brazier01.m2
 decor(2607),	-- [DNT] [AUTOGEN] 12FN_Fungarian_Lighting_Brazier01_Unlit.m2
 decor(3908),	-- Zangarmarsh Lamppost
 decor(3909),	-- Small Zangarshroom Patch
@@ -343,7 +342,6 @@ decor(4013),	-- [DNT] [AUTOGEN] 12BE_BloodElf_Decor_Pillow01_Destroyed.m2
 decor(4014),	-- [DNT] [AUTOGEN] 12BE_BloodElf_Furniture_BeanBag01_Destroyed.m2
 decor(4426),	-- [DNT] Stack of Kafa Mugs
 decor(4430),	-- [DNT] [AUTOGEN] 12BE_BloodElf_Structure_Statue02.m2
-decor(5129),	-- [DNT] [AUTOGEN] 12TR_Amani_Decor_TikiMask01.m2 (FG) \\ [DNT] [AUTOGEN] 12TR_Amani_Decor_TikiMask01.m2
 decor(5130),	-- [DNT] [AUTOGEN] 12TR_Amani_Decor_TikiMask02.m2
 decor(5131),	-- [DNT] [AUTOGEN] 12TR_Amani_Decor_TikiMask03.m2
 decor(5648),	-- [DNT] [AUTOGEN] 12TR_Amani_Storage_Bag01.m2
@@ -575,10 +573,9 @@ decor(18802),	-- [DNT] [AUTOGEN] 12AL_ArmyofLight_Defense_WeaponRack02.m2
 12.0.0.64741
 decor(18825),	-- [DNT] [AUTOGEN] 12AL_ArmyofLight_Defense_Spear01.m2
 decor(18826),	-- [DNT] [AUTOGEN] 12PH_Leg_6HU_Barracks_WoodBenchSmall.M2
-decor(18897),	-- [DNT] [AUTOGEN] 12PH_Monk_Banner_Standing01.M2
 decor(18898),	-- [DNT] [AUTOGEN] 12PH_Leg_7NB_Nightborn_Bookshelf01_filled.M2
 decor(18959),	-- [DNT] [AUTOGEN] 12PH_Leg_7NB_Nightborn_Fountain02.M2
-decor(19011),	-- [DNT] [AUTOGEN] 12PH_Leg_7SR_SteppingStone_B01.M2
+decor(19011),	-- [DNT] [AUTOGEN] 12PH_Leg_7SR_SteppingStone_B01.M2 - duplicate do not use \\ [DNT] [AUTOGEN] 12PH_Leg_7SR_SteppingStone_B01.M2
 decor(19200),	-- [DNT] [AUTOGEN] 12BE_BloodElf_Navigation_SecretDoor03.M2
 12.0.0.64975
 decor(20172),	-- [DNT] [AUTOGEN] 12PH_Shop_Spring_CherryBlossom_HangingLight01.m2
@@ -594,14 +591,7 @@ decor(15291),	-- [DNT] [AUTOGEN] 12PH_Folk_Sconce01.M2
 decor(15292),	-- [DNT] [AUTOGEN] 12PH_Folk_Window_Interior01.M2
 decor(15600),	-- [DNT] [AUTOGEN] 12PH_Folk_Sofa_Medium01.m2
 decor(15601),	-- [DNT] [AUTOGEN] 12PH_Folk_TableLight02.M2
-decor(16039),	-- Lush Garden Window
-decor(16098),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_CurioShelf01.M2
-decor(16099),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_SideTable01.M2
-decor(16100),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_MoneyTree01.M2
-decor(16101),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_Lantern01.M2
-decor(16102),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_StoneLion01.M2
 decor(16755),	-- [DNT] [AUTOGEN] 12PH_Folk_WaterWell01.M2
-decor(17750),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_HatChair01.M2
 decor(17751),	-- [DNT] [AUTOGEN] 12PH_Opulent_Barrel02.M2
 decor(17752),	-- [DNT] [AUTOGEN] 12PH_Opulent_Barrel02_Open.M2
 decor(17753),	-- [DNT] [AUTOGEN] 12PH_Opulent_Bench_Long01.M2
@@ -685,7 +675,6 @@ decor(20675),	-- [DNT] [AUTOGEN] 12DUR_Durotar_Main_Plant_FlowerAster_A03.m2
 decor(20676),	-- [DNT] [AUTOGEN] 12DUR_Durotar_Main_Plant_DesertBrushLush_A01.m2
 decor(20677),	-- [DNT] [AUTOGEN] 12DUR_Durotar_Main_Plant_DesertBrushLush_B02.m2
 decor(20678),	-- [DNT] [AUTOGEN] 12DUR_Durotar_Main_Plant_DesertBrushLush_C01.m2
-decor(20679),	-- [DNT] [AUTOGEN] 12PH_Folk_WeaponRack_Wall01.M2
 decor(20692),	-- [DNT] [AUTOGEN] 12DUR_Durotar_Main_Plant_AloeBush_A01.m2
 decor(20693),	-- [DNT] [AUTOGEN] 12DUR_Durotar_Main_Plant_AloeBush_A02.m2
 decor(20694),	-- [DNT] [AUTOGEN] 12DUR_Durotar_Main_Plant_AloeBush_B01.m2
@@ -819,8 +808,6 @@ decor(20921),	-- [DNT] [AUTOGEN] 12DUR_Durotar_Oasis_Plant_IvyBush_B02.m2
 decor(20922),	-- [DNT] [AUTOGEN] 12DUR_Durotar_Oasis_Plant_IvyBush_C01.m2
 decor(20923),	-- [DNT] [AUTOGEN] 12DUR_Durotar_Oasis_Plant_IvyBush_C02.m2
 decor(20924),	-- [DNT] [AUTOGEN] 12DUR_Durotar_Oasis_Plant_IvyBush_D01.m2
-decor(21060),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_Basket02.M2
-decor(21061),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_Basket01.M2
 decor(21081),	-- [DNT] [AUTOGEN] ULDUM_CROPS_SUGARCANE01.M2
 decor(21082),	-- [DNT] [AUTOGEN] ULDUM_CROPS_SUGARCANE06.M2
 decor(21083),	-- [DNT] [AUTOGEN] ULDUM_CROPS_SUGARCANEROW03.M2
@@ -875,21 +862,9 @@ decor(21941),	-- [DNT] [AUTOGEN] 10XP_Generic_Decor_HeadMounted_Elk02.m2
 decor(21942),	-- [DNT] [AUTOGEN] 10XP_Generic_Decor_HeadMountFrame01.m2
 decor(21943),	-- [DNT] [AUTOGEN] 10XP_Generic_Decor_HeadMountFrame02.m2
 decor(21944),	-- [DNT] [AUTOGEN] 10XP_Generic_Decor_HeadMounted_Tiger01.m2
-decor(21945),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_Gourd01.M2
-decor(21946),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_StoneLion02.M2
 decor(21947),	-- [DNT] [AUTOGEN] 12PH_Shop_VenthyrDecor_Organ01.M2
 decor(21948),	-- [DNT] [AUTOGEN] 12PH_Shop_VenthyrDecor_Throne01.M2
-12.0.5.67114
-decor(16974),	-- Spring Blossom Stepping Stone
-decor(16975),	-- Spring Blossom Privacy Screen
-decor(16976),	-- Spring Blossom Stepping Stone Duo
-decor(16977),	-- Spring Blossom Stepping Stone Trio
-decor(16978),	-- Spring Blossom Stepping Stone Collection
-decor(17747),	-- Spring Blossom Tea Set
-decor(17748),	-- Spring Blossom Table
-decor(17792),	-- Lush Garden Hedge
-decor(17794),	-- Lush Garden Fungal Picnic
-decor(17795),	-- Spring Blossom Lantern
-decor(17796),	-- Spring Blossom Tranquility Garden
-decor(18794),	-- Lush Garden Stable
-decor(19848),	-- Lush Garden Rug
+12.0.7.67227
+decor(21857),	-- Tome of Kings
+decor(21950),	-- [DNT] [AUTOGEN] 12PH_Folk_Rug04.M2
+decor(25307),	-- Sunstrider Omnium

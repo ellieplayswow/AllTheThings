@@ -1331,6 +1331,13 @@ i(268455),	-- Enchanted Hourglass
 i(268456),	-- Animated Bench
 i(272287),	-- Nap Mat
 i(272339),	-- Umbral Champion's Illustrious Banner
+12.0.7.67227
+i(259335),	-- Photo Finisher
+i(259899),	-- Ashen Horn of the Fallen Keeper
+i(260170),	-- Oathstone Fragment
+i(264313),	-- Madcap Redcap
+i(264367),	-- Mycomancer's Hearthspore
+i(264368),	--
 
 
 
@@ -1343,3 +1350,10 @@ i(30448),	-- n of Al'ar \\ Embers of Al'ar \\ Talon of Al'ar
 i(46779),	-- of Cenarius \\ Path of Cenarius
 5.5.3.64308
 i(45047),	-- box Tiger \\ Sandbox Tiger
+12.0.7.67227
+i(259335),	-- Photo Finisher
+i(259899),	-- Ashen Horn of the Fallen Keeper
+i(260170),	-- Oathstone Fragment
+i(264313),	-- Madcap Redcap
+i(264367),	-- Mycomancer's Hearthspore
+i(264368),	--

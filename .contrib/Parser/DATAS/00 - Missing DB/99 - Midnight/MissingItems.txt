@@ -23696,16 +23696,6 @@ i(249005),	-- Rhonin's Focus
 12.0.5.66529
 i(262799),	-- Weak Glimmerline
 i(262800),	-- Angler's Glimmerline
-i(264721),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_CurioShelf01.M2
-i(264722),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_SideTable01.M2
-i(264723),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_MoneyTree01.M2
-i(264724),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_Lantern01.M2
-i(264725),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_StoneLion01.M2
-i(266071),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_HatChair01.M2
-i(269604),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_Basket02.M2
-i(269605),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_Basket01.M2
-i(272353),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_Gourd01.M2
-i(272354),	-- [DNT] [AUTOGEN] 12PH_Shop_LunarNewYear_StoneLion02.M2
 i(273873),	-- Void-Touched Sunfury Poleaxe
 12.0.5.66741
 i(274427),	-- Sha Loot Box

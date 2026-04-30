@@ -67,3 +67,5 @@ title(766),	-- %s, Mrglgrgl of Grglmrgl
 title(772),	-- Void Breacher %s
 12.0.5.67165
 title(773),	-- %s the Umbral Contender
+12.0.7.67227
+title(771),	-- Ritual Breaker %s
