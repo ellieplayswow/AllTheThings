@@ -12,7 +12,7 @@ root(ROOTS.Unsorted, {
 			i(245338),	-- Evercore Stitchwraps
 			i(246015),	-- Classic Midnight Eyepatch
 			i(246016),	-- Classic Snowy Eyepatch
-			i(247235),	-- Luminous Rotshroom
+			
 			i(248961),	-- Large Amani Tiki Mask
 			i(249755),	-- Void-Touched Winter Hood
 			i(249756),	-- Void-Touched Winter Pauldrons
@@ -121,8 +121,8 @@ root(ROOTS.Unsorted, {
 			i(262918),	-- Lost Iridescent Flightstone
 			i(263262),	-- Shadowflame Vest
 			i(263263),	-- Shadowflame Kilt
-			i(264313),	-- Madcap Redcap
-			i(264367),	-- Mycomancer's Hearthspore
+			
+			
 			i(264721),	-- Auspicious Curio Display
 			i(264722),	-- Auspicious Inkmaster's Desk
 			i(264723),	-- Auspicious Tree of Fortune
@@ -132,18 +132,8 @@ root(ROOTS.Unsorted, {
 			i(266081),	-- Quel'Danil Quiver
 			i(267075),	-- Ornate Elven Stove
 			i(267372),	-- Banner of Five Dawns
-			i(268280),	-- Sporelord's Shroom Cap
-			i(268282),	-- Luxurious Loamstriders
-			i(268283),	-- Festerbloom Crown
-			i(268284),	-- Mycomancer's Rot Robes
-			i(268285),	-- Putrid Tender's Battleplate
-			i(268286),	-- Sash of the Putrid Giant
-			i(268287),	-- Grudgefiend Stompers
-			i(268288),	-- Fungarian Folly Faulds
-			i(268289),	-- Girdle of Devouring Rot
-			i(268290),	-- Sporecaller's Blooming Loop
-			i(268291),	-- Rotmire's Sporeheart
-			i(268292),	-- Sporelord's Mycelial Insignia
+
+			
 			i(268557),	-- Kinduwu
 			i(269240),	-- Luminous Sporeglider
 			i(269245),	-- Delicious Sporesnack
