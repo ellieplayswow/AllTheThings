@@ -2389,7 +2389,9 @@ i(257200, 1261351);	-- Witherbark Pango
 ------------------
 -- PATCH 12.0.5 --
 ------------------
+i(268474, 1282453);	-- Amberback Arboon
 i(275442, 1296734);	-- Amethyst Mechsuit
+i(268472, 1282450);	-- Blossomback Arboon
 i(275444, 1296756);	-- Blue-Chip Shreddertank
 i(268481, 1282471);	-- Breaker Bee
 i(275440, 1296731);	-- Cerulean Deathwalker
@@ -2406,8 +2408,6 @@ i(269828, 1286606);	-- Void-Corrupted Eagle Talon
 --- Unsorted ---
 i(268878, 1283906);	-- [PH] Giant Eagle Sunwalker Mount Blue
 i(268875, 1283911);	-- [PH] Giant Eagle Sunwalker Mount White
-i(268474, 1282453);	-- Amberback Arboon
-i(268472, 1282450);	-- Blossomback Arboon
 i(268877, 1283908);	-- Dusk-Painted Sun Roc
 i(268876, 1283910);	-- Flame-Painted Sun Roc
 i(268362, 1282274);	-- Gilnean Copper Charger

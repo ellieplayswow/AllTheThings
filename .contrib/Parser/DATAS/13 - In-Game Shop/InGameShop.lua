@@ -734,6 +734,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_5_5_1 },
 		}),
 		-- #endif
+		i(268474, {	-- Amberback Arboon (MOUNT!)
+			["timeline"] = { ADDED_12_0_5 },
+		}),
 		i(238994, {	-- Archmage's Great Raven (MOUNT!)
 			["timeline"] = { ADDED_11_1_5 },
 		}),
@@ -749,6 +752,9 @@ root(ROOTS.InGameShop, bubbleDown({ ["u"] = REAL_MONEY }, {
 			["timeline"] = { ADDED_10_2_0 },
 		}),
 		-- #endif
+		i(268472, {	-- Blossomback Arboon (MOUNT!)
+			["timeline"] = { ADDED_12_0_5 },
+		}),
 		i(219450, {	-- Charming Courier (MOUNT!)
 			["timeline"] = { ADDED_10_2_6_SEASON_FOUR },
 		}),

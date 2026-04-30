@@ -182,9 +182,7 @@ root(ROOTS.Unsorted, {
 			i(268469),	-- Nebulous Voidcache: Seat of the Triumvirate
 			i(268470),	-- Nebulous Voidcache: Skyreach
 			i(268471),	-- Nebulous Voidcache: Windrunner Spire
-			i(268472),	-- Blossomback Arboon
 			i(268473),	-- Nebulous Voidcache: Maisara Caverns
-			i(268474),	-- Amberback Arboon
 			i(268491),	-- Ambermill Rebel Bonecracker
 			i(268493),	-- Emberstone Loyalist Bonecracker
 			i(268495),	-- Ambermill Rebel Knuckleblades
