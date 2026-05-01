@@ -916,8 +916,13 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, bubbleDownSelf({ ["timeline"] = { A
 		}),
 		header(HEADERS.Achievement, 62413, bubbleDownSelf({ ["timeline"] = { ADDED_12_0_7 } }, {	-- The Curse of Ula'tek
 			header(HEADERS.AchCriteria, 62413.01, {	-- Legacy of the Amani
-				q(92895, {	-- Hagar's Invitation
+				q(92897, {	-- The Preparations Are Complete
+					["description"] = "You can get this Breadcrumb Quest from your Adventure Journal.",
 					["sourceQuest"] = 90867,	-- From Darkness, Light (Exo Note: This should be correct as the story picks up after the main campaign)
+					["isBreadcrumb"] = true,
+				}),
+				q(92895, {	-- Hagar's Invitation
+					["sourceQuest"] = 92897,	-- The Preparations Are Complete
 					["qg"] = 253640,	-- Orweyna
 					["coord"] = { 45.3, 70.5, MAP.MIDNIGHT.SILVERMOON_CITY },
 				}),
