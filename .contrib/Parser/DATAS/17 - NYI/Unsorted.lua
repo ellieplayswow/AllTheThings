@@ -431,7 +431,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(MISC, {
 				i(275228),	-- Nebulous Voidcache: Rotmire
-				i(275346),	-- Lorewalker's Notes: The Loa
 				-- Delve
 				i(275910),	-- Beacon of Hope
 				-- Cache
