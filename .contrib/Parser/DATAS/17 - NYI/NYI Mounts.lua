@@ -1088,7 +1088,14 @@ root(ROOTS.NeverImplemented, filter(MOUNTS, {
 			i(253587, {	-- Scale of Aln'sharan (MOUNT!)
 				["displayID"] = 137945,
 			}),
+		})),
 
+		-- 12.0.5
+		expansion(EXPANSION.MID, patch(0,5), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_5 } }, {
+			-- With MountID attached
+			i(260421, {	-- Void-Corrupted Amani Warbear Kit (MOUNT!)
+				-- ["displayID"] = ,
+			}),
 		})),
 	}),
 }));

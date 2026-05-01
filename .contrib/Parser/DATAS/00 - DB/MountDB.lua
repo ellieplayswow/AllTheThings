@@ -2404,8 +2404,8 @@ i(275447, 1296760);	-- Speculative Shreddertank
 i(264348, 1271698);	-- Unbound Manawyrm
 i(268578, 1282936);	-- Void-Touched Hawkstrider
 i(270041, 1287357);	-- Void-Touched Snapdragon
-i(260421, 1266285);	-- Void-Corrupted Amani Warbear Kit
 i(269828, 1286606);	-- Void-Corrupted Eagle Talon
+i(257225, 1261362);	-- Witherbark Warbear Harness
 --- Unsorted ---
 i(268878, 1283906);	-- [PH] Giant Eagle Sunwalker Mount Blue
 i(268875, 1283911);	-- [PH] Giant Eagle Sunwalker Mount White
@@ -2415,9 +2415,8 @@ i(268362, 1282274);	-- Gilnean Copper Charger
 i(268360, 1282268);	-- Gilnean Iron Charger
 i(264348, 1271698);	-- Unbound Manawyrm
 i(270058, 1287359);	-- Void-Corrupted Lynx
-i(0, 1261362);	-- Witherbark Warbear Mother
 --- NYI ---
-
+i(260421, 1266285);	-- Void-Corrupted Amani Warbear Kit
 
 
 

@@ -997,32 +997,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				["icon"] = 7578705,
 				["coord"] = { 29.6, 77.9, MAP.MIDNIGHT.ZULAMAN },
 				["groups"] = {
-					i(269836, {	-- Chubs (PET!)
-						["coord"] = { 55.8, 49.6, BROKEN_THRONE },
-						["provider"] = { "n", 263355 },	-- Lost Bear Cub
-						["cost"] = { { "i", 242639, 1 } },	-- 1x Practically Pork
-					}),
-					i(260421, {	-- Void-Corrupted Amani Warbear Kit (MOUNT!)
-						-- TODO: Get ObjectID for the Meat Piles
-						["description"] = "Summon 'Chubs' at the Meat Piles. Defeat Angry Amani Warbears and then use 5x Practically Pork.",
-						["coord"] = { 55.8, 38.8, BROKEN_THRONE },
-						["cost"] = { { "i", 242639, 5 } },	-- 1x Practically Pork
-					}),
-					i(269828, {	-- Void-Corrupted Eagle Talon (MOUNT!)
-						["provider"] = { "n", 263527 },	-- Void-Corrupted Hex Eagle
-						["coords"] = {	-- TODO: Restructure Properly with ObjectIDs
-							{ 51.5, 47.8, BROKEN_THRONE },	-- Misplaced Ritual Candle
-							{ 50.6, 47.3, BROKEN_THRONE },	-- Ritual Candle
-						},
-						["cost"] = { { "i", 271999, 1 } },	-- 1x Misplaced Ritual Candle
-					}),
-					i(269829),	-- Void-Scarred Eaglet (PET!)
-					o(649209, {	-- Misplaced Ritual Candle
-						["coord"] = { 51.5, 47.9, BROKEN_THRONE },
-						["groups"] = {
-							i(271999),	-- Misplaced Ritual Candle
-						},
-					}),
 					n(ACHIEVEMENTS, {
 						ach(62537),	-- Neighborhood Ritual Team: Broken Throne
 						ach(62536),	-- Neighborhood Ritual Watch: Broken Throne
@@ -1031,6 +1005,38 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						ach(62525),	-- Ritual Site Extreme: Broken Throne
 						ach(62523),	-- Ritual Site Mastery: Broken Throne
 						ach(62534),	-- Ritual Site Rogue: Broken Throne
+					}),
+					filter(BATTLE_PETS, {
+						i(269836, {	-- Chubs (PET!)
+							["coord"] = { 55.8, 49.6, BROKEN_THRONE },
+							["provider"] = { "n", 263355 },	-- Lost Bear Cub
+							["cost"] = { { "i", 242639, 1 } },	-- 1x Practically Pork
+						}),
+						i(269829),	-- Void-Scarred Eaglet (PET!)
+					}),
+					filter(MOUNTS, {
+						i(269828, {	-- Void-Corrupted Eagle Talon (MOUNT!)
+							["provider"] = { "n", 263527 },	-- Void-Corrupted Hex Eagle
+							["coords"] = {	-- TODO: Restructure Properly with ObjectIDs
+								{ 51.5, 47.8, BROKEN_THRONE },	-- Misplaced Ritual Candle
+								{ 50.6, 47.3, BROKEN_THRONE },	-- Ritual Candle
+							},
+							["cost"] = { { "i", 271999, 1 } },	-- 1x Misplaced Ritual Candle
+						}),
+						i(257225, {	-- Witherbark Warbear Harness (MOUNT!)
+							-- TODO: Get ObjectID for the Meat Piles
+							["description"] = "Summon 'Chubs' at the Meat Piles. Defeat Angry Amani Warbears and then use 5x Practically Pork.",
+							["coord"] = { 55.8, 38.8, BROKEN_THRONE },
+							["cost"] = { { "i", 242639, 5 } },	-- 1x Practically Pork
+						}),
+					}),
+					n(TREASURES, {
+						o(649209, {	-- Misplaced Ritual Candle
+							["coord"] = { 51.5, 47.9, BROKEN_THRONE },
+							["groups"] = {
+								i(271999),	-- Misplaced Ritual Candle
+							},
+						}),
 					}),
 				},
 			}),
