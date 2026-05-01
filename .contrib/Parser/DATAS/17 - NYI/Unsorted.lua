@@ -193,7 +193,6 @@ root(ROOTS.Unsorted, {
 				i(275227),	-- Leth'ir's Dress Sabatons
 			}),
 			filter(BATTLE_PETS, {
-				i(268557),	-- Kinduwu /Akiki?
 				i(271185),	-- Emberlyn
 				i(275662),	-- Frosticus Maximus
 				i(275663),	-- Silento
@@ -453,10 +452,6 @@ root(ROOTS.Unsorted, {
 				i(275664),	-- Tortured Gorger
 			}),
 			filter(QUEST_ITEMS, {
-				i(262654),	-- Amani Tablet Rubbing
-				i(262659),	-- Vilebranch Hex Fetish
-				i(262752),	-- Vilebranch Scroll
-				i(262791),	-- Malacrass's Notes
 				i(269612),	-- Pungent Crab Tomalley
 				i(269666),	-- Feather of Jan'alai
 				i(272975),	-- Hal'Hadar Keeper Keycode

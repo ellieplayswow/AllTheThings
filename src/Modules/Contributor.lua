@@ -706,6 +706,7 @@ MobileDB.Creature = {
 	[251891] = true,	-- Lingering Shade
 	[252807] = true,	-- Vanguard Paladin
 	[256867] = true,	-- Grieving Amani
+	[259125] = true,	-- Enchanted Amani Mask
 }
 -- These should be GameObjects which are mobile in that they can have completely variable coordinates in game
 -- either by following the player or having player-based decisions that cause them to have any coordinates
@@ -3110,9 +3111,13 @@ MobileDB.GameObject = {
 	[614893] = true,	-- Paint Bowl (q:90535)
 	[616052] = true,	-- Flame-Hardened Sap of Teldrassil
 	[616055] = true,	-- Forgotten Cache [Windrunner Spire]
+	[616622] = true,	-- Woodworking Tool (q:92907)
+	[616628] = true,	-- Woodworking Supplies (q:92907)
+	[616804] = true,	-- Ancient Amani Tablet (q:92957)
 	[616916] = true,	-- Eye of the Void
 	[616917] = true,	-- Cosmic Void
 	[616918] = true,	-- Void Rift
+	[617077] = true,	-- Vilebranch Scroll (q:92951)
 	[617397] = true,	-- Dark Chest of Forbiden Evils (q:92320)
 	[617497] = true,	-- Out of Place Knapsack (q:92166)
 	[617500] = true,	-- Scattered Papers (q:92166)

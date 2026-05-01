@@ -4626,5 +4626,9 @@ i(270330, 5036);	-- Void-Touched Dragonhawk Egg
 i(270063, 5023);	-- Void-Touched Lynx Kitten
 i(270988, 5038);	-- Wriggling Capybara
 
+------------------
+-- PATCH 12.0.7 --
+------------------
+i(268557, 5007);	-- Akiki
 
 i(260885, 4949);	-- Shadowflame Remnant
