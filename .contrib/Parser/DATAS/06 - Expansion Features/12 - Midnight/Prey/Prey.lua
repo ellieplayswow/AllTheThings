@@ -257,10 +257,17 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeli
 					i(253342),	-- Beacon of Hope
 				},
 			}),
+			q(91277, {	-- Preferential Killing
+				["provider"] = { "n", 246231 },	-- Astalor Bloodsworn
+				["coord"] = { 56.7, 65.4, MAP.MIDNIGHT.SILVERMOON_CITY },
+				["minReputation"] = { 2764, 10 },	-- Prey Season 1, 10
+				["isWeekly"] = true,
+			}),
 		}),
 		n(QUESTS, sharedData({
 			["provider"] = { "n", 245824 },	-- Hunt Table
 			["coord"] = { 56.8, 65.3, MAP.MIDNIGHT.SILVERMOON_CITY },
+			["maxReputation"] = { 2764, 10 },	-- Prey Season 1, 10
 			["isWeekly"] = true,
 		}, {
 			q(91114),	-- Prey: Consul Nebulor (Normal)
@@ -632,6 +639,7 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 			--q(95537),	-- same as above, but after Banuran was kiiled during Prey in zone (hard mode)
 			--q(95538),	-- unflagged when looted some ore in zone during prey (hard mode)
 			--q(95539),	-- unflagged when looted some ore in zone (Zul'Aman) during prey (hard mode)
+			q(91415),	-- After choosing a Preference Killing
 		}),
 	}),
 }));

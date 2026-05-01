@@ -71,14 +71,25 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 			}, {
 				q(91979),	-- Chop It Down
 				q(90574),	-- Fortify the Runestones: Blood Knights
-				q(91972),	-- Hold the Watch
-				q(91977),	-- Less Lawless
 				q(91971, {	-- Hitting the Hammer
 					i(249416),	-- Partially Eaten Rations (QI!)
 					i(249413),	-- Previously Loved Earring (QI!)
 					i(249412),	-- Smelly Left Shoe (QI!)
 					i(249415),	-- Throk's Scroll of Doom (QI!)
 					i(249411),	-- Twilight Tokens (QI!)
+				}),
+				q(91972),	-- Hold the Watch
+				q(91977),	-- Less Lawless
+				q(91973, {	-- Naga Blade
+					o(568483, {	-- Naga Scimitar
+						["coords"] = {
+							{ 35.0, 68.2, MAP.MIDNIGHT.EVERSONG_WOODS },
+							{ 36.0, 68.1, MAP.MIDNIGHT.EVERSONG_WOODS },
+							{ 36.6, 68.3, MAP.MIDNIGHT.EVERSONG_WOODS },
+							{ 37.2, 68.7, MAP.MIDNIGHT.EVERSONG_WOODS },
+						},
+						["groups"] = { i(249499) },	-- Naga Scimitar (QI!)
+					}),
 				}),
 				q(91974, {	-- Sunfire to the Blade
 					i(249691),	-- Holy Sunfire (QI!)
@@ -101,16 +112,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 					}),
 				}),
-				q(91973, {	-- Naga Blade
-					o(568483, {	-- Naga Scimitar
-						["coords"] = {
-							{ 35.0, 68.2, MAP.MIDNIGHT.EVERSONG_WOODS },
-							{ 36.0, 68.1, MAP.MIDNIGHT.EVERSONG_WOODS },
-							{ 36.6, 68.3, MAP.MIDNIGHT.EVERSONG_WOODS },
-							{ 37.2, 68.7, MAP.MIDNIGHT.EVERSONG_WOODS },
-						},
-						["groups"] = { i(249499) },	-- Naga Scimitar (QI!)
-					}),
+				q(91975, {	-- That's Our Wood
+					i(249407),	-- Harvested Lightwood (QI!)
 				}),
 			})),
 			-- Farstriders weekly
@@ -135,6 +138,10 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						i(249497),	-- Ghostland Pepper (QI!)
 					}),
 				}),
+				q(91983, {	-- Lovely Plumage
+					i(249439),	-- Bright Feather (QI!)
+					i(249440),	-- Bright Feather (QI!)
+				}),
 				q(91987, {	-- Potted Lashers
 					i(249418),	-- Lightblooming Bulb (QI!)
 				}),
@@ -150,15 +157,14 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				q(91985, {	-- Windrunner Memorabilia
 					i(249542),	-- Partially Used Memento (QI!)
 					o(568507, {	--
+						i(249527),	-- Elder Painting (QI!)
+						i(249553),	-- Lost Mirror (QI!)
 						i(249552),	-- Mischievous Mask (QI!)
 						i(249531),	-- Mysterious Cube (QI!)
 						i(249540),	-- Oddly Sealed Book (QI!)
+						i(249543),	-- Special Remedy (QI!)
 						i(249554),	-- Variable Timepiece (QI!)
 					}),
-				}),
-				q(91983, {	-- Lovely Plumage
-					i(249439),	-- Bright Feather (QI!)
-					i(249440),	-- Bright Feather (QI!)
 				}),
 			})),
 			-- Magisters weekly
@@ -178,7 +184,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					}),
 				}),
 				q(90573),	-- Fortify the Runestones: Magisters
+				q(89277, {	-- Illuminate the Space
+					i(239067),	-- Luminous Fibers
+				}),
 				q(89276),	-- Light Snacks
+				q(89278),	-- Minding Our Duty
 				q(91997, {	-- Power Clean
 					i(249452),	-- Inanimate Broom (QI!)
 				}),

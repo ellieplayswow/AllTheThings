@@ -929,7 +929,6 @@ root(ROOTS.Unsorted, {
 				i(269987),	-- Vault Guard's Axe
 				i(269988),	-- Peacekeeper's Axe
 			}),
-			i(232791),	-- Cracked Medal of Conquest
 			i(250930),	-- Frostfall Groveglider
 			i(250971),	-- Cindertuft Groveglider
 			i(250972),	-- Gloombough Groveglider
@@ -1138,7 +1137,7 @@ root(ROOTS.Unsorted, {
 				i(238864),	-- Proclamation of Light
 				i(238891),	-- Shard of Naaru
 				i(238923),	-- Fragmented Coal
-				i(239067),	-- Luminous Fibers
+				
 				i(239195),	-- Lothar's Crumpled Shield
 				i(239199),	-- Revitalizing Draught
 				i(239226),	-- [DNT]zzOldVoid Resonator
@@ -1146,10 +1145,10 @@ root(ROOTS.Unsorted, {
 				i(240838),	-- Twilight's Blade Missive
 				i(241155),	-- Void Condenser
 				i(243588),	-- Limonite Ochre
-				i(244194),	-- Torn-Out Page
-				i(244195),	-- Torn-Out Page
-				i(244197),	-- Torn-Out Page
+				-- Misc
 				i(244424),	-- [OLD] Unalloyed Abundance
+
+
 				i(244425),	-- Gibby's Marbles
 				i(244459),	-- Twilight Skirmisher's Chest Key
 				i(244462),	-- Amani Orders
@@ -1159,11 +1158,11 @@ root(ROOTS.Unsorted, {
 				i(246054),	-- Light Altered Eye
 				i(246087),	-- Precious Key
 				i(246374),	-- Juvenile Blood
-				i(246397),	-- Twilight Cultist Robes
+				
 				i(246443),	-- Amani Hatchet
 				i(246729),	-- Fang of Shadra
-				i(247713),	-- Reliquary of Darkness
-				i(247854),	-- Filled Reliquary of Darkness
+				
+				
 				i(248082),	-- Shiny Object
 				i(248083),	-- Dusty Quartz Amulet
 				i(248085),	-- Leafworn Amber Ring
@@ -1177,12 +1176,12 @@ root(ROOTS.Unsorted, {
 				i(248756),	-- Shadra's Gift
 				i(248931),	-- Tarnished Vilebranch Coin
 				i(249401),	-- Vial of Gelatinous Ooze
-				i(249407),	-- Harvested Lightwood
+				
 				i(249414),	-- Feelings Journal
-				i(249439),	-- Bright Feather
-				i(249527),	-- Elder Painting
-				i(249543),	-- Special Remedy
-				i(249553),	-- Lost Mirror
+				
+				
+				
+				
 				i(250705),	-- Naga Missive PH NAME
 				i(252192),	-- Rune Key
 				i(253519),	-- Pathogenic Essence
@@ -1190,8 +1189,8 @@ root(ROOTS.Unsorted, {
 				i(254381),	-- Troll Torch
 				i(254665),	-- Void "Ink"
 				i(255161),	-- Callum's Belongings
-				i(257727),	-- Condensed Void Reserves
-				i(257870),	-- Void Residue
+				
+				
 				i(258329),	-- Carrion Essence
 				i(258572),	-- Crystal Essence
 				i(258573),	-- Plant Dye
@@ -1201,7 +1200,8 @@ root(ROOTS.Unsorted, {
 				i(264357),	-- Void-Ridden Crab Meat
 				i(265655),	-- Ritual Components
 				i(265710),	-- Elementary Voidcore
-				-- QI /Devourer??
+				
+				-- Consumable in void storm
 				i(250325),	-- Night's Embrace
 			}),
 			n(WEAPONS, {
@@ -1280,8 +1280,6 @@ root(ROOTS.Unsorted, {
 			}),
 			n(PVP, {
 				i(255618),	-- Galactic Gladiator's Splitter
-				i(258620),	-- Field Medic's Hazard Payout
-				i(258622),	-- Medal of Conquest
 				i(263208),	-- Ensemble: Galactic Aspirant's Cloth Armor
 				i(263210),	-- Ensemble: Galactic Aspirant's Leather Armor
 				i(263213),	-- Ensemble: Galactic Aspirant's Mail Armor
@@ -1385,16 +1383,6 @@ root(ROOTS.Unsorted, {
 				i(251794),	-- Gris-gris of Confidence
 				i(251882),	-- Fragmented Light Shard
 				i(251886),	-- Unstable Mana-Locket
-				-- Quest Armor
-				i(257538),	-- Scorching Conqueror's Crown
-				i(257539),	-- Scorching Conqueror's Belt
-				i(257540),	-- Scorching Conqueror's Treads
-				i(257541),	-- Scorching Conqueror's Vestments
-				i(257542),	-- Scorching Conqueror's Gloves
-				i(257543),	-- Scorching Conqueror's Legguards
-				i(257544),	-- Scorching Conqueror's Mantle
-				i(257545),	-- Scorching Conqueror's Cloak
-				i(257547),	-- Ensemble: Scorching Conqueror
 				--
 				i(260414),	-- Amulet of the Ascendant Void \\ Voidsong Chain
 				-- Armor
@@ -1449,7 +1437,6 @@ root(ROOTS.Unsorted, {
 				i(246726),	-- Greatsword of Returning Light
 				i(248933),	-- Burden of War
 				i(253389),	-- Manaforge Raider's Umbral Ward (MAIN HAND SLOT)
-				i(253402),	-- Scorching
 				i(258404),	-- Lil' Blue Whirlwind
 				i(258405),	-- Lil' Black Whirlwind
 				i(258407),	-- Lil' Green Whirlwind
@@ -1553,7 +1540,7 @@ root(ROOTS.Unsorted, {
 				i(263576),	-- Ensemble: Rampant Thorn Armor
 				i(263577),	-- Arsenal: Rootlands Weaponry
 				i(264969),	-- Extinction Voulge
-				i(264971),	-- Annihilation Rod
+				
 				i(266077),	-- Basic Black Quiver
 				i(266078),	-- Basic Blue Quiver
 				i(266079),	-- Basic Bronze Quiver

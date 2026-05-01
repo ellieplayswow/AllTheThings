@@ -621,6 +621,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 86565 },	-- No Prayer for the Wicked
 						["provider"] = { "n", 239720 },	-- Lucia Nightbreaker
 						["coord"] = { 42.4, 75.4, MAP.MIDNIGHT.VOIDSTORM },
+						["groups"] = {
+							i(247713),	-- Reliquary of Darkness (QI!)
+						},
 					}),
 					q(91339, {	-- Smothered in the Crib
 						["sourceQuests"] = { 90910 },	-- Overwhelming Darkness
@@ -640,6 +643,9 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						},
 						["provider"] = { "n", 239720 },	-- Lucia Nightbreaker
 						["coord"] = { 47.9, 78.6, MAP.MIDNIGHT.VOIDSTORM },
+						["groups"] = {
+							i(247854),	-- Filled Reliquary of Darkness (QI!)
+						},
 					}),
 					q(91343, {	-- Ambition's Reward
 						["sourceQuests"] = { 91341 },	-- Unlimited
@@ -1022,6 +1028,8 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 								},
 								["groups"] = {
 									i(257728),	-- Condensed Void Shard (QI!)
+									i(257727),	-- Condensed Void Reserves (QI!)
+									i(257870),	-- Void Residue (QI!)
 									o(609910),	-- Depleted Void Canister
 									o(580092),	-- Brimming Void Canister
 								},

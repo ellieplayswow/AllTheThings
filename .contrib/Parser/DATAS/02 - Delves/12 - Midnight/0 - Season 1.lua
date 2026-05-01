@@ -205,6 +205,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, {
 					["isWeekly"] = true,
 					["cost"] = {{"i",253342,1}},	-- Beacon of Hope
 					["groups"] = {
+						i(264971),	-- Annihilation Rod (COSMETIC!)
 						i(262391),	-- Ominous Domanus (PET!)
 						i(265368),	-- Twilight Destroyer (COSMETIC!)
 						i(265366),	-- Twilight Executioner (COSMETIC!)
@@ -356,6 +357,9 @@ root(ROOTS.HiddenQuestTriggers, expansion(EXPANSION.MID, {
 				--q(93882),	-- Restored Coffer Key (itemID 263188)
 				--q(93883),	-- Restored Coffer Key (itemID 263191)
 				--q(93859),	-- Sin'dorei Gravestone (itemID 262951)
+
+
+				--q(93686),	-- tiggered after a delve
 			}),
 		},
 	}),

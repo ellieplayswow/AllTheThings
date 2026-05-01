@@ -1559,7 +1559,8 @@ i(246398,{u=2})}}),
 o(553558,{coords={
 [241]={{46.5,72}}},u=2,g={
 i(246399,{u=2})}}),
-i(246400,{u=2})}}),
+i(246400,{u=2}),
+i(246397,{spellID=1242307,u=2})}}),
 hqt(92103,{coords={
 [241]={{49.9,80.8}}},description="Dialogue becomes available after accepting 'Midnight Dress' (90765).",qgs={237506},sourceQuests={90765},u=2}),
 q(90766,{coords={

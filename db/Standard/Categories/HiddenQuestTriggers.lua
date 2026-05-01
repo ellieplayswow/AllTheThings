@@ -7386,7 +7386,8 @@ hqt(93991,{an="n:252067",isWeekly=1}),
 hqt(93987,{an="n:252070",isWeekly=1})}}),
 h(-68,{awp=120001,g={
 ah(61259,{rwp=120100,type="a",g={
-hqt(92491,{isWeekly=1})}})}}),
+hqt(92491,{isWeekly=1}),
+hqt(95375,{repeatable=1})}})}}),
 h(-204,{awp=120001,g={
 h(-674),
 h(-381,{
@@ -7674,7 +7675,8 @@ hqt(93860,{isWeekly=1}),
 hqt(93170,{isWeekly=1}),
 hqt(93861,{isWeekly=1}),
 hqt(93863,{isWeekly=1}),
-hqt(93864,{isWeekly=1})})}),
+hqt(93864,{isWeekly=1}),
+hqt(91415,{repeatable=1})})}),
 h(-741,{awp=120005,g={
 h(-45,{
 hqt(92589,{repeatable=1}),

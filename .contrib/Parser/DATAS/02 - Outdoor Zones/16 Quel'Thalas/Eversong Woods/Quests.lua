@@ -136,6 +136,11 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 						["sourceQuests"] = { 86621 },	-- The Wayward Magister
 						["provider"] = { "n", 236100 },	-- Arator
 						["coord"] = { 47.7, 69.7, MAP.MIDNIGHT.EVERSONG_WOODS },
+						["groups"] = {
+							i(244194),	-- Torn-Out Page (QI!)
+							i(244195),	-- Torn-Out Page (QI!)
+							i(244197),	-- Torn-Out Page (QI!)
+						},
 					}),
 					q(90907, {	-- The First to Know
 						["sourceQuests"] = {
