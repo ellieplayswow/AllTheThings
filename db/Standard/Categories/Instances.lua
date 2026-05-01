@@ -319,7 +319,7 @@ q(8922,{c={1,2,3,4,5,7,8,9,11},coords={
 q(8923,{c={1,2,3,4,5,7,8,9,11},coords={
 [85]={{35,38.3}}},maps={71},qgs={16012},qis={22382},r=1,sourceQuests={8913,8914,8915,8916,8917,8918,8919,8920,10493},u=2}),
 q(8948,{c={1,2,3,4,5,7,8,9,11},coords={
-[23]={{30.9,16.8}}},cost={{"i",21983,1}},maps={234,235,236,237,238},qgs={16016},sourceQuests={8947},u=2}),
+[23]={{30.9,16.8}}},maps={234,235,236,237,238},qgs={16016},qis={21983},sourceQuests={8947},u=2}),
 q(8947,{c={1,2,3,4,5,7,8,9,11},coords={
 [23]={{30.9,16.8}}},cost={{"i",15407,4},{"i",14342,3},{"i",12810,20},{"i",11371,3}},qgs={16016},sourceQuests={8946},u=2}),
 q(8997,{c={1,2,3,4,5,7,8,9,11},maps={33,87},qgs={16033},r=2,sourceQuests={8996},u=2}),
@@ -340,7 +340,7 @@ i(22150,{b=1,f=51,u=2}),
 i(22149,{b=1,f=51,u=2})}}),
 q(8994,{c={1,2,3,4,5,7,8,9,11},cost={{"i",13512,1},{"i",22048,1}},maps={33,250,251,252,253,254,255},qgs={16033},qis={22138},sourceQuests={8989,8990,8991,8992},u=2}),
 q(8924,{c={1,2,3,4,5,7,8,9,11},coords={
-[71]={{52.4,27.2}}},cost={{"i",21946,1}},crs={7523,7524,8538,8539,8540,8541,8542,12178,12179},maps={23,81,83},qgs={16014},qis={21935,21936,21937},sourceQuests={8921},u=2}),
+[71]={{52.4,27.2}}},cost={{"i",9061,1},{"i",21946,1}},crs={7523,7524,8538,8539,8540,8541,8542,12178,12179},maps={23,81,83},qgs={16014},qis={21935,21936,21937},sourceQuests={8921},u=2}),
 q(8970,{c={1,2,3,4,5,7,8,9,11},crs={4364,4366,4368,4370,4371,16072},maps={33,70},qgs={16033},qis={22094},sourceQuests={8966,8967,8968,8969},u=2,g={
 o(181053)}}),
 q(8929,{c={1,2,3,4,5,7,8,9,11},coords={
@@ -365,14 +365,17 @@ q(8996,{c={1,2,3,4,5,7,8,9,11},cost={{"i",22056,1}},maps={33,250,251,252,253,254
 i(22057,{b=1,description="If you did complete the quest before the Cataclysm, you can request a new Brazier from Bodley.\nYou must have the Extra-Dimensional Ghost Revealer In order to see him outside UBRS Entrance in Black Rock Mountain.\nMux Manascrambler in Gadgetzan in Tanaris can assist you in getting the Ghost Revealer.",spellID=27203,u=2}),
 i(22344,{b=1,u=2})}}),
 q(8977,{c={1,2,3,4,5,7,8,9,11},coords={
-[71]={{52.4,27.2}}},cost={{"i",22115,1}},maps={87},qgs={16014},r=2,sourceQuests={8928},u=2}),
+[71]={{52.4,27.2}}},maps={87},qgs={16014},r=2,sourceQuests={8928},u=2,g={
+i(22115,{b=1,spellID=27616,u=2})}}),
 q(8978,{c={1,2,3,4,5,7,8,9,11},coords={
-[71]={{52.4,27.2}}},cost={{"i",22115,1}},maps={85},qgs={16014},r=1,sourceQuests={8928},u=2}),
+[71]={{52.4,27.2}}},maps={85},qgs={16014},r=1,sourceQuests={8928},u=2,g={
+i(22115,{b=1,spellID=27616,u=2})}}),
 q(9015,{c={1,2,3,4,5,7,8,9,11},maps={234,235,236,237,238,242},qgs={16032},qis={21986,22047},sourceQuests={8950},u=2,g={
 i(21986,{b=1,description="Long after Classic is over, you can use this item to summon Unobtainable bosses and earn quite a bit of gold doing so for Transmog and other purposes. Save this item forever.",spellID=27517,u=2})}}),
 q(8921,{c={1,2,3,4,5,7,8,9,11},coords={
 [71]={{52.4,27.2}}},cost={{"i",13423,10},{"i",16203,4},{"i",16006,1},{"g",400000}},crs={10078},maps={36},qgs={16014},qis={22338},sourceQuests={8922,8923},u=2,g={
 i(22320,{b=1,u=2}),
+i(21946,{b=1,spellID=27433,u=2}),
 o(181098)}}),
 q(8950,{c={1,2,3,4,5,7,8,9,11},cost={{"i",14344,8},{"i",20520,4}},maps={234,235,236,237,238},qgs={16032},qis={22224},sourceQuests={8949},u=2}),
 q(8966,{c={1,8},cost={{"i",22049,1},{"i",22115,1}},crs={16080},maps={33,250,251,252,253,254,255},qgs={16033},qis={21984},sourceQuests={8962},u=2}),
@@ -5798,6 +5801,7 @@ o(405388,{description="The Familiar Journal itself can be found in the Viewing R
 toy(208096,{b=1})}}),
 i(12736,{awp=100205,b=1,description="Can be found inside the chemistry lab in Scholomance, in Ras Frostwhisper's room.",providers={{"o",175965}}})}}),
 h(-63,{awp=100105,g={
+i(20520,{spellID=27869}),
 r(20035,{crs={10469},itemID=16255,requireSkill=333,skillID=2494}),
 r(20032,{crs={10499},itemID=16254,requireSkill=333,skillID=2494}),
 r(19102,{awp=11101,crs={11582},description="This pattern no longer drops. The recipe can now be trained at any leatherworking trainer.",itemID=15776,requireSkill=165,rwp=40003,skillID=2532,u=2}),
@@ -52670,7 +52674,19 @@ ach(14417,{
 crit(53468,{achID=15651,awp=90205,id=6})}),
 gach(14385),
 ach(14533,{
-crit(50167,{achID=14322,id=21})})}})})}})}),
+crit(50167,{achID=14322,id=21})})}})})}}),
+inst(1201,{savedInstanceID=2526,g={
+d(24,{sym={{"sub","tw_instance",1201}}})}}),
+inst(1196,{savedInstanceID=2520,g={
+d(24,{sym={{"sub","tw_instance",1196}}})}}),
+inst(1204,{savedInstanceID=2527,g={
+d(24,{sym={{"sub","tw_instance",1204}}})}}),
+inst(1199,{savedInstanceID=2519,g={
+d(24,{sym={{"sub","tw_instance",1199}}})}}),
+inst(1202,{savedInstanceID=2521,g={
+d(24,{sym={{"sub","tw_instance",1202}}})}}),
+inst(1203,{savedInstanceID=2515,g={
+d(24,{sym={{"sub","tw_instance",1203}}})}})}),
 x(10,{
 h(-12,{awp=100002,g={
 ach(19574,{awp=100206,rwp=110002,u=2,g={
@@ -64319,6 +64335,12 @@ title(757)),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
 title(758)),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
 title(759)),(function(t)if GetCVar("portal")~="CN" then	t.u=1;end	return t;end)(
 title(760))}))}}),
+h(-21,{
+r(1230473,{crs={231636,231865,237415,241546,246404,247676,248015,248605},itemID=256714,requireSkill=755,skillID=2914}),
+r(1230470,{crs={231636,231865,237415,241546,246404,247676,248015,248605},itemID=256704,requireSkill=755,skillID=2914}),
+r(1246894,{crs={231636,231865,237415,241546,246404,247676,248015,248605},description="Unclear if this only drop in m+",itemID=259372,requireSkill=755,skillID=2914}),
+r(1230472,{crs={231636,231865,237415,241546,246404,247676,248015,248605},itemID=256720,requireSkill=755,skillID=2914}),
+r(1230471,{crs={231636,231865,237415,241546,246404,247676,248015,248605},itemID=256708,requireSkill=755,skillID=2914})}),
 inst(1311,{awp=120001,coords={
 [2437]={{30,84.5}}},maps={2513,2514,2564},g={
 d(101,{difficulties={1,2,23},g={
@@ -64739,11 +64761,5 @@ mnt(1296756,{cost={{"i",275436,1}},itemID=275444}),
 mnt(1296731,{cost={{"i",275436,1}},itemID=275440}),
 mnt(1296759,{cost={{"i",275436,1}},itemID=275446}),
 mnt(1296758,{cost={{"i",275436,1}},itemID=275445}),
-mnt(1296760,{cost={{"i",275436,1}},itemID=275447})})}})}}),
-h(-21,{
-r(1230473,{crs={231636,231865,237415,241546,246404,247676,248015,248605},itemID=256714,requireSkill=755,skillID=2914}),
-r(1230470,{crs={231636,231865,237415,241546,246404,247676,248015,248605},itemID=256704,requireSkill=755,skillID=2914}),
-r(1246894,{crs={231636,231865,237415,241546,246404,247676,248015,248605},description="Unclear if this only drop in m+",itemID=259372,requireSkill=755,skillID=2914}),
-r(1230472,{crs={231636,231865,237415,241546,246404,247676,248015,248605},itemID=256720,requireSkill=755,skillID=2914}),
-r(1230471,{crs={231636,231865,237415,241546,246404,247676,248015,248605},itemID=256708,requireSkill=755,skillID=2914})})})}});
+mnt(1296760,{cost={{"i",275436,1}},itemID=275447})})}})}})})}});
 end);
