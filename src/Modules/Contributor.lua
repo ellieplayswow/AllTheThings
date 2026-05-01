@@ -13,6 +13,7 @@ local GetQuestID,C_QuestLog_IsOnQuest
 local DelayedCallback = app.CallbackHandlers.DelayedCallback
 local round = app.round
 local SearchForObject = app.SearchForObject
+local GetPlayerAura = app.WOWAPI.GetPlayerAuraBySpellID
 local DebugPrinting
 
 local api = {};
@@ -52,6 +53,9 @@ local function GetReportPlayerLocation()
 end
 
 local function DoReport(reporttype, id)
+	-- ignore contrib reports if the player is in Lorewalking
+	if GetPlayerAura(463943) then return end
+
 	local dialogID = reporttype.."-"..id
 	-- app.PrintDebug("Contributor.DoReport",reporttype,id)
 

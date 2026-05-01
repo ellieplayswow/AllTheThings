@@ -212,4 +212,11 @@ AssignAPIWrapper("IsSpellKnown", C_SpellBook and C_SpellBook.IsSpellKnown , IsSp
 AssignAPIWrapper("IsSpellKnownOrOverridesKnown", C_SpellBook and C_SpellBook.IsSpellInSpellBook , IsSpellKnownOrOverridesKnown);
 AssignAPIWrapper("GetNumSpellTabs", C_SpellBook and C_SpellBook.GetNumSpellBookSkillLines, GetNumSpellTabs);
 
+-- Aura APIs
+local C_UnitAuras = C_UnitAuras;
+AssignAPIWrapper("GetPlayerAuraBySpellID",
+    C_UnitAuras and C_UnitAuras.GetPlayerAuraBySpellID,
+    GetPlayerAuraBySpellID,
+	app.EmptyFunction);
+
 ---@diagnostic enable: deprecated
