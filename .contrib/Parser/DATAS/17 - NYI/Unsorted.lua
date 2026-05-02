@@ -132,53 +132,6 @@ root(ROOTS.Unsorted, {
 				i(274887),	-- Mana-Overloaded Bulwark
 				i(274888),	-- Hal'hadar Legion Glaives
 				i(274889),	-- Hal'hadar Darkblade's Edge
-				i(275168),	-- Response Team's Cape
-				i(275169),	-- Response Team's Cloak
-				i(275170),	-- Response Team's Shawl
-				i(275171),	-- Response Team's Drape
-				i(275172),	-- Response Team's Vestments
-				i(275173),	-- Response Team's Slippers
-				i(275174),	-- Response Team's Gloves
-				i(275175),	-- Response Team's Crown
-				i(275176),	-- Response Team's Tights
-				i(275177),	-- Response Team's Spires
-				i(275178),	-- Response Team's Cord
-				i(275179),	-- Response Team's Cuffs
-				i(275180),	-- Response Team's Jerkin
-				i(275181),	-- Response Team's Boots
-				i(275182),	-- Response Team's Handguards
-				i(275183),	-- Response Team's Mask
-				i(275184),	-- Response Team's Trousers
-				i(275185),	-- Response Team's Shoulderpads
-				i(275186),	-- Response Team's Belt
-				i(275187),	-- Response Team's Bindings
-				i(275188),	-- Response Team's Hauberk
-				i(275189),	-- Response Team's Sabatons
-				i(275190),	-- Response Team's Grips
-				i(275191),	-- Response Team's Helmet
-				i(275192),	-- Response Team's Legguards
-				i(275193),	-- Response Team's Shoulderguards
-				i(275194),	-- Response Team's Clasp
-				i(275195),	-- Response Team's Bands
-				i(275196),	-- Response Team's Chestplate
-				i(275197),	-- Response Team's Greatboots
-				i(275198),	-- Response Team's Gauntlets
-				i(275199),	-- Response Team's Helm
-				i(275200),	-- Response Team's Legplates
-				i(275201),	-- Response Team's Pauldrons
-				i(275202),	-- Response Team's Girdle
-				i(275203),	-- Response Team's Vambraces
-				i(275204),	-- Response Team's Hatchet
-				i(275205),	-- Response Team's Kukri
-				i(275206),	-- Response Team's Hammer
-				i(275207),	-- Response Team's Longsword
-				i(275208),	-- Response Team's Warglaive
-				i(275209),	-- Response Team's Longbow
-				i(275210),	-- Response Team's Spear
-				i(275211),	-- Response Team's Spire
-				i(275212),	-- Response Team's Falchion
-				i(275213),	-- Response Team's Lantern
-				i(275214),	-- Response Team's Tower Shield
 				i(275216),	-- Phaseblade's Edges
 				i(275217),	-- Nexus-Captain's Phaseblade
 				i(275218),	-- Mertei's Command Baton

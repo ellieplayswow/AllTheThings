@@ -1132,6 +1132,14 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 				},
 				["groups"] = {
 					n(RARES, {
+						n(264866, {	-- Krilkan
+							["coord"] = { 44.6, 52.8, VAL },
+							--["questID"] = XXXXX,
+						}),
+						n(264865, {	-- Mercilus
+							["coord"] = { 49.7, 79.2, VAL },
+							--["questID"] = XXXXX,
+						}),
 						n(261965, {	-- Void Infused Sleet-Rune
 							["coord"] = { 55.2, 65.6, VAL },
 							--["questID"] = XXXXX,
@@ -1154,7 +1162,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 							["description"] = "Spawns randomly throughout the zone.",
 						}),
 					}),
-					--[[n(VENDORS, {
+					n(VENDORS, {
 						n(267315, {	-- Fieldsmith Ventem <Field Gear and Repairs>
 							["coord"] = { 60.2, 16.1, VAL },
 							["groups"] = {	-- All items are (COSMETIC!)
@@ -1164,24 +1172,98 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 										{ "c", VOIDLIGHT_MARL, 500 },
 									},
 								}, {
-
-								}),
-								filter(CLOAKS, {
-								}),
-								filter(CLOTH, {
-								}),
-								filter(LEATHER, {
-								}),
-								filter(MAIL, {
-								}),
-								filter(PLATE, {
-								}),
+									i(275212),	-- Response Team's Falchion
+									i(275206),	-- Response Team's Hammer
+									i(275204),	-- Response Team's Hatchet
+									i(275205),	-- Response Team's Kukri
+									i(275213),	-- Response Team's Lantern
+									i(275209),	-- Response Team's Longbow
+									i(275207),	-- Response Team's Longsword
+									i(275210),	-- Response Team's Spear
+									i(275211),	-- Response Team's Spire
+									i(275214),	-- Response Team's Tower Shield
+									i(275208),	-- Response Team's Warglaive
+								})),
+								filter(CLOAKS, sharedData({
+									["cost"] = {
+										{ "c", FIELD_ACCOLADE,  30 },
+										{ "c", VOIDLIGHT_MARL, 300 },
+									},
+								}, {
+									i(275168),	-- Response Team's Cape
+									i(275169),	-- Response Team's Cloak
+									i(275171),	-- Response Team's Drape
+									i(275170),	-- Response Team's Shawl
+								})),
+								filter(CLOTH, sharedData({
+									["cost"] = {
+										{ "c", FIELD_ACCOLADE,  30 },
+										{ "c", VOIDLIGHT_MARL, 300 },
+									},
+								}, {
+									i(275178),	-- Response Team's Cord
+									i(275175),	-- Response Team's Crown
+									i(275179),	-- Response Team's Cuffs
+									i(275174),	-- Response Team's Gloves
+									i(275173),	-- Response Team's Slippers
+									i(275177),	-- Response Team's Spires
+									i(275176),	-- Response Team's Tights
+									i(275172),	-- Response Team's Vestments
+								})),
+								filter(LEATHER, sharedData({
+									["cost"] = {
+										{ "c", FIELD_ACCOLADE,  30 },
+										{ "c", VOIDLIGHT_MARL, 300 },
+									},
+								}, {
+									i(275186),	-- Response Team's Belt
+									i(275187),	-- Response Team's Bindings
+									i(275181),	-- Response Team's Boots
+									i(275182),	-- Response Team's Handguards
+									i(275180),	-- Response Team's Jerkin
+									i(275183),	-- Response Team's Mask
+									i(275185),	-- Response Team's Shoulderpads
+									i(275184),	-- Response Team's Trousers
+								})),
+								filter(MAIL, sharedData({
+									["cost"] = {
+										{ "c", FIELD_ACCOLADE,  30 },
+										{ "c", VOIDLIGHT_MARL, 300 },
+									},
+								}, {
+									i(275195),	-- Response Team's Bands
+									i(275194),	-- Response Team's Clasp
+									i(275190),	-- Response Team's Grips
+									i(275188),	-- Response Team's Hauberk
+									i(275191),	-- Response Team's Helmet
+									i(275192),	-- Response Team's Legguards
+									i(275189),	-- Response Team's Sabatons
+									i(275193),	-- Response Team's Shoulderguards
+								})),
+								filter(PLATE, sharedData({
+									["cost"] = {
+										{ "c", FIELD_ACCOLADE,  30 },
+										{ "c", VOIDLIGHT_MARL, 300 },
+									},
+								}, {
+									i(275196),	-- Response Team's Chestplate
+									i(275198),	-- Response Team's Gauntlets
+									i(275202),	-- Response Team's Girdle
+									i(275197),	-- Response Team's Greatboots
+									i(275199),	-- Response Team's Helm
+									i(275200),	-- Response Team's Legplates
+									i(275201),	-- Response Team's Pauldrons
+									i(275203),	-- Response Team's Vambraces
+								})),
 							},
 						}),
-					}),]]--
+					}),
 					n(WORLD_QUESTS, bubbleDownFiltered({
 						["isWorldQuest"] = true,
 					},FILTERFUNC_questID,{
+						q(95403, {	-- A Lingering Echo
+							["coord"] = { 27.6, 75.1, VAL },
+						}),
 						q(96295, {	-- A Pertinent Punishment
 							["coord"] = { 40.2, 77.5, 2618 },	-- Void Acropolis (Lower)
 						}),
@@ -1194,6 +1276,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						q(95401, {	-- Junction Dysfunction
 							["coord"] = { 35.8, 74.3, VAL },
 						}),
+						q(95392, {	-- One Friend is Plenty
+							["coord"] = { 45.4, 52.3, VAL },
+						}),
 						q(95399, {	-- Shadowy Strategies
 							["coord"] = { 79.4, 70.6, 2618 },	-- Void Acropolis (Lower)
 						}),
@@ -1202,6 +1287,9 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.MID, {
 						}),
 						q(96617, {	-- Storm Mitigation (Bonus Objective)
 							["coord"] = { 47.8, 80.4, VAL },
+						}),
+						q(96618, {	-- Storm Mitigation (Bonus Objective)
+							["coord"] = { 50.9, 56.2, VAL },
 						}),
 						q(95395, {	-- Until it is Done
 							["coord"] = { 32.3, 50.1, VAL },
