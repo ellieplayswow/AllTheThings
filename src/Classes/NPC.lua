@@ -39,6 +39,8 @@ local blacklisted = {
 	[TOOLTIP_UNIT_LEVEL:format("??")] = true,
 	[TOOLTIP_UNIT_LEVEL_TYPE:format("??", ELITE)] = true,
 }
+local MAX_RETRY = 500
+local RetryNames = setmetatable({}, { __index = function() return 0 end})
 if C_TooltipInfo_GetHyperlink then
 	local issecretvalue = app.WOWAPI.issecretvalue
 	setmetatable(NPCNameFromID, { __index = function(t, id)
@@ -48,18 +50,25 @@ if C_TooltipInfo_GetHyperlink then
 			if tooltipData then
 				local title = tooltipData.lines[1].leftText
 				if title and #tooltipData.lines > 2 then
+					-- 12.0.5 began returning secrets for this text
 					local leftText = tooltipData.lines[2].leftText
-					-- 12.0.5 began returning secrets for this function
-					if issecretvalue(leftText) then return end
-
-					if leftText and not blacklisted[leftText] then
+					if leftText
+						and not issecretvalue(leftText)
+						and not blacklisted[leftText]
+					then
 						NPCTitlesFromID[id] = leftText
 					end
 				end
 				if not IsRetrievingData(title) then
 					t[id] = title
+					RetryNames[id] = nil
 					return title
 				end
+			end
+			RetryNames[id] = RetryNames[id] + 1
+			if RetryNames[id] > MAX_RETRY then
+				t[id] = AUCTION_MAIL_ITEM_STACK:format("NPC", id)
+				RetryNames[id] = nil
 			end
 		else
 			return L.HEADER_NAMES[id]

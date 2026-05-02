@@ -10,7 +10,6 @@ local GetCategoryInfo,GetAchievementInfo,GetAchievementCriteriaInfo,GetLFGDungeo
 -- WoW API Cache
 
 -- Module
-local IsQuestFlaggedCompleted = app.IsQuestFlaggedCompleted
 local IsRetrieving = app.Modules.RetrievingData.IsRetrieving
 
 -- App
@@ -98,7 +97,11 @@ local function CacheInfo(t, field)
 			_t[key] = value;
 		end
 	else
-		print("FAILED TO FIND AUTO HEADER DATA", id, type);
+		app.print("FAILED TO FIND AUTO HEADER DATA", id, type);
+	end
+	-- determine an icon from any providers otherwise
+	if not _t.icon then
+		_t.icon = app.GetIconFromProviders(t)
 	end
 	if field then return _t[field]; end
 end

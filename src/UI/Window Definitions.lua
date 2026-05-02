@@ -2834,8 +2834,8 @@ end
 local OnInitForPopout;
 function app:CreateMiniListForGroup(group)
 
-	-- This re-directs Criteria popouts to instead popout their Achievement
-	local achievementID = group.achievementID;
+	-- This re-directs basic Criteria popouts to instead popout their Achievement
+	local achievementID = not (group.providers or group.cost) and group.achievementID;
 	if achievementID and group.criteriaID then
 		group = app.SearchForObject("achievementID", achievementID, "key") or group
 	end
