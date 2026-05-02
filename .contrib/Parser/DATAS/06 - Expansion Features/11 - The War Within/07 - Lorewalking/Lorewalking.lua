@@ -57,7 +57,7 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 					["isBreadcrumb"] = true,	-- speculation
 					-- auto-pop at login @ 80s character
 				}),
-				-- Only quests that throw reports and not repeated (already sorted) quest in chain
+				-- As of commit 5c4a754fb418c49d4a0eae26641bafe0fdcc8f17 we should no longer see contrib reports about Inaccurate Quest Data while Lorewalking
 				header(HEADERS.Achievement, 42188, {	-- Lorewalking: Blade's Bane
 					q(84371, {	-- Lorewalking: The Blade and the High Priest
 						-- Alex: when I picked up this quest - it flag 40706 & 42074 as completed
@@ -174,7 +174,6 @@ root(ROOTS.ExpansionFeatures, expansion(EXPANSION.TWW, {
 					}),
 				}),
 				header(HEADERS.Achievement, 61467, bubbleDownSelf({ ["timeline"] = { ADDED_11_2_7 } }, {	-- Lorewalking: The Elves of Quel'thalas
-					-- Exo Note: Reuses parts of the "Blood Elf Heritage" and Allied Race "Nightborne" and "Void Elves" quests, that throw contrib errors because of the wrong sourceQuests
 					q(85252, {	-- Lorewalking: Children of the Blood
 						["provider"] = { "n", 230246 },	-- Lorewalker Cho
 						["coords"] = {

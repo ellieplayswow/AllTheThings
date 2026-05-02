@@ -734,6 +734,7 @@ MobileDB.GameObject = {
 	  [1731] = true,	-- Copper Vein
 	  [1732] = true,	-- Tin Vein
 	  [1733] = true,	-- Silver Vein
+	  [1734] = true,	-- Gold Vein
 	  [2040] = true,	-- Mithril Deposit
 	  [2045] = true,	-- Stranglekelp
 	  [2068] = true,	-- Pupellyverbos Port (q:26486)

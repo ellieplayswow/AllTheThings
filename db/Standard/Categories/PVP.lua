@@ -48747,9 +48747,9 @@ o(441108,{coords={
 [2213]={{44.6,85.3}},
 [2214]={{62.5,48.8}},
 [2215]={{38.5,35}},
-[2248]={{62.3,20.3}}},crs={233446},description="Spawns ONCE per rotation in the matching zone determined by the zone where the Shadowlands PvP World Quest is active. The spawn can occur at any moment while that quest is up.\nArdenweald -> Isle of Dorn\nMaldraxxus -> Hallowfall\nRevendreth -> Azj-Kahet\nBastion -> The Ringing Deeps",pvp=1,g={
-cu(2123,{pvp=1}),
-cu(1792,{pvp=1})}})}}),
+[2248]={{62.3,20.3}}},crs={233446},description="Spawns ONCE per rotation in the matching zone determined by the zone where the Shadowlands PvP World Quest is active. The spawn can occur at any moment while that quest is up.\nArdenweald -> Isle of Dorn\nMaldraxxus -> Hallowfall\nRevendreth -> Azj-Kahet\nBastion -> The Ringing Deeps.\nThe box can be looted by many players of both factions within a few minutes after being opened. There's really no reason to fight about it. :)",pvp=1,g={
+cu(2123,{pvp=1,skipFill=1}),
+cu(1792,{pvp=1,skipFill=1})}})}}),
 h(-47,{awp=110002,pvp=1,g={
 cu(2123,{pvp=1,rwp=120001,u=2})}})}}),
 x(12,{pvp=1,g={
