@@ -838,7 +838,6 @@ root(ROOTS.Unsorted, {
 			}),
 			filter(QUEST_ITEMS, {
 				i(259473),	-- Charred Amani Trinket
-				i(269668),	-- Hungering Oblivium
 				i(253386),	-- Light-Pulsing Seed
 				i(259474),	-- Lost Amani Toy
 				i(259475),	-- Misplaced Loa Statue

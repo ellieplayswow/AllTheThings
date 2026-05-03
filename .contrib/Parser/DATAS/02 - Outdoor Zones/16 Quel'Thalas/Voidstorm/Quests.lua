@@ -1622,8 +1622,7 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 					248583,	-- Decimus
 				},
 				["coord"] = { 51.2, 68.4, MAP.MIDNIGHT.VOIDSTORM },
-				--["isWeekly"] = true,	-- TODO: likely will be on live
-				["repeatable"] = true,	-- TODO: beta only?
+				["repeatable"] = true,
 				["groups"] = {
 					--spell(1276894),	-- Transmute Elemental Voidcore
 					i(265695),	-- Elementary Voidcore Shard (QI!)
@@ -1633,6 +1632,36 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["sourceQuests"] = { 94625 },	-- An Elementary Voidcore (TODO: unsure if weekly is good questID as source)
 				["provider"] = { "n", 243907 },	-- Decimus
 				["coord"] = { 51.2, 68.4, MAP.MIDNIGHT.VOIDSTORM },
+			}),
+			q(95268, {	-- New Tools, New Heights
+				["sourceQuests"] = { 94675 },	-- Voidforge Reforged
+				["provider"] = { "n", 243907 },	-- Decimus
+				["coord"] = { 51.2, 68.4, MAP.MIDNIGHT.VOIDSTORM },
+				["groups"] = { i(269668) },	-- Hungering Oblivium (QI!)
+			}),
+			q(95373, {	-- A Nebulous Endeavour
+				["sourceQuests"] = { 94675 },	-- Voidforge Reforged
+				["provider"] = { "n", 243907 },	-- Decimus
+				["coord"] = { 51.2, 68.4, MAP.MIDNIGHT.VOIDSTORM },
+				["repeatable"] = true,
+			}),
+			q(95279, {	-- Nebulous Voidcores: Gold
+				["sourceQuests"] = { 95373 },	-- A Nebulous Endeavour
+				["provider"] = { "n", 243907 },	-- Decimus
+				["coord"] = { 51.2, 68.4, MAP.MIDNIGHT.VOIDSTORM },
+				["repeatable"] = true,
+			}),
+			q(95290, {	-- Nebulous Voidcores: Voidlight Marl
+				["sourceQuests"] = { 95373 },	-- A Nebulous Endeavour
+				["provider"] = { "n", 243907 },	-- Decimus
+				["coord"] = { 51.2, 68.4, MAP.MIDNIGHT.VOIDSTORM },
+				["repeatable"] = true,
+			}),
+			q(95304, {	-- Nebulous Voidcores: Veteran Dawncrest
+				["sourceQuests"] = { 95373 },	-- A Nebulous Endeavour
+				["provider"] = { "n", 243907 },	-- Decimus
+				["coord"] = { 51.2, 68.4, MAP.MIDNIGHT.VOIDSTORM },
+				["repeatable"] = true,
 			}),
 		}),
 	}),
