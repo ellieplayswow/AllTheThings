@@ -762,5 +762,10 @@ root(ROOTS.NeverImplemented, n(FACTIONS, {
 			faction(2709),	-- Vanguard of the Light
 			faction(2706),	-- Witherbark Tribe
 		})),
+
+		-- 12.0.5
+		expansion(EXPANSION.MID, patch(0,5), bubbleDownSelf({ ["timeline"] = { CREATED_12_0_5 } }, {
+			faction(2793),	-- Ritual Sites (Paragon)
+		})),
 	}),
 }));

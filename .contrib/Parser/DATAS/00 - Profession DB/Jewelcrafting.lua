@@ -575,7 +575,7 @@ i(0, 46404);	-- Reckless Noble Topaz [REMOVED: 4.0.3]
 -----------------
 -- PATCH 3.0.2 --
 -----------------
---- NYI --
+--- NYI ---
 i(41408, 0);	-- ZZOLD Design: Austere Earthsiege Diamond
 i(41412, 0);	-- ZZOLD Design: Beaming Earthsiege Diamond
 i(41404, 0);	-- ZZOLD Design: Bracing Earthsiege Diamond

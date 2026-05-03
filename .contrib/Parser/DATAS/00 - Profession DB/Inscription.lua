@@ -911,7 +911,7 @@ i(141048, 225540);	-- Glyph of the Headhunter (8.0.1)
 i(141050, 225542);	-- Glyph of the Skullseye (8.0.1)
 i(141034, 225526);	-- Glyph of the Unholy Wraith (8.0.1)
 i(137740, 192848);	-- Glyph of the Wraith Walker (8.0.1)
--- NYI --
+--- NYI ---
 -- #if BEFORE 10.1.5
 i(141061, 225553);	-- Grimoire of the Abyssal
 -- #endif
@@ -1015,7 +1015,7 @@ i(137776, 192900);	-- Vantus Rune: Trilliax [Rank 3]
 -----------------
 i(147120, 240272);	-- Grimoire of the Shadow Succubus
 i(141067, 225559);	-- Grimoire of Wrathguard
--- NYI --
+--- NYI ---
 i(147118, 240269);	-- Glyph of the Fel Succubus
 
 -----------------

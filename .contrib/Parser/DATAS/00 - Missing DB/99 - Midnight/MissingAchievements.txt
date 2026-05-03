@@ -1,30 +1,3 @@
-12.0.1.66431
-ach(62653),	-- [DNT] Midnight Alchemy Knowledge Fix
-ach(62654),	-- [DNT] Midnight Blacksmithing Knowledge Fix
-ach(62655),	-- [DNT] Midnight Enchanting Knowledge Fix
-ach(62656),	-- [DNT] Midnight Herbalism Knowledge Fix
-ach(62657),	-- [DNT] Midnight Inscription Knowledge Fix
-ach(62658),	-- [DNT] Midnight Leatherworking Knowledge Fix
-ach(62659),	-- [DNT] Midnight Mining Knowledge Fix
-ach(62660),	-- [DNT] Midnight Skinning Knowledge Fix
-ach(62688),	-- [DNT] Midnight Engineering Knowledge Fix
-12.0.1.66666
-ach(62839),	-- [DNT] Haranir Reputation Fix
-12.0.5.66330
-ach(62519),	-- [DNT] Research Sites: Collection - Bear Pet - Tracking
-ach(62520),	-- [DNT] Research Sites: Collection - Bear Mount - Tracking
-ach(62586),	-- [DNT] Research Sites: Collection - Eagle Pet - Tracking
-ach(62587),	-- [DNT] Research Sites: Collection - Eagle Mount - Tracking
-ach(62599),	-- [DNT] Research Sites: Collection - Hawkstrider Pet - Tracking
-ach(62602),	-- [DNT] Research Sites: Collection - Lynx Pet - Tracking
-ach(62605),	-- [DNT] Research Sites: Collection - Snapdragon Pet - Tracking
-12.0.5.66741
-ach(62811),	-- [PH] JZB Test Achievement 01
-ach(62812),	-- [PH] JZB Test Achievement 02
-ach(62813),	-- [PH] JZB Test Achievement 03
-ach(62814),	-- [PH] JZB Test Achievement 04
-12.0.5.67235
-ach(63263),	-- [DNT]Midnight Keystone Myth: Season One Personal Achievement
 12.0.7.67227
 ach(61335),	-- Flame Keeper of Midnight
 ach(61336),	-- Flame Warden of Midnight
