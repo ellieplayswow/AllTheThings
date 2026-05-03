@@ -636,7 +636,7 @@ root(ROOTS.Unsorted, {
 					i(268890),	-- White Sunwalker Totem
 					i(268891),	-- White Sunwalker Sun Totem
 				}),
-				n(WEAPON, {
+				n(WEAPONS, {
 					i(268511),	-- Ambermill Rebel Boltshot
 					i(268491),	-- Ambermill Rebel Bonecracker
 					i(268495),	-- Ambermill Rebel Knuckleblades

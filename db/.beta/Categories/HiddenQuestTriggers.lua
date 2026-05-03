@@ -7386,7 +7386,8 @@ hqt(93991,{an="n:252067",isWeekly=1}),
 hqt(93987,{an="n:252070",isWeekly=1})}}),
 h(-68,{awp=120001,g={
 ah(61259,{rwp=120100,type="a",g={
-hqt(92491,{isWeekly=1})}})}}),
+hqt(92491,{isWeekly=1}),
+hqt(95375,{repeatable=1})}})}}),
 h(-204,{awp=120001,g={
 h(-674),
 h(-381,{
@@ -7403,7 +7404,8 @@ hqt(91182,{an="m:2545",isDaily=1})}),
 hqt(93819,{an="fa:2696",isWeekly=1}),
 hqt(93820,{an="fa:2699",isWeekly=1}),
 hqt(93821,{an="fa:2710",isWeekly=1}),
-hqt(93822,{an="fa:2704",isWeekly=1})}}),
+hqt(93822,{an="fa:2704",isWeekly=1}),
+hqt(93935,{isWeekly=1})}}),
 m(2537,{lvl=80,g={
 m(2405,{maps={2444,2526,2527},lvl=88,g={
 h(-45,{
@@ -7672,7 +7674,8 @@ hqt(93860,{isWeekly=1}),
 hqt(93170,{isWeekly=1}),
 hqt(93861,{isWeekly=1}),
 hqt(93863,{isWeekly=1}),
-hqt(93864,{isWeekly=1})})}),
+hqt(93864,{isWeekly=1}),
+hqt(91415,{repeatable=1})})}),
 h(-103,{
 h(-45,{
 hqt(95669,{isDaily=1})}),

@@ -316,7 +316,7 @@ ach(6849,{providers={{"i",85870}},rwp=50407,u=2}),
 ach(6848,{providers={{"i",85871}},rwp=50407,u=2}),
 mnt(124659,{b=1,itemID=85870,lvl=10,rwp=50407,u=2}),
 p(671,{itemID=85871,npcID=63832,rwp=50407,spellID=124660,u=2,g={
-crit(34637,{achID=6848,awp=80300,id=3,u=2})}})}}),
+crit(34637,{achID=6848,id=3,u=2})}})}}),
 h(-527,{awp=110007,u=3,g={
 h(-522,{description="These rewards were made available to anyone who purchased Sha-Infused Heroic Pack.",u=3,g={
 mnt(1216422,{b=1,itemID=235286,lvl=10,u=3}),
@@ -339,7 +339,7 @@ x(7,{awp=60202,description="These rewards were made available to anyone who purc
 ach(10321,{rwp=70305,u=2}),
 ach(10320,{providers={{"i",128425}},rwp=70305,u=2}),
 p(1691,{itemID=128426,npcID=95841,rwp=70305,spellID=190020,u=2,g={
-crit(28787,{achID=10321,id=1,rwp=100107,u=2})}}),
+crit(28787,{achID=10321,id=1,u=2})}}),
 mnt(189998,{b=1,itemID=128425,lvl=10,rwp=70305,u=2})}}),
 x(8,{awp=70305,description="These rewards were made available to anyone who purchased a Collector's Edition of BFA.\n\nThe rewards can be purchased from the in-game shop.",u=3,g={
 ach(12230,{providers={{"i",153540}},r=1,rwp=80307,u=2}),
@@ -348,7 +348,7 @@ ach(12232,{rwp=80307,u=2}),
 mnt(255696,{b=1,itemID=153540,lvl=10,r=1,rwp=80307,u=2}),
 mnt(255695,{b=1,itemID=153539,lvl=10,r=2,rwp=80307,u=2}),
 p(2143,{itemID=153541,npcID=129049,rwp=80307,spellID=255702,u=2,g={
-crit(38154,{achID=12232,id=1,rwp=100107,u=2})}})}}),
+crit(38154,{achID=12232,id=1,u=2})}})}}),
 x(9,{awp=80307,u=3,g={
 h(-522,{description="These rewards were made available to anyone who purchased Shadowlands Heroic Edition.",rwp=90205,u=2,g={
 ach(14283,{providers={{"s",307932}},u=2}),
@@ -878,7 +878,7 @@ s(187933,206276,{f=24,u=2}),
 s(187750,206005,{f=23,u=2})}})}),
 h(-541,{awp=110002,g={
 s(230544,233053,{awp=110005,description="Quest is only available with an US IP. Codes are useable worldwide.\n\nIn the bottom left of your Discord Server list, click Discover & there click on the Quests tab to start the Quest for the Reward.\n\nStream World of Warcraft in Discord to a friend for 15 minutes.\n\nOnce you're in a Direct Message, Groupchat, or Server, simply choose 'Go Live' to stream World of Warcraft for 15 minutes - you'll have a progress bar that indicates how close you are to earning your transmog.\nUpon completion of the quest, you'll be given a code to redeem - head to the Battle.net launcher, click your profile in the top right, and choose 'Redeem Code.' From there, it's a quick copy and paste until the Crown of the Violet Rose is yours!\n\nPromotion is available from December 2nd, 2024 until December 9th, 2024 (11:59PM UTC).",f=2,rwp=110005,u=2}),
-p(4615,{description="In the bottom left of your Discord Server list, click Discover & there click on the Quests tab to start the Quest for the Reward.\n\nStream World of Warcraft in Discord to a friend for 15 minutes.\n\nOnce you're in a Direct Message, Groupchat, or Server, simply choose 'Go Live' to stream World of Warcraft for 15 minutes - you'll have a progress bar that indicates how close you are to earning your pet.\nUpon completion of the quest, you'll be given a code to redeem - head to the Battle.net launcher, click your profile in the top right, and choose 'Redeem Code.' From there, it's a quick copy and paste until Parrlok Parrlok is yours!\n\nPromotion is available from August 23rd, 2024 until September 8th, 2024 (11:59PM UTC).",itemID=228758,npcID=229846,spellID=463079,u=2}),
+p(4615,{description="In the bottom left of your Discord Server list, click Discover & there click on the Quests tab to start the Quest for the Reward.\n\nStream World of Warcraft in Discord to a friend for 15 minutes.\n\nOnce you're in a Direct Message, Groupchat, or Server, simply choose 'Go Live' to stream World of Warcraft for 15 minutes - you'll have a progress bar that indicates how close you are to earning your pet.\nUpon completion of the quest, you'll be given a code to redeem - head to the Battle.net launcher, click your profile in the top right, and choose 'Redeem Code.' From there, it's a quick copy and paste until Parrlok Parrlok is yours!\n\nPromotion is available from August 23rd, 2024 until September 8th, 2024 (11:59PM UTC).",itemID=228758,npcID=229846,rwp=110002,spellID=463079,u=2}),
 s(297814,250292,{awp=120000,description="At the top of your Direct messages tab on Discord, click the Quests tab to start the Quest for the Reward.\n\nPlay the game for 15 minutes with Discord running.\n\nUpon completion of the quest, you'll be given a code to redeem - head to the Battle.net launcher, click your profile in the top right, and choose 'Redeem Code.'\n\nPromotion is available from January 27th, 2026 until February 2nd, 2026 (11:59PM UTC).",f=3,rwp=120000,u=2}),
 p(4975,{awp=120001,description="At the top of your Direct messages tab on Discord, click the Quests tab to start the Quest for the Reward.\n\nPlay the game for 15 minutes with Discord running.\n\nUpon completion of the quest, you'll be given a code to redeem - head to the Battle.net launcher, click your profile in the top right, and choose 'Redeem Code.'\n\nPromotion is available from March 2nd, 2026 until March 16th, 2026.",itemID=264366,npcID=257493,rwp=120001,spellID=1271843,u=2})}}),
 h(-542,{awp=50300,u=3,g={

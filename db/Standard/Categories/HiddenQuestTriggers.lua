@@ -7404,7 +7404,8 @@ hqt(91182,{an="m:2545",isDaily=1})}),
 hqt(93819,{an="fa:2696",isWeekly=1}),
 hqt(93820,{an="fa:2699",isWeekly=1}),
 hqt(93821,{an="fa:2710",isWeekly=1}),
-hqt(93822,{an="fa:2704",isWeekly=1})}}),
+hqt(93822,{an="fa:2704",isWeekly=1}),
+hqt(93935,{isWeekly=1})}}),
 m(2537,{lvl=80,g={
 m(2405,{maps={2444,2526,2527},lvl=88,g={
 h(-45,{

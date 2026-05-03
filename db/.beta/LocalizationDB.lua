@@ -5,7 +5,6 @@
 local localize = function(t, data) for k,v in pairs(data) do t[k] = v; end end
 local appName, _, a = ...;
 local L = _.L;
-
 -- Localization Strings
 L._BETA_LABEL = "|cff4AA7FF [Beta]|r";
 L.ABOUT_BOTTOM = "Active Contributors: |CFFFFFFFF(Alphabetical Order)\n%s\n\n|rHall of Fame: |CFFFFFFFF(Alphabetical Order)\n%s\n\nSpecial Shoutout to AmiYuy (CanIMogIt) and Caerdon (Caerdon Wardrobe). You should absolutely download their addons to get the collection icons on items in your bags! %s %s %s\n\nFor online collection comparing check out DataForAzeroth.com from Shoogen and WoWthing.org from Freddie!|r";
@@ -923,7 +922,6 @@ L.WRONG_FACTION = "You might need to be on the other faction to view this.";
 L.YOU_DID_IT = "YOU DID IT!";
 L.ZONE = ZONE;
 L.ZONE_DESC = "Click this button to select a random zone based on what you're missing.";
-
 -- Category Database Module
 _.CategoryNames = {
 	[3] = "Tarot Decks",
@@ -982,7 +980,6 @@ _.CategoryIcons = {
 	[787] = 134331,
 	[790] = 135792,
 }
-
 -- Custom Header Database Module
 _.HeaderConstants = {
 	ACHIEVEMENTS = -12,
@@ -1714,7 +1711,6 @@ localize(L.HEADER_NAMES, {
 	[-722] = "Diablo II: Resurrected - Reign of Warlock",
 	[-723] = "Elemental Invasions",
 	[-729] = "Abundance",
-	[-730] = "Abyss Anglers",
 	[-731] = CHARACTER,
 	[-732] = BUG_CATEGORY2,
 	[-733] = DUNGEONS_BUTTON,
@@ -2434,7 +2430,6 @@ localize(L.HEADER_ICONS, {
 	[-722] = 1529348,
 	[-723] = 135793,
 	[-729] = _.asset("category_abundance"),
-	[-730] = 2027958,
 	[-731] = _.asset("category_itemsets"),
 	[-732] = _.asset("category_zones"),
 	[-733] = _.asset("category_groupfinder"),
@@ -2609,14 +2604,16 @@ localize(L.EVENT_REMAPPING, {
 	[1708] = 239,
 	[1709] = 239,
 	[1710] = 239,
+	[1719] = 239,
+	[1720] = 239,
+	[1721] = 239,
+	[1722] = 239,
 	[1807] = 447,
 });
-
 localize(L.EVENT_TIMERUNNING_SEASONS, {
 	[1] = 437,
 	[2] = 447,
 });
-
 -- Programmatic Event Scheduling
 _.Modules.Events.SetEventInformation(1501, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=16,["weekday"]=1,["year"]=2025},{["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=7,["weekday"]=1,["year"]=2025})
@@ -2660,7 +2657,6 @@ _.Modules.Events.SetEventInformation(242, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=11,["monthDay"]=16,["weekday"]=3,["year"]=2027},{["hour"]=10,["minute"]=0,["month"]=12,["monthDay"]=7,["weekday"]=3,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133900, {
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=4,["monthDay"]=26,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=4,["monthDay"]=26,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=3,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=5,["monthDay"]=3,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=10,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=5,["monthDay"]=10,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=17,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=5,["monthDay"]=17,["weekday"]=1,["year"]=2026}),
@@ -2712,7 +2708,8 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=4,["monthDay"]=4,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=4,["monthDay"]=4,["weekday"]=1,["year"]=2027}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=4,["monthDay"]=11,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=4,["monthDay"]=11,["weekday"]=1,["year"]=2027}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=4,["monthDay"]=18,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=4,["monthDay"]=18,["weekday"]=1,["year"]=2027}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=4,["monthDay"]=25,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=4,["monthDay"]=25,["weekday"]=1,["year"]=2027})
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=4,["monthDay"]=25,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=4,["monthDay"]=25,["weekday"]=1,["year"]=2027}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=2,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=5,["monthDay"]=2,["weekday"]=1,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=3,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=5,["year"]=2026}),
@@ -2730,7 +2727,6 @@ _.Modules.Events.SetEventInformation(444, {
 _.Modules.Events.SetEventInformation(437, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=16,["weekday"]=5,["year"]=2024},{["hour"]=0,["minute"]=0,["month"]=8,["monthDay"]=20,["weekday"]=3,["year"]=2024})
 });
-
 -- Filter Database Module
 _.FilterConstants = {
 	ACHIEVEMENTS = 105,
@@ -2885,7 +2881,6 @@ L.FILTER_ID_ICONS = {
 	[114] = 1534178,
 	[200] = 134941,
 }
-
 -- Flight Path Database Module
 _.FlightPathNames = {
 	[1] = "Northshire Abbey",
@@ -4338,7 +4333,6 @@ _.FlightPathNames = {
 	[3240] = "Quest Path 11404: 12.0 Z1 - Eversong - Teleporters - Brightwing Estates - Going Up - Force Taxi - SJC",
 	[3241] = "Quest Path 11405: 12.0 Z1 - Eversong - Teleporters - Brightwing Estates - Going Down - Force Taxi - SJC",
 }
-
 -- Glyphs Database Module
 _.GlyphDB = {
 	[161] = 54810,
@@ -5039,7 +5033,6 @@ _.GlyphDB = {
 	[1472] = 1213567,
 	[1473] = 1234337,
 }
-
 -- Object Database Module
 local ObjectNames = {
 	[31] = "Old Lion Statue",
@@ -11405,6 +11398,7 @@ local ObjectNames = {
 	[433101] = "Bag of Glowing Shards",
 	[433102] = "Bundle of Receipts",
 	[433109] = "Nerubian Silk Ropes",
+	[433369] = "War Supply Chest",
 	[433370] = "War Supply Chest",
 	[433377] = "Harvest Box",
 	[433563] = "Key Scroll",
@@ -11483,6 +11477,7 @@ local ObjectNames = {
 	[439890] = "Grave Offering Location",
 	[440914] = "Offering of Pure Water",
 	[440926] = "Jar of Mucus",
+	[441108] = "Unbound Spoils",
 	[441183] = "Galan's Edict",
 	[441223] = "Stone of The Unbound",
 	[441231] = "Titan Console",
@@ -12796,8 +12791,10 @@ local ObjectNames = {
 	[572254] = "Ironwood Lumber",
 	[572428] = "Lost Amani Bolt",
 	[572446] = "Scarred Spear",
+	[572448] = "Ebon Banner",
 	[572450] = "Ancient Zandalari Scroll",
 	[572451] = "Evergreen Vine",
+	[572453] = "Pylon Fragment",
 	[572454] = "Weathered Tome",
 	[572455] = "Heavy Anchor",
 	[572456] = "Sandy Tapestry",
@@ -14356,6 +14353,8 @@ local ObjectIcons = {
 	[357758] = 252179,
 	[375368] = 4216936,
 	[382621] = 4622448,
+	[433369] = 132485,
+	[433370] = 132486,
 	[9999908] = 237381,
 	[9999909] = 236854,
 	[9999910] = 134748,
@@ -20699,6 +20698,7 @@ local ObjectModels = {
 	[433101] = 5209191,
 	[433102] = 5409332,
 	[433109] = 5516435,
+	[433369] = 341746,
 	[433370] = 341870,
 	[433377] = 5154231,
 	[433563] = 5007027,
@@ -20767,6 +20767,7 @@ local ObjectModels = {
 	[439890] = 5546879,
 	[440914] = 4508236,
 	[440926] = 4240491,
+	[441108] = 5128194,
 	[441231] = 4663520,
 	[441257] = 5007037,
 	[441358] = 198493,
@@ -21797,8 +21798,10 @@ local ObjectModels = {
 	[572254] = 6922313,
 	[572428] = 6195762,
 	[572446] = 943686,
+	[572448] = 194802,
 	[572450] = 774267,
 	[572451] = 651497,
+	[572453] = 1327768,
 	[572454] = 985164,
 	[572455] = 1611709,
 	[572456] = 1674722,
@@ -22119,7 +22122,6 @@ local ObjectModels = {
 	[633820] = 5975120,
 	[633823] = 3978478,
 }; _.ObjectModels = ObjectModels;
-
 -- Consolidated Object Data
 local ALLIANCE_BONFIRES = { 187564,187914,187916,187917,187919,187920,187921,187922,187923,187924,187925,187926,187927,187928,187929,187930,187931,187932,187933,187934,187935,187936,187937,187938,187939,187940,187941,187942,187943,187944,187945,187946,194032,194035,194036,194038,194040,194044,194045,194049,207982,207984,207985,207987,207988,207993,208089,208093,217851,259871,259927,316788,316791,316793 };
 local CANDY_BUCKETS = { 189303,190034,190035,190036,190037,190038,190039,190040,190041,190042,190043,190044,190045,190046,190047,190048,190049,190050,190051,190052,190053,190054,190055,190056,190057,190058,190059,190060,190061,190062,190063,190064,190065,190066,190067,190068,190069,190070,190071,190072,190073,190074,190075,190076,190077,190078,190079,190080,190081,190082,190083,190084,190085,190086,190087,190088,190089,190090,190091,190096,190097,190098,190099,190100,190101,190102,190103,190104,190105,190106,190107,190108,190109,190110,190111,190112,190113,190114,190115,190116,191878,191879,191880,191881,191882,191883,192018,194056,194057,194058,194059,194060,194061,194062,194063,194064,194065,194066,194067,194068,194069,194070,194071,194072,194073,194074,194075,194076,194077,194078,194079,194080,194081,194084,194119,208115,208116,208117,208118,208119,208120,208121,208122,208123,208124,208125,208126,208127,208128,208129,208130,208131,208132,208133,208134,208135,208136,208137,208138,208139,208140,208141,208142,208143,208144,208145,208146,208147,208148,208149,208150,208151,208152,208153,208154,208155,208156,208157,208158,208159,208160,208161,208162,208163,208164,208165,208166,208167,208168,208169,208170,208171,208172,208173,208174,208175,208176,208177,208178,208179,208180,208181,208183,215873,215874,215875,215876,215877,215879,215880,215881,215884,215886,215889,215891,215892,215894,215895,215897,215898,215899,215900,215902,215903,215904,215905,215906,215907,215908,215914,215915,243912,251670,251671,251672,316754,316755,401714,401723,401724,401725,401726,401727,401728,401729,401730,401731,401732,401733,401734,401735,401736,401737,401738,401739,401740,401741,401742,401743,401744,401745,401746,401747,401748,401749,401750,401751,401752,401753,401754,401755,401756,401757,407048,464911,464913,464914,464915,464916,464917,464918,464919,464920,464921,464922,464923,464924,464925,464926,464927,464928,464929 };
@@ -22138,7 +22140,6 @@ for i,objectID in ipairs(HORDE_BONFIRES) do
 	ObjectIcons[objectID] = 135805;
 	ObjectModels[objectID] = 200079;
 end
-
 -- Phase Database Module
 _.PhaseConstants = {
 	BLACK_MARKET = 9,
@@ -22205,7 +22206,6 @@ local phases = {
 	},
 };
 L.PHASES = phases;
-
 -- Automatic Types
 L.ITEM_NAMES = {
 	[20946] = "Tactical Task Briefing III",
@@ -26098,7 +26098,6 @@ L.SOURCE_NAMES = {
 	[100029] = "Honorable Combatant's Plate Armguards",
 	[100030] = "Honorable Combatant's Plate Armguards",
 }
-
 -- Supported Locales
 local simplifiedLocale = GetLocale():sub(1,2);
 if simplifiedLocale == "de" then
@@ -32764,6 +32763,7 @@ localize(ObjectNames, {
 	[433101] = "Tasche mit leuchtenden Splittern",
 	[433102] = "Belegbündel",
 	[433109] = "Nerubische Seidenseile",
+	[433369] = "Kiste mit Kriegsvorräten",
 	[433370] = "Kiste mit Kriegsvorräten",
 	[433377] = "Erntekiste",
 	[433563] = "Schlüsselschriftrolle",
@@ -32819,6 +32819,7 @@ localize(ObjectNames, {
 	[439789] = "Zunderkasten von Dalian Eisenbinder",
 	[440914] = "Opfergabe aus reinem Wasser",
 	[440926] = "Krug voller Schleim",
+	[441108] = "Ungebundene Beute",
 	[441257] = "Kiste mit alchemistischen Tränken",
 	[441585] = "Brennendes Giftfläschchen",
 	[441586] = "Militärkorrespondenz",
@@ -33595,8 +33596,10 @@ localize(ObjectNames, {
 	[572094] = "Olembaholz",
 	[572254] = "Eisenholz",
 	[572446] = "Verschrammter Speer",
+	[572448] = "Schwarzbanner",
 	[572450] = "Uralte Zandalarischriftrolle",
 	[572451] = "Immergrüne Ranke",
+	[572453] = "Pylonfragment",
 	[572454] = "Verwitterter Foliant",
 	[572455] = "Schwerer Anker",
 	[572456] = "Sandiger Wandteppich",
@@ -40481,6 +40484,7 @@ localize(ObjectNames, {
 	[433101] = "Sac d’éclats luminescents",
 	[433102] = "Liasse de reçus",
 	[433109] = "Cordes en soie nérubienne",
+	[433369] = "Coffre de fournitures de guerre",
 	[433370] = "Coffre de fournitures de guerre",
 	[433377] = "Boîte de la moisson",
 	[433563] = "Parchemin clé",
@@ -40539,6 +40543,7 @@ localize(ObjectNames, {
 	[439789] = "Poudrière de Dalian Chaînefer",
 	[440914] = "Offrande d’eau pure",
 	[440926] = "Bocal de mucus",
+	[441108] = "Butin délié",
 	[441257] = "Caisse de potions d’alchimie",
 	[441585] = "Flacon de venin brûlant",
 	[441586] = "Correspondance militaire",
@@ -41296,8 +41301,10 @@ localize(ObjectNames, {
 	[572094] = "Bois d’olemba",
 	[572254] = "Bois de bois-de-fer",
 	[572446] = "Lance griffée",
+	[572448] = "Bannière d’ébène",
 	[572450] = "Parchemin zandalari antique",
 	[572451] = "Vigne sempervirente",
+	[572453] = "Fragment de pylône",
 	[572454] = "Tome dégradé",
 	[572455] = "Ancre lourde",
 	[572456] = "Tapisserie sableuse",
@@ -47215,6 +47222,7 @@ localize(ObjectNames, {
 	[433101] = "Borsa di Schegge Luminose",
 	[433102] = "Mucchio di Ricevute",
 	[433109] = "Corde di Seta dei Nerubiani",
+	[433369] = "Cassa di Rifornimenti da Guerra",
 	[433370] = "Cassa di Rifornimenti da Guerra",
 	[433563] = "Pergamena Chiave",
 	[433705] = "Bottiglia di Feromoni",
@@ -47262,6 +47270,7 @@ localize(ObjectNames, {
 	[439789] = "Accendifiamma di Dalian Legaferro",
 	[440914] = "Offerta di Acqua Pura",
 	[440926] = "Vaso di Muco",
+	[441108] = "Spoglie Svincolate",
 	[441257] = "Cassa di Pozioni Alchemiche",
 	[443754] = "Scrigno dei Terrigeni",
 	[443756] = "Scrigno dei Terrigeni Ricolmo",
@@ -47971,8 +47980,10 @@ localize(ObjectNames, {
 	[572094] = "Legname di Olemba",
 	[572254] = "Legname di Legnoduro",
 	[572446] = "Lancia Sfregiata",
+	[572448] = "Stendardo d'Ebano",
 	[572450] = "Antica Pergamena degli Zandalari",
 	[572451] = "Viticcio Sempreverde",
+	[572453] = "Frammento di Pilone",
 	[572454] = "Tomo Logoro",
 	[572455] = "Ancora Pesante",
 	[572456] = "Arazzo Sabbioso",
@@ -54309,6 +54320,7 @@ localize(ObjectNames, {
 	[433101] = "Bolsa de Estilhaços Brilhantes",
 	[433102] = "Monte de Recibos",
 	[433109] = "Corda de Seda Nerubiana",
+	[433369] = "Baú de Suprimentos de Guerra",
 	[433370] = "Baú de Suprimentos de Guerra",
 	[433563] = "Pergaminho-chave",
 	[433705] = "Bomba de Feromônios",
@@ -54361,6 +54373,7 @@ localize(ObjectNames, {
 	[439789] = "Caixa Ignitora de Dalião Ferrolinco",
 	[440914] = "Oferenda de Água Pura",
 	[440926] = "Pote de Muco",
+	[441108] = "Espólios Desvinculados",
 	[441257] = "Caixote de Poções Alquímicas",
 	[441585] = "Frasco de Peçonha Ardente",
 	[441586] = "Correspondência Militar",
@@ -55088,6 +55101,7 @@ localize(ObjectNames, {
 	[572094] = "Lenha de Olemba",
 	[572254] = "Lenha de Pau-ferro",
 	[572446] = "Lança Marcada",
+	[572448] = "Estandarte de Ébano",
 	[572450] = "Pergaminho Zandalari Ancestral",
 	[572451] = "Trepadeira Sempre-verde",
 	[572454] = "Tomo Surrado",
@@ -62421,6 +62435,7 @@ localize(ObjectNames, {
 	[433101] = "Мешок светящихся осколков",
 	[433102] = "Стопка квитанций",
 	[433109] = "Нерубские шелковые веревки",
+	[433369] = "Сундук с военными припасами",
 	[433370] = "Сундук с военными припасами",
 	[433377] = "Коробка для сбора",
 	[433563] = "Свиток-ключ",
@@ -62475,6 +62490,7 @@ localize(ObjectNames, {
 	[439789] = "Трутница Далиана Айронлинка",
 	[440914] = "Подношение чистой воды",
 	[440926] = "Кувшин со слизью",
+	[441108] = "Трофеи необузданной битвы",
 	[441257] = "Ящик с алхимическими зельями",
 	[441723] = "Фермерская сумка",
 	[443754] = "Ларец земельника",
@@ -63226,8 +63242,10 @@ localize(ObjectNames, {
 	[572094] = "Древесина Олембы",
 	[572254] = "Древесина железного дерева",
 	[572446] = "Иссеченное копье",
+	[572448] = "Черное знамя",
 	[572450] = "Древний зандаларский свиток",
 	[572451] = "Вечнозеленая лоза",
+	[572453] = "Фрагмент пилона",
 	[572454] = "Потертый фолиант",
 	[572455] = "Тяжелый якорь",
 	[572456] = "Песчаный гобелен",
@@ -69217,6 +69235,7 @@ localize(ObjectNames, {
 	[433101] = "빛나는 조각 가방",
 	[433102] = "영수증 묶음",
 	[433109] = "네루비안 비단 밧줄",
+	[433369] = "전쟁 보급품 상자",
 	[433370] = "전쟁 보급품 상자",
 	[433563] = "열쇠 두루마리",
 	[433705] = "페로몬 병",
@@ -69263,6 +69282,7 @@ localize(ObjectNames, {
 	[439789] = "다일리안 아이언링크의 부싯깃 상자",
 	[440914] = "순수한 물 공물",
 	[440926] = "점액 단지",
+	[441108] = "해방자 전리품",
 	[441257] = "연금술 물약 상자",
 	[443754] = "토석인 궤짝",
 	[443756] = "넘쳐흐르는 토석인 궤짝",
@@ -69869,8 +69889,10 @@ localize(ObjectNames, {
 	[572094] = "올렘바 목재",
 	[572254] = "강철나무 목재",
 	[572446] = "흉터투성이 창",
+	[572448] = "칠흑 깃발",
 	[572450] = "고대 잔달라 두루마리",
 	[572451] = "사철나무 덩굴",
+	[572453] = "수정탑 파편",
 	[572454] = "마모된 고서",
 	[572455] = "무거운 닻",
 	[572456] = "모래투성이 융단",
@@ -77169,6 +77191,7 @@ localize(ObjectNames, {
 	[433101] = "Bolsa de fragmentos resplandecientes",
 	[433102] = "Fardo de recibos",
 	[433109] = "Cuerdas de seda nerubianas",
+	[433369] = "Cofre de suministros de guerra",
 	[433370] = "Cofre de suministros de guerra",
 	[433377] = "Caja de la cosecha",
 	[433563] = "Pergamino llave",
@@ -77216,6 +77239,7 @@ localize(ObjectNames, {
 	[439789] = "Caja de yesca de Dalian Vinculoférreo",
 	[440914] = "Ofrenda de agua pura",
 	[440926] = "Tarro de mucosidad",
+	[441108] = "Botín desvinculado",
 	[441257] = "Cajón de pociones alquímicas",
 	[441723] = "Bolsa de granja",
 	[443754] = "Arca terránea",
@@ -77936,8 +77960,10 @@ localize(ObjectNames, {
 	[572094] = "Madera de olemba",
 	[572254] = "Maderaférrea",
 	[572446] = "Lanza cicatrícea",
+	[572448] = "Estandarte ébano",
 	[572450] = "Pergamino Zandalari antiguo",
 	[572451] = "Parra de siempreverde",
+	[572453] = "Fragmento de pilón",
 	[572454] = "Tomo erosionado",
 	[572455] = "Ancla pesada",
 	[572456] = "Tapiz arenoso",
@@ -78546,6 +78572,7 @@ localize(ObjectNames, {
 	[439474] = "Armas de la guardia de la reina",
 	[439611] = "Jarabe paralizador",
 	[439789] = "Caja de yesca de Dalian Lazoférreo",
+	[441108] = "Despojo de los emancipados",
 	[443756] = "Arca terránea cargada",
 	[444066] = "Alijo de vigilante",
 	[449528] = "Herramientas de minería de ópalo",
@@ -80176,7 +80203,6 @@ localize(L.HEADER_NAMES, {
 	[-713] = "最高等级角色",
 	[-723] = "元素入侵",
 	[-729] = "丰饶",
-	[-730] = "深渊钓客",
 	[-738] = "哈籁尼尔的传说",
 	[-746] = "专业节点",
 });
@@ -85571,6 +85597,7 @@ localize(ObjectNames, {
 	[433101] = "一袋发光碎片",
 	[433102] = "一叠收据",
 	[433109] = "蛛魔丝绳",
+	[433369] = "战争补给箱",
 	[433370] = "战争补给箱",
 	[433563] = "钥匙卷轴",
 	[433705] = "信息素之瓶",
@@ -85618,6 +85645,7 @@ localize(ObjectNames, {
 	[439789] = "达里安·艾恩林克的火绒盒",
 	[440914] = "纯水供品",
 	[440926] = "一罐粘液",
+	[441108] = "无缚战利品",
 	[441257] = "一箱炼金药水",
 	[441797] = "虚痕风暴之锤",
 	[443754] = "土灵宝匣",
@@ -86318,6 +86346,7 @@ localize(ObjectNames, {
 	[572446] = "战痕长矛",
 	[572450] = "古代赞达拉卷轴",
 	[572451] = "常青藤蔓",
+	[572453] = "晶塔碎片",
 	[572454] = "饱经风霜的书典",
 	[572455] = "沉重的锚",
 	[572456] = "染沙的挂毯",
@@ -87557,12 +87586,14 @@ localize(ObjectNames, {
 	[420873] = "儀式之書",
 	[423714] = "暮莖梗",
 	[430601] = "西爾海姆蛋",
+	[433369] = "戰爭補給箱",
 	[433563] = "鑰匙卷軸",
 	[434861] = "永繁菌",
 	[439463] = "倒出來的火焰蜂蜜",
 	[439474] = "女王護衛武器",
 	[439611] = "麻痺藥水",
 	[439789] = "達利安‧鐵鍊的引火盒",
+	[441108] = "無縛者戰利品",
 	[443756] = "裝滿的土靈保險箱",
 	[444066] = "守衛者的儲物箱",
 	[444899] = "狗頭人礦鎬",
@@ -87896,6 +87927,7 @@ localize(ObjectNames, {
 	[572037] = "滿布沙塵的掛毯",
 	[572254] = "鐵木木材",
 	[572446] = "傷痕之矛",
+	[572448] = "黯黑旌旗",
 	[572450] = "遠古贊達拉卷軸",
 	[572451] = "長青藤蔓",
 	[572454] = "破舊的秘典",
@@ -88059,8 +88091,6 @@ for key,value in pairs({
 do phases[key].lore = value; end
 end
 end
-
-
 -- Add a Header & Filter debugger
 setmetatable(_.FilterConstants, {
 	__index = function(t, key)

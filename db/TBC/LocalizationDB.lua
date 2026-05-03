@@ -5,7 +5,6 @@
 local localize = function(t, data) for k,v in pairs(data) do t[k] = v; end end
 local appName, _, a = ...;
 local L = _.L;
-
 -- Localization Strings
 L._BETA_LABEL = "|cff4AA7FF [Beta]|r";
 L.ABOUT_BOTTOM = "Active Contributors: |CFFFFFFFF(Alphabetical Order)\n%s\n\n|rHall of Fame: |CFFFFFFFF(Alphabetical Order)\n%s\n\nSpecial Shoutout to AmiYuy (CanIMogIt) and Caerdon (Caerdon Wardrobe). You should absolutely download their addons to get the collection icons on items in your bags! %s %s %s\n\nFor online collection comparing check out DataForAzeroth.com from Shoogen and WoWthing.org from Freddie!|r";
@@ -920,7 +919,6 @@ L.WRONG_FACTION = "You might need to be on the other faction to view this.";
 L.YOU_DID_IT = "YOU DID IT!";
 L.ZONE = ZONE;
 L.ZONE_DESC = "Click this button to select a random zone based on what you're missing.";
-
 -- Category Database Module
 _.CategoryNames = {
 	[2] = "Consumable",
@@ -976,7 +974,6 @@ _.CategoryIcons = {
 	[935] = 132513,
 	[936] = 134592,
 }
-
 -- Custom Header Database Module
 _.HeaderConstants = {
 	ACHIEVEMENTS = -12,
@@ -1374,7 +1371,6 @@ localize(L.EVENT_REMAPPING, {
 	[375] = 1,
 	[376] = 1,
 });
-
 -- Programmatic Event Scheduling
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=3,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=5,["year"]=2026}),
@@ -1437,7 +1433,6 @@ _.Modules.Events.SetEventInformation(7, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=9,["monthDay"]=20,["weekday"]=2,["year"]=2027},{["hour"]=10,["minute"]=0,["month"]=10,["monthDay"]=4,["weekday"]=2,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(1, {
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=1,["weekday"]=1,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=3,["monthDay"]=8,["weekday"]=1,["year"]=2026},{["remappedID"]=374}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=5,["weekday"]=1,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=4,["monthDay"]=12,["weekday"]=1,["year"]=2026},{["remappedID"]=375}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=3,["weekday"]=1,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=5,["monthDay"]=10,["weekday"]=1,["year"]=2026},{["remappedID"]=376}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=7,["weekday"]=1,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=6,["monthDay"]=14,["weekday"]=1,["year"]=2026},{["remappedID"]=374}),
@@ -1447,9 +1442,9 @@ _.Modules.Events.SetEventInformation(1, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=10,["monthDay"]=4,["weekday"]=1,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=10,["monthDay"]=11,["weekday"]=1,["year"]=2026},{["remappedID"]=375}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=1,["weekday"]=1,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=11,["monthDay"]=8,["weekday"]=1,["year"]=2026},{["remappedID"]=376}),
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=6,["weekday"]=1,["year"]=2026},{["hour"]=0,["minute"]=0,["month"]=12,["monthDay"]=13,["weekday"]=1,["year"]=2026},{["remappedID"]=374}),
-	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=3,["weekday"]=1,["year"]=2027},{["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=10,["weekday"]=1,["year"]=2027},{["remappedID"]=375})
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=3,["weekday"]=1,["year"]=2027},{["hour"]=0,["minute"]=0,["month"]=1,["monthDay"]=10,["weekday"]=1,["year"]=2027},{["remappedID"]=375}),
+	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=2,["monthDay"]=7,["weekday"]=1,["year"]=2027},{["hour"]=0,["minute"]=0,["month"]=2,["monthDay"]=14,["weekday"]=1,["year"]=2027},{["remappedID"]=376})
 });
-
 -- Filter Database Module
 _.FilterConstants = {
 	ACHIEVEMENTS = 105,
@@ -1593,7 +1588,6 @@ L.FILTER_ID_ICONS = {
 	[114] = 132261,
 	[200] = 134941,
 }
-
 -- Flight Path Database Module
 _.FlightPathNames = {
 	[1] = "Northshire Abbey",
@@ -1784,7 +1778,6 @@ _.FlightPathNames = {
 	[212] = "Quest - Sunwell Daily - Ship Bombing - End",
 	[213] = "Shattered Sun Staging Area",
 }
-
 -- Object Database Module
 local ObjectNames = {
 	[31] = "Old Lion Statue",
@@ -4405,7 +4398,6 @@ local ObjectModels = {
 	[375544] = 201094,
 	[100000001] = 201129,
 }; _.ObjectModels = ObjectModels;
-
 -- Consolidated Object Data
 local ALLIANCE_BONFIRES = { 187564,187914,187916,187917,187919,187920,187921,187922,187923,187924,187925,187926,187927,187928,187929,187930,187931,187932,187933,187934,187935,187936,187937,187938,187939,187940,187941,187942,187943,187944,187945,187946 };
 local CANDY_BUCKETS = { 189303,190034,190035,190036,190037,190038,190039,190040,190041,190042,190043,190044,190045,190046,190047,190048,190049,190050,190051,190052,190053,190054,190055,190056,190057,190058,190059,190060,190061,190062,190063,190064,190065,190066,190067,190068,190069,190070,190071,190072,190073,190074,190075,190076,190077,190078,190079,190080,190081,190082,190083,190084,190085,190086,190087,190088,190089,190090,190091,190096,190097,190098,190099,190100,190101,190102,190103,190104,190105,190106,190107,190108,190109,190110,190111,190112,190113,190114,190115,190116 };
@@ -4424,7 +4416,6 @@ for i,objectID in ipairs(HORDE_BONFIRES) do
 	ObjectIcons[objectID] = 135805;
 	ObjectModels[objectID] = 200079;
 end
-
 -- Phase Database Module
 _.PhaseConstants = {
 	ELITE_PVP_REQUIREMENT = 4,
@@ -4698,7 +4689,6 @@ local phases = {
 	},
 };
 L.PHASES = phases;
-
 -- Achievement Data Module
 local achievements = {
 	[6] = {
@@ -6849,7 +6839,6 @@ local achievements = {
 	},
 };
 L.ACHIEVEMENT_DATA = achievements;
-
 local achievementCategories = {
 	[81] = {
 		name = "Feats of Strength",
@@ -6957,7 +6946,6 @@ local achievementCategories = {
 	},
 };
 L.ACHIEVEMENT_CATEGORY_DATA = achievementCategories;
-
 local achievementCriterias = {
 	[-172] = {
 		name = "Level up to 40.",
@@ -16607,7 +16595,6 @@ local worldMapOverlayData = {
 	[1557] = { 4281,4544,4546 },
 };
 L.WORLD_MAP_OVERLAY_DATA = worldMapOverlayData;
-
 -- Automatic Types
 L.ITEM_NAMES = {
 	[20946] = "Tactical Task Briefing III",
@@ -17085,7 +17072,6 @@ L.QUEST_NAMES = {
 	[13799] = "Where Are My Keys?",
 	[13800] = "Get My Keys",
 }
-
 -- Supported Locales
 local simplifiedLocale = GetLocale():sub(1,2);
 if simplifiedLocale == "de" then
@@ -52698,8 +52684,6 @@ for key,value in pairs({
 do achievementCriterias[key].name = value; end
 end
 end
-
-
 -- Add a Header & Filter debugger
 setmetatable(_.FilterConstants, {
 	__index = function(t, key)

@@ -2662,7 +2662,6 @@ _.Modules.Events.SetEventInformation(242, {
 	_.Modules.Events.CreateSchedule({["hour"]=10,["minute"]=0,["month"]=11,["monthDay"]=16,["weekday"]=3,["year"]=2027},{["hour"]=10,["minute"]=0,["month"]=12,["monthDay"]=7,["weekday"]=3,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133900, {
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=4,["monthDay"]=26,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=4,["monthDay"]=26,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=3,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=5,["monthDay"]=3,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=10,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=5,["monthDay"]=10,["weekday"]=1,["year"]=2026}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=17,["weekday"]=1,["year"]=2026},{["hour"]=23,["month"]=5,["monthDay"]=17,["weekday"]=1,["year"]=2026}),
@@ -2714,7 +2713,8 @@ _.Modules.Events.SetEventInformation(133900, {
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=4,["monthDay"]=4,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=4,["monthDay"]=4,["weekday"]=1,["year"]=2027}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=4,["monthDay"]=11,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=4,["monthDay"]=11,["weekday"]=1,["year"]=2027}),
 	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=4,["monthDay"]=18,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=4,["monthDay"]=18,["weekday"]=1,["year"]=2027}),
-	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=4,["monthDay"]=25,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=4,["monthDay"]=25,["weekday"]=1,["year"]=2027})
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=4,["monthDay"]=25,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=4,["monthDay"]=25,["weekday"]=1,["year"]=2027}),
+	_.Modules.Events.CreateSchedule({["hour"]=21,["month"]=5,["monthDay"]=2,["weekday"]=1,["year"]=2027},{["hour"]=23,["month"]=5,["monthDay"]=2,["weekday"]=1,["year"]=2027})
 });
 _.Modules.Events.SetEventInformation(133899, {
 	_.Modules.Events.CreateSchedule({["hour"]=0,["minute"]=0,["month"]=9,["monthDay"]=23,["weekday"]=3,["year"]=2025},{["hour"]=23,["minute"]=59,["month"]=3,["monthDay"]=19,["weekday"]=5,["year"]=2026}),
@@ -4306,6 +4306,8 @@ _.FlightPathNames = {
 	[3194] = "Har'kuai, Harandar",
 	[3195] = "Har'alnor, Harandar",
 	[3196] = "Har'mara, Harandar",
+	[3201] = "Quest Path 11282: 12.0.5 Event - Prop Hunt - Teleporter - Upper > Lower",
+	[3202] = "Quest Path 11283: 12.0.5 Event - Prop Hunt - Teleporter - Lower > Upper",
 	[3204] = "Quest Path 11298: 11.2.7 Catch Up -  TWW -  Q2 -  Cavern to Awakening Machine (KRB)",
 	[3211] = "12.0 Silvermoon Teleport Thalassian University Base",
 	[3212] = "12.0 Silvermoon Thalassian University Teleport Top",
