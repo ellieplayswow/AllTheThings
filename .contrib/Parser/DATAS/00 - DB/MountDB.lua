@@ -2358,7 +2358,7 @@ i(250972, 1251764);	-- Gloombough Groveglider
 i(269009, 1284640);	-- Golden Ashened Cataclysm (CN ONLY)
 i(257444, 1261576);	-- Hexed Vilefeather Eagle
 i(257446, 1261583);	-- Insatiable Shredclaw
-i(260697, 1266703);	-- Lab-grown Stormray
+i(260697, 1266703);	-- Lab-Grown Stormray
 i(260231, 1265784);	-- Lucent Hawkstrider
 i(260916, 3363);	-- Nether-Swept Drake
 i(257143, 1261293);	-- Peridot Dragonhawk
@@ -2412,7 +2412,6 @@ i(268877, 1283908);	-- Dusk-Painted Sun Roc
 i(268876, 1283910);	-- Flame-Painted Sun Roc
 i(268362, 1282274);	-- Gilnean Copper Charger
 i(268360, 1282268);	-- Gilnean Iron Charger
-i(264348, 1271698);	-- Unbound Manawyrm
 i(270058, 1287359);	-- Void-Corrupted Lynx
 --- NYI ---
 i(260421, 1266285);	-- Void-Corrupted Amani Warbear Kit

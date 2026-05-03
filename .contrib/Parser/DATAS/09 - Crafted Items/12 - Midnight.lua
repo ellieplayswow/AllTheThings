@@ -444,7 +444,7 @@ root(ROOTS.Craftables, expansion(EXPANSION.MID, bubbleDownSelf({ ["timeline"] = 
 		i(242283),	-- Sun-Seared Lumifin
 		i(242293),	-- Sunwell Delight
 		i(242278),	-- Tasty Smoked Tetra
-		i(253403),	-- Thalassian Filet
+		i(253403),	-- Thalassian Fillet
 		i(242300),	-- Tranquility Bloom Tea
 		i(242288),	-- Twilight Angler's Medley
 		i(242284),	-- Void-Kissed Fish Rolls

@@ -1256,41 +1256,8 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(258029),	-- Vaunted Preyseeker's Plumed Helm
 				i(258027),	-- Vaunted Preyseeker's Shoulder-Spikes
 			}),
-			n(WEAPONS, {
-				i(262734),	-- [DNT] Mace of the Great Dark
-				i(262748),	-- [PH] Pink Rake
-				i(262749),	-- [PH] Purple Rake
-				i(262750),	-- [PH] Red Rake
-				i(260742),	-- Big Lil' Black Whirlwind
-				i(260741),	-- Big Lil' Blue Whirlwind
-				i(260744),	-- Big Lil' Green Whirlwind
-				i(260745),	-- Big Lil' Red Whirlwind
-				i(264969),	-- Extinction Voulge
-				i(260737),	-- Forest Dweller's Dawn Staff
-				i(260736),	-- Forest Dweller's Mossy Staff
-				i(260739),	-- Forest Dweller's Night Staff
-				i(246726),	-- Greatsword of Returning Light
-				i(258405),	-- Lil' Black Whirlwind
-				i(260754),	-- Lil' Blue Claw
-				i(258404),	-- Lil' Blue Whirlwind
-				i(260755),	-- Lil' Green Claw
-				i(260764),	-- Lil' Green Popper
-				i(258407),	-- Lil' Green Whirlwind
-				i(260757),	-- Lil' Red Claw
-				i(260765),	-- Lil' Red Popper
-				i(258408),	-- Lil' Red Whirlwind
-				i(260763),	-- Lil' Tan Popper
-				i(253389),	-- Manaforge Raider's Umbral Ward (MAIN HAND SLOT)
-				i(260733),	-- Murgle's Lil' Fish Stick
-				i(260729),	-- Murky's Lil' Fish Stick
-				i(262758),	-- Pepe's Mobile Home
-				i(262759),	-- Pepe's Portable Home
-				i(262760),	-- Pepe's Traveling Home
-				i(262717),	-- Simple Rooting Trowl
-				i(262716),	-- Simple Rosy Trowl
-				i(262718),	-- Simple Withering Trowl
-				i(260731),	-- Snugglefin's Lil' Fish Stick
-				i(263009),	-- Valeera's Wicked Knife
+			filter(TABARDS, {
+				i(242635),	-- Twilight's Blade - Armor - Tabard
 			}),
 			n(SETS, {
 				------ Elaborate Charcoal Set ------
@@ -1327,8 +1294,41 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 				i(263577),	-- Arsenal: Rootlands Weaponry
 				q(93962),	-- Arsenal: Rootlands Weaponry
 			}),
-			filter(TABARDS, {
-				i(242635),	-- Twilight's Blade - Armor - Tabard
+			n(WEAPONS, {
+				i(262734),	-- [DNT] Mace of the Great Dark
+				i(262748),	-- Autumn Dagger-Tined Rake
+				i(262749),	-- Spring Dagger-Tined Rake
+				i(262750),	-- Red Dagger-Tined Rake
+				i(260742),	-- Big Lil' Black Whirlwind
+				i(260741),	-- Big Lil' Blue Whirlwind
+				i(260744),	-- Big Lil' Green Whirlwind
+				i(260745),	-- Big Lil' Red Whirlwind
+				i(264969),	-- Extinction Voulge
+				i(260737),	-- Forest Dweller's Dawn Staff
+				i(260736),	-- Forest Dweller's Mossy Staff
+				i(260739),	-- Forest Dweller's Night Staff
+				i(246726),	-- Greatsword of Returning Light
+				i(258405),	-- Lil' Black Whirlwind
+				i(260754),	-- Lil' Blue Claw
+				i(258404),	-- Lil' Blue Whirlwind
+				i(260755),	-- Lil' Green Claw
+				i(260764),	-- Lil' Green Popper
+				i(258407),	-- Lil' Green Whirlwind
+				i(260757),	-- Lil' Red Claw
+				i(260765),	-- Lil' Red Popper
+				i(258408),	-- Lil' Red Whirlwind
+				i(260763),	-- Lil' Tan Popper
+				i(253389),	-- Manaforge Raider's Umbral Ward (MAIN HAND SLOT)
+				i(260733),	-- Murgle's Lil' Fish Stick
+				i(260729),	-- Murky's Lil' Fish Stick
+				i(262758),	-- Pepe's Mobile Home
+				i(262759),	-- Pepe's Portable Home
+				i(262760),	-- Pepe's Traveling Home
+				i(262717),	-- Simple Rooting Trowl
+				i(262716),	-- Simple Rosy Trowl
+				i(262718),	-- Simple Withering Trowl
+				i(260731),	-- Snugglefin's Lil' Fish Stick
+				i(263009),	-- Valeera's Wicked Knife
 			}),
 		})),
 	}),

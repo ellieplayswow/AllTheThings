@@ -877,10 +877,10 @@ root(ROOTS.Zones, m(EASTERN_KINGDOMS, applyclassicphase(TBC_PHASE_ONE, {
 							["coord"] = { 60.6, 39.6, SUNSTRIDER_ISLE },
 							["races"] = HORDE_ONLY,
 							["groups"] = {
-								i(20850),	-- Arcane Forged Axe
-								i(20852),	-- Arcane Forged Dirk
-								i(20851),	-- Arcane Forged Mace
-								i(20849),	-- Arcane Forged Shortsword
+								i(20850),	-- Arcane-Forged Axe
+								i(20852),	-- Arcane-Forged Dirk
+								i(20851),	-- Arcane-Forged Mace
+								i(20849),	-- Arcane-Forged Shortsword
 								i(20853),	-- Mana Gathering Staff
 								i(20910),	-- Stiff Shortbow
 							},

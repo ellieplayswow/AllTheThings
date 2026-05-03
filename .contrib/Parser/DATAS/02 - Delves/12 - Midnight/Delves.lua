@@ -822,7 +822,7 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, timelineSelf({ ["timeline"] = { ADDE
 					i(263368),	-- Armageddon and You - A Beginner's Guide to Thriving in the Apocalypse
 					i(263361),	-- Chicken Soup for the Soulless
 					i(263354),	-- Filling the Void in Your Heart
-					i(263350),	-- Harbringer Fan Fiction
+					i(263350),	-- Harbinger Fan Fiction
 					i(263379),	-- Personal Advertising Platform
 					i(263348),	-- Purple Is The New Black
 					i(263380),	-- Recruitment Pamphlets

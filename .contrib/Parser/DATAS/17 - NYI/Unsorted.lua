@@ -507,330 +507,359 @@ root(ROOTS.Unsorted, {
 			}),
 		})),
 		expansion(EXPANSION.MID, patch(0,5), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_5 } }, {
-			filter(TITLES, {
-				title(749),	-- Darkspear Dasher %s
-				title(766),	-- %s, Mrglgrgl of Grglmrgl
-				title(772),	-- Void Breacher %s
-				title(773),	-- %s the Umbral Contender
+			filter(COSMETIC, {
+				n(ARMOR, {
+					i(270295),	-- Crown of Aquatic Springflowers
+					i(270280),	-- Crown of Azure Springflowers
+					i(270287),	-- Crown of Brick Springflowers
+					i(270286),	-- Crown of Camo Springflowers
+					i(270290),	-- Crown of Carrot Springflowers
+					i(270284),	-- Crown of Cloudy Springflowers
+					i(270293),	-- Crown of Crimson Springflowers
+					i(270285),	-- Crown of Deep Springflowers
+					i(270283),	-- Crown of Grassy Springflowers
+					i(270288),	-- Crown of Lively Springflowers
+					i(270279),	-- Crown of Midnight Springflowers
+					i(270292),	-- Crown of Plum Springflowers
+					i(270291),	-- Crown of Rosy Springflowers
+					i(270281),	-- Crown of Sepia Springflowers
+					i(270296),	-- Crown of Snowy Springflowers
+					i(270297),	-- Crown of Sunny Springflowers
+					i(270294),	-- Crown of Violet Springflowers
+					i(271050),	-- Forest Hunter's Quiver
+				}),
+				filter(TABARDS, {
+					i(267280),	-- Darkspear Dash Tabard
+				}),
+				n(SETS, {
+					-- TODO: They probably fixed missing weapons in these
+					i(269001),	-- Arsenal: Drakebreaker's Weapons
+					i(269002),	-- Arsenal: Hellbloom Weapons
+
+					------ Emberstone Loyalist Streetware Set ------
+					i(268438),	-- Ensemble: Emberstone Loyalist Streetware
+					i(268432),	-- Emberstone Loyalist Bowler
+					i(268433),	-- Emberstone Loyalist Coat
+					i(268434),	-- Emberstone Loyalist Belt
+					i(268435),	-- Emberstone Loyalist Pants
+					i(268436),	-- Emberstone Loyalist Boots
+					i(268437),	-- Emberstone Loyalist Bracer
+					i(268746),	-- Emberstone Loyalist Leggings
+
+					------ Ambermill Rebel Streetware Set ------
+					i(268452),	-- Ensemble: Ambermill Rebel Streetware
+					i(268446),	-- Ambermill Rebel Bowler
+					i(268447),	-- Ambermill Rebel Coat
+					i(268448),	-- Ambermill Rebel Belt
+					i(268449),	-- Ambermill Rebel Pants
+					i(268450),	-- Ambermill Rebel Boots
+					i(268451),	-- Ambermill Rebel Bracer
+					i(268744),	-- Ambermill Rebel Leggings
+
+					------ Blue Sunwalker Guard Set ------
+					i(268604),	-- Ensemble: Blue Sunwalker Guard
+					i(268592),	-- Blue Sunwalker Breastplate
+					i(268593),	-- Blue Sunwalker Cloak
+					i(268594),	-- Blue Sunwalker Gauntlets
+					i(268595),	-- Blue Sunwalker Boots
+					i(268596),	-- Blue Sunwalker Legplates
+					i(268597),	-- Blue Sunwalker Pants
+					i(268598),	-- Blue Sunwalker Girdle
+					i(268599),	-- Blue Sunwalker Band
+					i(268600),	-- Blue Sunwalker Eagle Mantle
+					i(268601),	-- Blue Sunwalker Wing Mantle
+					i(268602),	-- Blue Sunwalker Helmet
+					i(268603),	-- Blue Sunwalker Tunic
+
+					------ Duskrunner's Painted Battle Garb Set ------
+					i(268693),	-- Ensemble: Duskrunner's Painted Battle Garb
+					i(268681),	-- Duskrunner's Painted Hauberk
+					i(268682),	-- Duskrunner's Painted Wrap
+					i(268683),	-- Duskrunner's Painted Gauntlets
+					i(268684),	-- Duskrunner's Painted Striders
+					i(268685),	-- Duskrunner's Painted Greaves
+					i(268686),	-- Duskrunner's Painted Leggings
+					i(268687),	-- Duskrunner's Painted Sash
+					i(268688),	-- Duskrunner's Painted Girdle
+					i(268689),	-- Duskrunner's Painted Mantle
+					i(268690),	-- Duskrunner's Painted Wings
+					i(268691),	-- Duskrunner's Painted Mask
+					i(268692),	-- Duskrunner's Painted Tunic
+
+					------ Sunbringer's Painted Battle Garb Set ------
+					i(268743),	-- Ensemble: Sunbringer's Painted Battle Garb
+					i(268731),	-- Sunbringer's Painted Hauberk
+					i(268732),	-- Sunbringer's Painted Wrap
+					i(268733),	-- Sunbringer's Painted Gauntlets
+					i(268734),	-- Sunbringer's Painted Striders
+					i(268735),	-- Sunbringer's Painted Greaves
+					i(268736),	-- Sunbringer's Painted Leggings
+					i(268737),	-- Sunbringer's Painted Sash
+					i(268738),	-- Sunbringer's Painted Girdle
+					i(268739),	-- Sunbringer's Painted Mantle
+					i(268740),	-- Sunbringer's Painted Wings
+					i(268741),	-- Sunbringer's Painted Mask
+					i(268742),	-- Sunbringer's Painted Tunic
+
+					------ Dawnchaser's Painted Battle Garb Set ------
+					i(268793),	-- Ensemble: Dawnchaser's Painted Battle Garb
+					i(268781),	-- Dawnchaser's Painted Hauberk
+					i(268782),	-- Dawnchaser's Painted Wrap
+					i(268783),	-- Dawnchaser's Painted Gauntlets
+					i(268784),	-- Dawnchaser's Painted Striders
+					i(268785),	-- Dawnchaser's Painted Greaves
+					i(268786),	-- Dawnchaser's Painted Leggings
+					i(268787),	-- Dawnchaser's Painted Sash
+					i(268788),	-- Dawnchaser's Painted Girdle
+					i(268789),	-- Dawnchaser's Painted Mantle
+					i(268790),	-- Dawnchaser's Painted Wings
+					i(268791),	-- Dawnchaser's Painted Mask
+					i(268792),	-- Dawnchaser's Painted Tunic
+
+					------ Blue Sunwalker Totem Set ------
+					i(268892),	-- Ensemble: Blue Sunwalker Totem
+					i(268884),	-- Blue Sunwalker Totem
+					i(268885),	-- Blue Sunwalker Sun Totem
+
+					------ Duskrunner's Guiding Totems Set ------
+					i(268893),	-- Ensemble: Duskrunner's Guiding Totems
+					i(268886),	-- Duskrunner's Painted Sun-Totem
+					i(268887),	-- Duskrunner's Painted Sun-Beacon
+
+					------ Sunbringer's Guiding Totems Set ------
+					i(268894),	-- Ensemble: Sunbringer's Guiding Totems
+					i(268888),	-- Sunbringer's Painted Sun-Totem
+					i(268889),	-- Sunbringer's Painted Sun-Beacon
+
+					------ White Sunwalker Totem Set ------
+					i(268895),	-- Ensemble: White Sunwalker Totem
+					i(268890),	-- White Sunwalker Totem
+					i(268891),	-- White Sunwalker Sun Totem
+				}),
+				n(WEAPON, {
+					i(268511),	-- Ambermill Rebel Boltshot
+					i(268491),	-- Ambermill Rebel Bonecracker
+					i(268495),	-- Ambermill Rebel Knuckleblades
+					i(268896),	-- Blue Sunwalker Flamebrand
+					i(268900),	-- Blue Sunwalker Torchblade
+					i(268908),	-- Blue Sunwalker Totemic Edge
+					i(268904),	-- Blue Sunwalker Totemic Greataxe
+					i(268911),	-- Dawnchaser Totemic Edge
+					i(268907),	-- Dawnchaser Totemic Greataxe
+					i(268899),	-- Dawnchaser's Flamebrand
+					i(268903),	-- Dawnchaser's Torchblade
+					i(268897),	-- Duskrunner's Flamebrand
+					i(268901),	-- Duskrunner's Torchblade
+					i(268909),	-- Duskrunner's Totemic Edge
+					i(268905),	-- Duskrunner's Totemic Greataxe
+					i(268513),	-- Emberstone Loyalist Boltshot
+					i(268493),	-- Emberstone Loyalist Bonecracker
+					i(268497),	-- Emberstone Loyalist Knuckleblades
+					i(271814),	-- Spring Dagger-Tined Rake
+					i(268898),	-- Sunbringer's Flamebrand
+					i(268902),	-- Sunbringer's Torchblade
+					i(268910),	-- Sunbringer's Totemic Edge
+					i(268906),	-- Sunbringer's Totemic Greataxe
+				}),
 			}),
-			i(20849),	-- Arcane-Forged Shortsword
-			i(20850),	-- Arcane-Forged Axe
-			i(20851),	-- Arcane-Forged Mace
-			i(20852),	-- Arcane-Forged Dirk
-			i(238628),	-- Lightbloom-Afflicted Hide
-			i(242296),	-- Bloodthistle-Wrapped Cutlets
-			i(245298),	-- Wild Violet Bellflowers
-			i(245299),	-- Reaching Violet Bellflowers
-			i(245300),	-- Arched Violet Bellflowers
-			i(245301),	-- Algari Lettuce Plant
-			i(246803),	-- Arched Wooden Bench
-			i(246870),	-- Farmer's Water Trough
-			i(246871),	-- Hay-Filled Sturdy Feeding Trough
-			i(246872),	-- Carved Stone Bench
-			i(246874),	-- Sturdy Brazier
-			i(246875),	-- Founder's Point Street Light
-			i(246876),	-- Founder's Point Lamppost
-			i(246877),	-- Sturdy Feeding Trough
-			i(246934),	-- Small Covered Wooden Table
-			i(246935),	-- Small Sturdy Wooden Table
-			i(248400),	-- Founder's Point Signpost
-			i(249822),	-- Founder's Point Street Sign
-			i(249823),	-- Founder's Point Navigation Sign
-			i(250092),	-- Small Wooden Footstool
-			i(250095),	-- Runed Stone Placard
-			i(250249),	-- Founder's Point Gravestone
-			i(250250),	-- Small Founder's Point Gravestone
-			i(250251),	-- Founder's Point Gravestone Tower
-			i(250252),	-- Large Founder's Point Gravestone
-			i(250691),	-- Tusked Leather Tapestry
-			i(250692),	-- Razorwind Banner Pelt
-			i(251011),	-- Painted Wood Scraps
-			i(251012),	-- Painted Wood Scrap Pile
-			i(252004),	-- Wooden Planter Pot
-			i(252005),	-- Wooden Planter Row
-			i(252006),	-- Founder's Point Fence
-			i(252007),	-- Long Founder's Point Fence
-			i(252008),	-- Razorwind Wheelbarrow
-			i(252037),	-- Covered Wooden Desk
-			i(252038),	-- Sturdy Wooden Desk
-			i(252407),	-- Founder's Point Framed Torch
-			i(252408),	-- Long Old Founder's Point Fence
-			i(252409),	-- Old Founder's Point Fence
-			i(252410),	-- Founder's Point Fencepost
-			i(252412),	-- Old Founder's Point Fencepost
-			i(252414),	-- Broken Founder's Point Fence
-			i(252416),	-- Old Broken Founder's Point Fence
-			i(253018),	-- Founder's Point Standing Torch
-			i(253019),	-- Razorwind Banded Planter
-			i(253386),	-- Light-Pulsing Seed
-			i(253403),	-- Thalassian Fillet
-			i(253707),	-- Open Sturdy Wooden Crate
-			i(254395),	-- Razorwind Smith's Hammer
-			i(254396),	-- Razorwind Miner's Pickaxe
-			i(254397),	-- Razorwind Woodworker's Hand Saw
-			i(254398),	-- Razorwind Crafter's Chisel
-			i(254399),	-- Razorwind Peon's Shovel
-			i(254678),	-- Razorwind Logger's Axe
-			i(255706),	-- Razorwind Iron Chandelier
-			i(255707),	-- Low-Hanging Razorwind Iron Chandelier
-			i(255709),	-- Razorwind Shores Canoe
-			i(256329),	-- Razorwind Standing Tusk
-			i(258300),	-- Sparse Razorwind Fisher's Rack
-			i(258307),	-- Razorwind Fisher's Rack
-			i(258503),	-- Technique: Opened Sin'dorei Scroll
-			i(258565),	-- Reinforced Wooden Barrel
-			i(258566),	-- Empty Reinforced Wooden Barrel
-			i(258570),	-- Refined Wooden Bed
-			i(258663),	-- Razorwind River Paddle
-			i(258664),	-- Tusk-Adorned Stitched Rug
-			i(258665),	-- Small Stitched Rug
-			i(258818),	-- Padded Wooden Bench
-			i(258819),	-- Sturdy Wooden Crate
-			i(259464),	-- Rolled Razorwind Leathers
-			i(259465),	-- Low-Hanging Razorwind Ropes
-			i(259466),	-- Knotted Hanging Razorwind Ropes
-			i(259467),	-- Tusked Hanging Razorwind Ropes
-			i(259468),	-- Plain Hanging Razorwind Ropes
-			i(259469),	-- Adorned Hanging Razorwind Ropes
-			i(259470),	-- Lightly Adorned Hanging Razorwind Ropes
-			i(259472),	-- Lost Revantusk Possessions
-			i(259473),	-- Charred Amani Trinket
-			i(259474),	-- Lost Amani Toy
-			i(259475),	-- Misplaced Loa Statue
-			i(260486),	-- Large Razorwind Farmer's Hay Pile
-			i(260487),	-- Razorwind Farmer's Hay Pile
-			i(260488),	-- Small Razorwind Farmer's Hay Pile
-			i(260621),	-- Magic-Infused Bark
-			i(260697),	-- Lab-Grown Stormray
-			i(260892),	-- "Arcane Ranger" Kit
-			i(262358),	-- Sin'dorei Captain's Mantle
-			i(262369),	-- Sin'dorei Handglaive
-			i(262658),	-- Nebulous Voidcache: Midnight Falls
-			i(262748),	-- Autumn Dagger-Tined Rake
-			i(262749),	-- Spring Dagger-Tined Rake
-			i(262750),	-- Red Dagger-Tined Rake
-			i(262757),	-- "Greater Metamorph" Enhancement
-			i(262962),	-- Carved Wooden Chair
-			i(263032),	-- Razorwind Fishing Net
-			i(263350),	-- Harbinger Fan Fiction
-			i(263581),	-- Razorwind Roofer's Shingle
-			i(263582),	-- Razorwind Roofer's Shingle Pile
-			i(263583),	-- Tiny Clump of Hay
-			i(263584),	-- Razorwind Construction Crane
-			i(263879),	-- [DNT] [AUTOGEN] 12PH_Folk_Gazebo02.M2
-			i(263883),	-- [DNT] [AUTOGEN] 12PH_Folk_Trellis02.M2
-			i(264162),	-- Enchanted Snowflake [PH]
-			i(264324),	-- PH Decor (Floating Podium, Ink Well, Runed Paper, Void Candle)
-			i(265924),	-- High-Mounted Razorwind Bowl Chandelier
-			i(265925),	-- Razorwind Bowl Chandelier
-			i(265926),	-- Low-Hanging Razorwind Bowl Chandelier
-			i(266233),	-- Short Hanging Tavern Lantern
-			i(266249),	-- Hanging Tavern Lantern
-			i(266250),	-- Long Hanging Tavern Lantern
-			i(266260),	-- [DNT] [AUTOGEN] 12PH_Opulent_Crate02_Open.M2
-			i(267075),	-- Ornate Elven Stovetop
-			i(267083),	-- Razorwind Campfire Grill
-			i(267084),	-- Founder's Point Hay Bale
-			i(267088),	-- Iron Candlelight Lantern
-			i(267202),	-- Elegant Elven Water Well
-			i(267278),	-- Angler Pearls
-			i(267280),	-- Darkspear Dash Tabard
-			i(267323),	-- Troll Scroll of Rainbow Roll
-			i(267352),	-- Pocket Rainbow
-			i(267353),	-- Pocket Sand
-			i(267380),	-- Volatile Pink Brightbursts
-			i(267381),	-- Official G.G.R. Rehydration Container
-			i(267472),	-- Gnomatic Projector
-			i(267488),	-- Nebulous Voidcache: Crown of the Cosmos
-			i(267616),	-- Loose Wisps of Hay
-			i(268026),	-- Scattered Wisps of Hay
-			i(268027),	-- Windblown Wisps of Hay
-			i(268028),	-- Trampled Wisps of Hay
-			i(268029),	-- Mounted Founder's Point Lantern
-			i(268030),	-- Mounted Tavern Lantern
-			i(268122),	-- Dispelled Coins
-			i(268360),	-- Gilnean Iron Charger
-			i(268362),	-- Gilnean Copper Charger
-			i(268432),	-- Emberstone Loyalist Bowler
-			i(268433),	-- Emberstone Loyalist Coat
-			i(268434),	-- Emberstone Loyalist Belt
-			i(268435),	-- Emberstone Loyalist Pants
-			i(268436),	-- Emberstone Loyalist Boots
-			i(268437),	-- Emberstone Loyalist Bracer
-			i(268438),	-- Ensemble: Emberstone Loyalist Streetware
-			i(268446),	-- Ambermill Rebel Bowler
-			i(268447),	-- Ambermill Rebel Coat
-			i(268448),	-- Ambermill Rebel Belt
-			i(268449),	-- Ambermill Rebel Pants
-			i(268450),	-- Ambermill Rebel Boots
-			i(268451),	-- Ambermill Rebel Bracer
-			i(268452),	-- Ensemble: Ambermill Rebel Streetware
-			i(268458),	-- Nebulous Voidcache: Belo'ren, Child of Al'ar
-			i(268459),	-- Nebulous Voidcache: Imperator Averzian
-			i(268460),	-- Nebulous Voidcache: Vorasius
-			i(268461),	-- Nebulous Voidcache: Fallen-King Salhadaar
-			i(268462),	-- Nebulous Voidcache: Vaelgor & Ezzorak
-			i(268463),	-- Nebulous Voidcache: Lightblinded Vanguard
-			i(268464),	-- Nebulous Voidcache: Chimaerus the Undreamt God
-			i(268465),	-- Nebulous Voidcache: Algeth'ar Academy
-			i(268466),	-- Nebulous Voidcache: Magisters' Terrace
-			i(268467),	-- Nebulous Voidcache: Nexus-Point Xenas
-			i(268468),	-- Nebulous Voidcache: Pit of Saron
-			i(268469),	-- Nebulous Voidcache: Seat of the Triumvirate
-			i(268470),	-- Nebulous Voidcache: Skyreach
-			i(268471),	-- Nebulous Voidcache: Windrunner Spire
-			i(268473),	-- Nebulous Voidcache: Maisara Caverns
-			i(268491),	-- Ambermill Rebel Bonecracker
-			i(268493),	-- Emberstone Loyalist Bonecracker
-			i(268495),	-- Ambermill Rebel Knuckleblades
-			i(268497),	-- Emberstone Loyalist Knuckleblades
-			i(268511),	-- Ambermill Rebel Boltshot
-			i(268513),	-- Emberstone Loyalist Boltshot
-			i(268552),	-- Ascendant Voidcore
-			i(268592),	-- Blue Sunwalker Breastplate
-			i(268593),	-- Blue Sunwalker Cloak
-			i(268594),	-- Blue Sunwalker Gauntlets
-			i(268595),	-- Blue Sunwalker Boots
-			i(268596),	-- Blue Sunwalker Legplates
-			i(268597),	-- Blue Sunwalker Pants
-			i(268598),	-- Blue Sunwalker Girdle
-			i(268599),	-- Blue Sunwalker Band
-			i(268600),	-- Blue Sunwalker Eagle Mantle
-			i(268601),	-- Blue Sunwalker Wing Mantle
-			i(268602),	-- Blue Sunwalker Helmet
-			i(268603),	-- Blue Sunwalker Tunic
-			i(268604),	-- Ensemble: Blue Sunwalker Guard
-			i(268650),	-- Ascendant Voidshard
-			i(268681),	-- Duskrunner's Painted Hauberk
-			i(268682),	-- Duskrunner's Painted Wrap
-			i(268683),	-- Duskrunner's Painted Gauntlets
-			i(268684),	-- Duskrunner's Painted Striders
-			i(268685),	-- Duskrunner's Painted Greaves
-			i(268686),	-- Duskrunner's Painted Leggings
-			i(268687),	-- Duskrunner's Painted Sash
-			i(268688),	-- Duskrunner's Painted Girdle
-			i(268689),	-- Duskrunner's Painted Mantle
-			i(268690),	-- Duskrunner's Painted Wings
-			i(268691),	-- Duskrunner's Painted Mask
-			i(268692),	-- Duskrunner's Painted Tunic
-			i(268693),	-- Ensemble: Duskrunner's Painted Battle Garb
-			i(268694),	-- Rainbow Runners
-			i(268731),	-- Sunbringer's Painted Hauberk
-			i(268732),	-- Sunbringer's Painted Wrap
-			i(268733),	-- Sunbringer's Painted Gauntlets
-			i(268734),	-- Sunbringer's Painted Striders
-			i(268735),	-- Sunbringer's Painted Greaves
-			i(268736),	-- Sunbringer's Painted Leggings
-			i(268737),	-- Sunbringer's Painted Sash
-			i(268738),	-- Sunbringer's Painted Girdle
-			i(268739),	-- Sunbringer's Painted Mantle
-			i(268740),	-- Sunbringer's Painted Wings
-			i(268741),	-- Sunbringer's Painted Mask
-			i(268742),	-- Sunbringer's Painted Tunic
-			i(268743),	-- Ensemble: Sunbringer's Painted Battle Garb
-			i(268744),	-- Ambermill Rebel Leggings
-			i(268746),	-- Emberstone Loyalist Leggings
-			i(268781),	-- Dawnchaser's Painted Hauberk
-			i(268782),	-- Dawnchaser's Painted Wrap
-			i(268783),	-- Dawnchaser's Painted Gauntlets
-			i(268784),	-- Dawnchaser's Painted Striders
-			i(268785),	-- Dawnchaser's Painted Greaves
-			i(268786),	-- Dawnchaser's Painted Leggings
-			i(268787),	-- Dawnchaser's Painted Sash
-			i(268788),	-- Dawnchaser's Painted Girdle
-			i(268789),	-- Dawnchaser's Painted Mantle
-			i(268790),	-- Dawnchaser's Painted Wings
-			i(268791),	-- Dawnchaser's Painted Mask
-			i(268792),	-- Dawnchaser's Painted Tunic
-			i(268793),	-- Ensemble: Dawnchaser's Painted Battle Garb
-			i(268875),	-- [PH] Giant Eagle Sunwalker Mount White
-			i(268876),	-- Flame-Painted Sun Roc
-			i(268877),	-- Dusk-Painted Sun Roc
-			i(268878),	-- [PH] Giant Eagle Sunwalker Mount Blue
-			i(268884),	-- Blue Sunwalker Totem
-			i(268885),	-- Blue Sunwalker Sun Totem
-			i(268886),	-- Duskrunner's Painted Sun-Totem
-			i(268887),	-- Duskrunner's Painted Sun-Beacon
-			i(268888),	-- Sunbringer's Painted Sun-Totem
-			i(268889),	-- Sunbringer's Painted Sun-Beacon
-			i(268890),	-- White Sunwalker Totem
-			i(268891),	-- White Sunwalker Sun Totem
-			i(268892),	-- Ensemble: Blue Sunwalker Totem
-			i(268893),	-- Ensemble: Duskrunner's Guiding Totems
-			i(268894),	-- Ensemble: Sunbringer's Guiding Totems
-			i(268895),	-- Ensemble: White Sunwalker Totem
-			i(268896),	-- Blue Sunwalker Flamebrand
-			i(268897),	-- Duskrunner's Flamebrand
-			i(268898),	-- Sunbringer's Flamebrand
-			i(268899),	-- Dawnchaser's Flamebrand
-			i(268900),	-- Blue Sunwalker Torchblade
-			i(268901),	-- Duskrunner's Torchblade
-			i(268902),	-- Sunbringer's Torchblade
-			i(268903),	-- Dawnchaser's Torchblade
-			i(268904),	-- Blue Sunwalker Totemic Greataxe
-			i(268905),	-- Duskrunner's Totemic Greataxe
-			i(268906),	-- Sunbringer's Totemic Greataxe
-			i(268907),	-- Dawnchaser Totemic Greataxe
-			i(268908),	-- Blue Sunwalker Totemic Edge
-			i(268909),	-- Duskrunner's Totemic Edge
-			i(268910),	-- Sunbringer's Totemic Edge
-			i(268911),	-- Dawnchaser Totemic Edge
-			i(268969),	-- Nebulous Voidcache: Delver's Trove
-			i(269001),	-- Arsenal: Drakebreaker's Weapons
-			i(269002),	-- Arsenal: Hellbloom Weapons
-			i(269234),	-- Overflowing Ritual Site Cache
-			i(269668),	-- Hungering Oblivium
-			i(269768),	-- Nebulous Voidcache: Prey
-			i(269817),	-- Ritual Site Challenge Report: Tendrils
-			i(270058),	-- Rope Lynx Harness
-			i(270279),	-- Crown of Midnight Springflowers
-			i(270280),	-- Crown of Azure Springflowers
-			i(270281),	-- Crown of Sepia Springflowers
-			i(270283),	-- Crown of Grassy Springflowers
-			i(270284),	-- Crown of Cloudy Springflowers
-			i(270285),	-- Crown of Deep Springflowers
-			i(270286),	-- Crown of Camo Springflowers
-			i(270287),	-- Crown of Brick Springflowers
-			i(270288),	-- Crown of Lively Springflowers
-			i(270290),	-- Crown of Carrot Springflowers
-			i(270291),	-- Crown of Rosy Springflowers
-			i(270292),	-- Crown of Plum Springflowers
-			i(270293),	-- Crown of Crimson Springflowers
-			i(270294),	-- Crown of Violet Springflowers
-			i(270295),	-- Crown of Aquatic Springflowers
-			i(270296),	-- Crown of Snowy Springflowers
-			i(270297),	-- Crown of Sunny Springflowers
-			i(271050),	-- Forest Hunter's Quiver
-			i(271163),	-- Blazing Guardian's Rug
-			i(271164),	-- Dream Guardian's Rug
-			i(271165),	-- Nightmare Guardian's Rug
-			i(271166),	-- Eventide Guardian's Rug
-			i(271171),	-- Eventide Guardian's Table
-			i(271172),	-- Nightmare Guardian's Table
-			i(271173),	-- Blazing Guardian's Table
-			i(271174),	-- Dream Guardian's Table
-			i(271341),	-- Galactic Voidsliver
-			i(271342),	-- Galactic Void Matrix
-			i(271353),	-- Collection of Valuables
-			i(271814),	-- Spring Dagger-Tined Rake
-			i(272111),	-- Decaying Necromancer Cloak
-			i(272112),	-- Golden Rune-Etched Circlet
-			i(272113),	-- Scourge Shard Fragment
-			i(272114),	-- Discarded Excavation Tool
-			i(272118),	-- Inert Arcane Explosive
-			i(272119),	-- Residue-Covered Tool
-			i(272339),	-- Umbral Champion's Illustrious Banner
-			i(272391),	-- Pattern: Rope Lynx Harness
-			i(272392),	-- Broken Lynx Leash
-			i(272400),	-- Fine Lynx Fur
-			i(272893),	-- Icy Harness
-			i(272894),	-- Inert Runestone
-			i(273013),	-- Void-Permeated Hide Scrap
-			i(273152),	-- Delve Gearbox
-			i(273153),	-- Delve Gearbox
-			i(273154),	-- Delve Gearbox
-			i(273155),	-- Delve Gearbox
-			i(273156),	-- Delve Gearbox
+			n(DECOR, {
+				i(245298),	-- Wild Violet Bellflowers
+				i(245299),	-- Reaching Violet Bellflowers
+				i(245300),	-- Arched Violet Bellflowers
+				i(245301),	-- Algari Lettuce Plant
+				i(246803),	-- Arched Wooden Bench
+				i(246870),	-- Farmer's Water Trough
+				i(246871),	-- Hay-Filled Sturdy Feeding Trough
+				i(246872),	-- Carved Stone Bench
+				i(246874),	-- Sturdy Brazier
+				i(246875),	-- Founder's Point Street Light
+				i(246876),	-- Founder's Point Lamppost
+				i(246877),	-- Sturdy Feeding Trough
+				i(246934),	-- Small Covered Wooden Table
+				i(246935),	-- Small Sturdy Wooden Table
+				i(248400),	-- Founder's Point Signpost
+				i(249822),	-- Founder's Point Street Sign
+				i(249823),	-- Founder's Point Navigation Sign
+				i(250092),	-- Small Wooden Footstool
+				i(250095),	-- Runed Stone Placard
+				i(250249),	-- Founder's Point Gravestone
+				i(250250),	-- Small Founder's Point Gravestone
+				i(250251),	-- Founder's Point Gravestone Tower
+				i(250252),	-- Large Founder's Point Gravestone
+				i(250691),	-- Tusked Leather Tapestry
+				i(250692),	-- Razorwind Banner Pelt
+				i(251011),	-- Painted Wood Scraps
+				i(251012),	-- Painted Wood Scrap Pile
+				i(252004),	-- Wooden Planter Pot
+				i(252005),	-- Wooden Planter Row
+				i(252006),	-- Founder's Point Fence
+				i(252007),	-- Long Founder's Point Fence
+				i(252008),	-- Razorwind Wheelbarrow
+				i(252037),	-- Covered Wooden Desk
+				i(252038),	-- Sturdy Wooden Desk
+				i(252407),	-- Founder's Point Framed Torch
+				i(252408),	-- Long Old Founder's Point Fence
+				i(252409),	-- Old Founder's Point Fence
+				i(252410),	-- Founder's Point Fencepost
+				i(252412),	-- Old Founder's Point Fencepost
+				i(252414),	-- Broken Founder's Point Fence
+				i(252416),	-- Old Broken Founder's Point Fence
+				i(253018),	-- Founder's Point Standing Torch
+				i(253019),	-- Razorwind Banded Planter
+				i(253707),	-- Open Sturdy Wooden Crate
+				i(254395),	-- Razorwind Smith's Hammer
+				i(254396),	-- Razorwind Miner's Pickaxe
+				i(254397),	-- Razorwind Woodworker's Hand Saw
+				i(254398),	-- Razorwind Crafter's Chisel
+				i(254399),	-- Razorwind Peon's Shovel
+				i(254678),	-- Razorwind Logger's Axe
+				i(255706),	-- Razorwind Iron Chandelier
+				i(255707),	-- Low-Hanging Razorwind Iron Chandelier
+				i(255709),	-- Razorwind Shores Canoe
+				i(256329),	-- Razorwind Standing Tusk
+				i(258300),	-- Sparse Razorwind Fisher's Rack
+				i(258307),	-- Razorwind Fisher's Rack
+				i(258565),	-- Reinforced Wooden Barrel
+				i(258566),	-- Empty Reinforced Wooden Barrel
+				i(258570),	-- Refined Wooden Bed
+				i(258663),	-- Razorwind River Paddle
+				i(258664),	-- Tusk-Adorned Stitched Rug
+				i(258665),	-- Small Stitched Rug
+				i(258818),	-- Padded Wooden Bench
+				i(258819),	-- Sturdy Wooden Crate
+				i(259464),	-- Rolled Razorwind Leathers
+				i(259465),	-- Low-Hanging Razorwind Ropes
+				i(259466),	-- Knotted Hanging Razorwind Ropes
+				i(259467),	-- Tusked Hanging Razorwind Ropes
+				i(259468),	-- Plain Hanging Razorwind Ropes
+				i(259469),	-- Adorned Hanging Razorwind Ropes
+				i(259470),	-- Lightly Adorned Hanging Razorwind Ropes
+				i(260486),	-- Large Razorwind Farmer's Hay Pile
+				i(260487),	-- Razorwind Farmer's Hay Pile
+				i(260488),	-- Small Razorwind Farmer's Hay Pile
+				i(262962),	-- Carved Wooden Chair
+				i(263032),	-- Razorwind Fishing Net
+				i(263581),	-- Razorwind Roofer's Shingle
+				i(263582),	-- Razorwind Roofer's Shingle Pile
+				i(263583),	-- Tiny Clump of Hay
+				i(263584),	-- Razorwind Construction Crane
+				i(263879),	-- [DNT] [AUTOGEN] 12PH_Folk_Gazebo02.M2
+				i(263883),	-- Small Sturdy Wooden Trellis
+				i(264324),	-- PH Decor (Floating Podium, Ink Well, Runed Paper, Void Candle)
+				i(265924),	-- High-Mounted Razorwind Bowl Chandelier
+				i(265925),	-- Razorwind Bowl Chandelier
+				i(265926),	-- Low-Hanging Razorwind Bowl Chandelier
+				i(266233),	-- Short Hanging Tavern Lantern
+				i(266249),	-- Hanging Tavern Lantern
+				i(266250),	-- Long Hanging Tavern Lantern
+				i(266260),	-- [DNT] [AUTOGEN] 12PH_Opulent_Crate02_Open.M2
+				i(267075),	-- Ornate Elven Stovetop
+				i(267083),	-- Razorwind Campfire Grill
+				i(267084),	-- Founder's Point Hay Bale
+				i(267088),	-- Iron Candlelight Lantern
+				i(267202),	-- Elegant Elven Water Well
+				i(267616),	-- Loose Wisps of Hay
+				i(268026),	-- Scattered Wisps of Hay
+				i(268027),	-- Windblown Wisps of Hay
+				i(268028),	-- Trampled Wisps of Hay
+				i(268029),	-- Mounted Founder's Point Lantern
+				i(268030),	-- Mounted Tavern Lantern
+				i(271163),	-- Blazing Guardian's Rug
+				i(271164),	-- Dream Guardian's Rug
+				i(271165),	-- Nightmare Guardian's Rug
+				i(271166),	-- Eventide Guardian's Rug
+				i(271171),	-- Eventide Guardian's Table
+				i(271172),	-- Nightmare Guardian's Table
+				i(271173),	-- Blazing Guardian's Table
+				i(271174),	-- Dream Guardian's Table
+			}),
+			filter(MISC, {
+				i(267278),	-- Angler Pearls
+				i(268552),	-- Ascendant Voidcore
+				i(268650),	-- Ascendant Voidshard
+				i(271353),	-- Collection of Valuables
+				i(272111),	-- Decaying Necromancer Cloak
+				i(273152),	-- Delve Gearbox
+				i(273153),	-- Delve Gearbox
+				i(273154),	-- Delve Gearbox
+				i(273155),	-- Delve Gearbox
+				i(273156),	-- Delve Gearbox
+				i(272114),	-- Discarded Excavation Tool
+				i(268122),	-- Dispelled Coins
+				i(264162),	-- Enchanted Snowflake [PH]
+				i(272400),	-- Fine Lynx Fur
+				i(271342),	-- Galactic Void Matrix
+				i(271341),	-- Galactic Voidsliver
+				i(272112),	-- Golden Rune-Etched Circlet
+				i(272893),	-- Icy Harness
+				i(272118),	-- Inert Arcane Explosive
+				i(272894),	-- Inert Runestone
+				i(259472),	-- Lost Revantusk Possessions
+				i(260621),	-- Magic-Infused Bark
+				i(268465),	-- Nebulous Voidcache: Algeth'ar Academy
+				i(268458),	-- Nebulous Voidcache: Belo'ren, Child of Al'ar
+				i(268464),	-- Nebulous Voidcache: Chimaerus the Undreamt God
+				i(267488),	-- Nebulous Voidcache: Crown of the Cosmos
+				i(268969),	-- Nebulous Voidcache: Delver's Trove
+				i(268461),	-- Nebulous Voidcache: Fallen-King Salhadaar
+				i(268459),	-- Nebulous Voidcache: Imperator Averzian
+				i(268463),	-- Nebulous Voidcache: Lightblinded Vanguard
+				i(268466),	-- Nebulous Voidcache: Magisters' Terrace
+				i(268473),	-- Nebulous Voidcache: Maisara Caverns
+				i(262658),	-- Nebulous Voidcache: Midnight Falls
+				i(268467),	-- Nebulous Voidcache: Nexus-Point Xenas
+				i(268468),	-- Nebulous Voidcache: Pit of Saron
+				i(269768),	-- Nebulous Voidcache: Prey
+				i(268469),	-- Nebulous Voidcache: Seat of the Triumvirate
+				i(268470),	-- Nebulous Voidcache: Skyreach
+				i(268462),	-- Nebulous Voidcache: Vaelgor & Ezzorak
+				i(268460),	-- Nebulous Voidcache: Vorasius
+				i(268471),	-- Nebulous Voidcache: Windrunner Spire
+				i(267381),	-- Official G.G.R. Rehydration Container
+				i(269234),	-- Overflowing Ritual Site Cache
+				i(267352),	-- Pocket Rainbow
+				i(267353),	-- Pocket Sand
+				i(268694),	-- Rainbow Runners
+				i(272119),	-- Residue-Covered Tool
+				i(272113),	-- Scourge Shard Fragment
+				i(273013),	-- Void-Permeated Hide Scrap
+				i(267380),	-- Volatile Pink Brightbursts
+				i(260892),	-- "Arcane Ranger" Kit
+				i(262757),	-- "Greater Metamorph" Enhancement
+			}),
+			filter(MOUNTS, {
+				i(268878),	-- [PH] Giant Eagle Sunwalker Mount Blue (MOUNT!)
+				i(268875),	-- [PH] Giant Eagle Sunwalker Mount White (MOUNT!)
+				i(268877),	-- Dusk-Painted Sun Roc (MOUNT!)
+				i(268876),	-- Flame-Painted Sun Roc (MOUNT!)
+				i(268362),	-- Gilnean Copper Charger (MOUNT!)
+				i(268360),	-- Gilnean Iron Charger (MOUNT!)
+				i(270058),	-- Rope Lynx Harness (MOUNT!)
+			}),
+			filter(QUEST_ITEMS, {
+				i(259473),	-- Charred Amani Trinket
+				i(269668),	-- Hungering Oblivium
+				i(253386),	-- Light-Pulsing Seed
+				i(259474),	-- Lost Amani Toy
+				i(259475),	-- Misplaced Loa Statue
+			}),
+			filter(TITLES, {
+				title(766),	-- <Name>, Mrglgrgl of Grglmrgl
+				title(773),	-- <Name> the Umbral Contender
+				title(749),	-- Darkspear Dasher <Name>
+				title(772),	-- Void Breacher <Name>
+			}),
+			filter(TOYS, {
+				i(267472),	-- Gnomatic Projector (TOY!)
+				i(267323),	-- Troll Scroll of Rainbow Roll (TOY!)
+				i(272339),	-- Umbral Champion's Illustrious Banner (TOY!)
+			}),
+			n(PROFESSIONS, {
+				prof(LEATHERWORKING, {
+					i(272392),	-- Broken Lynx Leash
+					i(272391),	-- Pattern: Rope Lynx Harness
+				}),
+			}),
 		})),
 		expansion(EXPANSION.MID, patch(0,1), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_1 } }, {
 			n(ARMOR, {

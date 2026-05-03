@@ -1846,8 +1846,8 @@ root(ROOTS.TradingPost, bubbleDown({ ["timeline"] = { ADDED_10_0_5 }, ["u"] = TR
 				traderstender(50, i(252746)),	-- Rosy Winter Toque
 				traderstender(40, i(233090)),	-- Short Rosy War Skirt
 				traderstender(50, i(233129)),	-- Short Rosy War Skirt and Leg Wraps
-				traderstender(130, i(262358)),	-- Sindorei Captain's Mantle
-				traderstender(130, i(262369)),	-- Sindorei Handglaive
+				traderstender(130, i(262358)),	-- Sin'dorei Captain's Mantle
+				traderstender(130, i(262369)),	-- Sin'dorei Handglaive
 				traderstender(130, i(262374)),	-- Sunfury Apprentice's Wand
 				traderstender(160, i(262377)),	-- Sunfury Battlemage's Stave
 				traderstender(80, i(260396)),	-- Tranquillien Archer's Bow
