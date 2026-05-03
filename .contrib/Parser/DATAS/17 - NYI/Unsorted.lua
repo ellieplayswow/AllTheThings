@@ -507,6 +507,12 @@ root(ROOTS.Unsorted, {
 			}),
 		})),
 		expansion(EXPANSION.MID, patch(0,5), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_5 } }, {
+			filter(TITLES, {
+				title(749),	-- Darkspear Dasher %s
+				title(766),	-- %s, Mrglgrgl of Grglmrgl
+				title(772),	-- Void Breacher %s
+				title(773),	-- %s the Umbral Contender
+			}),
 			i(20849),	-- Arcane-Forged Shortsword
 			i(20850),	-- Arcane-Forged Axe
 			i(20851),	-- Arcane-Forged Mace
@@ -875,42 +881,6 @@ root(ROOTS.Unsorted, {
 				i(269987),	-- Vault Guard's Axe
 				i(269988),	-- Peacekeeper's Axe
 			}),
-			i(250930),	-- Frostfall Groveglider
-			i(250971),	-- Cindertuft Groveglider
-			i(250972),	-- Gloombough Groveglider
-			i(250973),	-- Blossombranch Groveglider
-			i(262398),	-- Pink Candlelight Kobold Pullover
-			i(262399),	-- Pink Candlelight Kobold Slippers
-			i(262400),	-- Pink Candlelight Kobold Mittens
-			i(262401),	-- Pink Candlelight Kobold Sweatpants
-			i(262402),	-- Pink Candlelight Kobold Hood
-			i(262403),	-- Pink Candlelight Kobold Backpack
-			i(262404),	-- Pink Candlelight Kobold Belt
-			i(262405),	-- Ensemble: Pink Candlelight Kobold Romper
-			i(262406),	-- Blue Candlelight Kobold Pullover
-			i(262407),	-- Blue Candlelight Kobold Slippers
-			i(262408),	-- Blue Candlelight Kobold Mittens
-			i(262409),	-- Blue Candlelight Kobold Sweatpants
-			i(262410),	-- Blue Candlelight Kobold Hood
-			i(262411),	-- Blue Candlelight Kobold Backpack
-			i(262412),	-- Blue Candlelight Kobold Belt
-			i(262413),	-- Ensemble: Blue Candlelight Kobold Romper
-			i(262415),	-- Brown Candlelight Kobold Pullover
-			i(262416),	-- Brown Candlelight Kobold Slippers
-			i(262417),	-- Brown Candlelight Kobold Mittens
-			i(262418),	-- Brown Candlelight Kobold Sweatpants
-			i(262419),	-- Brown Candlelight Kobold Hood
-			i(262420),	-- Brown Candlelight Kobold Backpack
-			i(262421),	-- Brown Candlelight Kobold Belt
-			i(262422),	-- Ensemble: Brown Candlelight Kobold Romper
-			i(262423),	-- Tan Candlelight Kobold Pullover
-			i(262424),	-- Tan Candlelight Kobold Slippers
-			i(262425),	-- Tan Candlelight Kobold Mittens
-			i(262426),	-- Tan Candlelight Kobold Sweatpants
-			i(262427),	-- Tan Candlelight Kobold Hood
-			i(262428),	-- Tan Candlelight Kobold Backpack
-			i(262429),	-- Tan Candlelight Kobold Belt
-			i(262430),	-- Ensemble: Tan Candlelight Kobold Romper
 			i(262787),	-- Dredged Journal Entry
 			i(267277),	-- Unalloyed Abundance
 		})),
