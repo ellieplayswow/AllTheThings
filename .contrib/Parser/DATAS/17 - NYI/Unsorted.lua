@@ -13,7 +13,7 @@ root(ROOTS.Unsorted, {
 				i(274780),	-- Fungal Spore Vapor
 				i(274782),	-- Tether Severing Vapor
 				i(274793),	-- Mana Barrier Projector
-				i(274794),	-- Shockwave 
+				i(274794),	-- Shockwave
 				i(276090),	-- Field Accolades
 				i(276092),	-- Lost Armaments
 				i(276093),	-- Nexus-Captain Leth'ir
@@ -21,7 +21,7 @@ root(ROOTS.Unsorted, {
 				i(276096),	-- Imperator Pertinax
 				i(276097),	-- Lost Armaments
 				i(276098),	-- Raided Items
-				
+
 				-- Rares??
 				i(274818),	-- Drape of Intense Darkness
 				i(274819),	-- Fungle Fold Frock
@@ -916,6 +916,7 @@ root(ROOTS.Unsorted, {
 		})),
 		expansion(EXPANSION.MID, patch(0,0,1), bubbleDownSelf({ ["timeline"] = { ADDED_12_0_0 } }, {
 			n(PVP, {
+				-- These will become obtainable at the start of TLT expansion
 				i(263208),	-- Ensemble: Galactic Aspirant's Cloth Armor
 				i(263210),	-- Ensemble: Galactic Aspirant's Leather Armor
 				i(263213),	-- Ensemble: Galactic Aspirant's Mail Armor

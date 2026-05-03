@@ -381,10 +381,10 @@ root(ROOTS.Delves, expansion(EXPANSION.MID, timelineSelf({ ["timeline"] = { ADDE
 				}),
 				filter(COSMETIC, {
 					i(264849, {	-- Dewy Vinepouch (COSMETIC!)
-						["cost"] = { { "c", UNDERCOIN, 2000 } },
+						["cost"] = { { "c", UNDERCOIN, 2500 } },
 					}),
 					i(264856, {	-- Vilebranch Lifeseer (COSMETIC!)
-						["cost"] = { { "c", UNDERCOIN, 2500 } },
+						["cost"] = { { "c", UNDERCOIN, 2000 } },
 					}),
 					i(264860, {	-- Twilight Magus's Cowl (COSMETIC!)
 						["cost"] = { { "c", UNDERCOIN, 2500 } },

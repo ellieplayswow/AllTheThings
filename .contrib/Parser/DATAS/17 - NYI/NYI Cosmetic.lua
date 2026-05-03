@@ -1295,6 +1295,7 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 			n(SETS, {
 				------ Elaborate Charcoal Set ------
 				i(258724),	-- Ensemble: Elaborate Charcoal Mageweave
+				q(93445),	-- Ensemble: Elaborate Charcoal Mageweave
 				i(258720),	-- Elaborate Charcoal Mageweave Belt
 				i(258700),	-- Elaborate Charcoal Mageweave Boots
 				i(258699),	-- Elaborate Charcoal Mageweave Chestpiece
@@ -1309,6 +1310,7 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 
 				------ Elaborate Golden Set ------
 				i(258728),	-- Ensemble: Elaborate Golden Mageweave
+				q(93448),	-- Ensemble: Elaborate Charcoal Mageweave
 				i(258723),	-- Elaborate Golden Mageweave Belt
 				i(258703),	-- Elaborate Golden Mageweave Boots
 				i(258696),	-- Elaborate Golden Mageweave Chestpiece
@@ -1323,6 +1325,7 @@ root(ROOTS.NeverImplemented, filter(COSMETIC, {
 
 				------ Rootlands Weaponry ------
 				i(263577),	-- Arsenal: Rootlands Weaponry
+				q(93962),	-- Arsenal: Rootlands Weaponry
 			}),
 			filter(TABARDS, {
 				i(242635),	-- Twilight's Blade - Armor - Tabard
