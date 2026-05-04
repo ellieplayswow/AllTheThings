@@ -1637,36 +1637,42 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["sourceQuests"] = { 94675 },	-- Voidforge Reforged
 				["provider"] = { "n", 243907 },	-- Decimus
 				["coord"] = { 51.2, 68.4, MAP.MIDNIGHT.VOIDSTORM },
+				["timeline"] = { ADDED_12_0_5 },
 				["groups"] = { i(269668) },	-- Hungering Oblivium (QI!)
 			}),
 			q(95373, {	-- A Nebulous Endeavour
 				["sourceQuests"] = { 94675 },	-- Voidforge Reforged
 				["provider"] = { "n", 243907 },	-- Decimus
 				["coord"] = { 51.2, 68.4, MAP.MIDNIGHT.VOIDSTORM },
+				["timeline"] = { ADDED_12_0_5 },
 				["repeatable"] = true,
 			}),
 			q(95279, {	-- Nebulous Voidcores: Gold
 				["sourceQuests"] = { 95373 },	-- A Nebulous Endeavour
 				["provider"] = { "n", 243907 },	-- Decimus
 				["coord"] = { 51.2, 68.4, MAP.MIDNIGHT.VOIDSTORM },
+				["timeline"] = { ADDED_12_0_5 },
 				["repeatable"] = true,
 			}),
 			q(95290, {	-- Nebulous Voidcores: Voidlight Marl
 				["sourceQuests"] = { 95373 },	-- A Nebulous Endeavour
 				["provider"] = { "n", 243907 },	-- Decimus
 				["coord"] = { 51.2, 68.4, MAP.MIDNIGHT.VOIDSTORM },
+				["timeline"] = { ADDED_12_0_5 },
 				["repeatable"] = true,
 			}),
 			q(95304, {	-- Nebulous Voidcores: Veteran Dawncrest
 				["sourceQuests"] = { 95373 },	-- A Nebulous Endeavour
 				["provider"] = { "n", 243907 },	-- Decimus
 				["coord"] = { 51.2, 68.4, MAP.MIDNIGHT.VOIDSTORM },
+				["timeline"] = { ADDED_12_0_5 },
 				["repeatable"] = true,
 			}),
 			q(95269, {	-- Feeding the Nilhammer
 				["sourceQuests"] = { 95268 },	-- New Tools, New Heights
 				["provider"] = { "n", 243907 },	-- Decimus
 				["coord"] = { 51.2, 68.4, MAP.MIDNIGHT.VOIDSTORM },
+				["timeline"] = { ADDED_12_0_5 },
 				["groups"] = { i(269668) },	-- Hungering Oblivium (QI!)
 			}),
 		}),
