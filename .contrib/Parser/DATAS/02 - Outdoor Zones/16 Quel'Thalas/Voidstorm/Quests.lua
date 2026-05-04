@@ -1663,6 +1663,12 @@ root(ROOTS.Zones, m(MAP.MIDNIGHT.QUELTHALAS, {
 				["coord"] = { 51.2, 68.4, MAP.MIDNIGHT.VOIDSTORM },
 				["repeatable"] = true,
 			}),
+			q(95269, {	-- Feeding the Nilhammer
+				["sourceQuests"] = { 95268 },	-- New Tools, New Heights
+				["provider"] = { "n", 243907 },	-- Decimus
+				["coord"] = { 51.2, 68.4, MAP.MIDNIGHT.VOIDSTORM },
+				["groups"] = { i(269668) },	-- Hungering Oblivium (QI!)
+			}),
 		}),
 	}),
 }));
